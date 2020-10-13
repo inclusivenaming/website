@@ -12,7 +12,8 @@
   </head>
 
     <body>
-      {{ partial "navbar.html" . }}
+        {{ partial "sidebar.html" . }}
+        {{ partial "navbar.html" . }}
     <main>
       {{ block "main" . }}
       {{ end }}
