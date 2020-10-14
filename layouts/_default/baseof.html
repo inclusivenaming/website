@@ -12,13 +12,23 @@
   </head>
 
     <body>
-        {{ partial "sidebar.html" . }}
-        {{ partial "navbar.html" . }}
-    <main>
-      {{ block "main" . }}
-      {{ end }}
-    </main>
-    {{ partial "footer.html" . }}
-    {{ partial "javascript.html" }}
+    <div class="container-fluid">
+      {{ partial "navbar.html" . }}
+      <div class="row">
+        <nav class="col col-md-3 col-sm-12 d-none d-md-block vh-100" 
+        style="background-image: url('/img/layout/sidebar-bg.svg'); background-size: cover;"
+        role="navigation" aria-label="main navigation"
+        >
+          {{ partial "sidebar.html" . }}
+        </nav>
+      <main class="col col-md-9 col-sm-12">
+        {{ block "main" . }}
+        {{ end }}
+
+        {{ partial "footer.html" . }}
+      </main>
+    </div>
+      {{ partial "javascript.html" }}
+  </div>
   </body>
 </html>
