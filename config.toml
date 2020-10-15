@@ -39,6 +39,26 @@ sizes = [100, 200, 300, 400, 500, 600, 700]
 type = "heading_font"
 
 [[menu.main]]
-name = "Home"
+name = "About"
 url = "/"
 weight = 1
+
+[[menu.main]]
+name = "General guidance"
+url = "/general-guidance"
+weight = 2
+
+[[menu.main]]
+name = "Word replacement list"
+url = "/word-list"
+weight = 3
+
+[[menu.main]]
+name = "Supporting organizations"
+url = "/organizations"
+weight = 4
+
+[[menu.main]]
+name = "Supporting organizations"
+url = "/organizations"
+weight = 4

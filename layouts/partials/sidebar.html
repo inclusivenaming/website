@@ -6,7 +6,7 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-  <div class="container">
+<div class="flex" id="nav-container">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ $home }}">
         {{ if $logo }}
@@ -18,8 +18,8 @@
       </a>
     </div>
 
-    <div class="" id="main-nav">
-      <ul class="navbar-nav mr-auto">
+    <div id="sidebar-nav">
+      <ul class="nav flex-column">
         {{ with $menu }}
         {{ range . }}
         {{ $isHere := eq .URL $here }}
@@ -33,3 +33,4 @@
         {{ end }}
       </ul>
     </div>
+</div>

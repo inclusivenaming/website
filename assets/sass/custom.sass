@@ -66,6 +66,10 @@
 
 $font-family-headers: "Open Sans" 
 
+h1 
+  font-weight: 600
+  font-size: 1.5rem
+
 .logo 
   max-width: 200px
 
@@ -76,8 +80,11 @@ $font-family-headers: "Open Sans"
   ul
     padding-left: 0
 
-.hashlink 
+a .hashlink 
   font-size: smaller !important
+  opacity: 0.1
+  &:hover 
+    opacity: 1
 
 .highlight pre 
   padding: 0.5rem
@@ -101,3 +108,14 @@ nav
     padding-left: 0
     ul
       padding-left: 1.5rem
+
+
+#nav-container 
+  display: flex
+  flex-direction: column
+  justify-content: center
+  height: 100%
+
+#sidebar-nav 
+  a
+    color: #FFFFFF
