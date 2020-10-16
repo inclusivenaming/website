@@ -15,12 +15,9 @@
     <div class="container-fluid">
       {{ partial "navbar.html" . }}
       <div class="row">
-        <nav class="col col-md-3 col-sm-12 d-none d-md-block vh-100" 
-        style="background-image: url('/img/layout/sidebar-bg.svg'); background-size: cover;"
-        role="navigation" aria-label="main-navigation"
-        >
+        <div class="col col-md-3 col-sm-12 d-none d-md-block vh-100" id="sidebar">
           {{ partial "sidebar.html" . }}
-        </nav>
+      </div>
       <main class="col col-md-9 col-sm-12">
         {{ block "main" . }}
         {{ end }}

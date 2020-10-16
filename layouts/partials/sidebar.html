@@ -6,7 +6,7 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="flex" id="nav-container">
+<div class="d-flex flex-column align-items-start" id="nav-container">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ $home }}">
         {{ if $logo }}
@@ -18,8 +18,8 @@
       </a>
     </div>
 
-    <div id="sidebar-nav">
-      <ul class="nav flex-column">
+    <div id="sidebar-nav" class="mt-auto mb-auto">
+      <ul class="nav flex-column" role="navigation" aria-label="main-navigation">
         {{ with $menu }}
         {{ range . }}
         {{ $isHere := eq .URL $here }}
