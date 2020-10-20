@@ -14,16 +14,17 @@
     <body>
     <div class="container-fluid">
       {{ partial "navbar.html" . }}
-      <div class="row">
+
+      <div class="row flex-xl-nowrap">
         <div class="col col-md-3 col-sm-12 d-none d-md-block vh-100" id="sidebar">
           {{ partial "sidebar.html" . }}
-      </div>
-      <main class="col col-md-9 col-sm-12">
-        {{ block "main" . }}
-        {{ end }}
+        </div>
+        <main class="col col-md-9 col-sm-12">
+          {{ block "main" . }}
+          {{ end }}
 
-        {{ partial "footer.html" . }}
-      </main>
+          {{ partial "footer.html" . }}
+        </main>
     </div>
       {{ partial "javascript.html" }}
   </div>
