@@ -16,3 +16,6 @@ Join the [mailing list](https://groups.google.com/g/inclusivenaming)
 
 
 
+# Participating organizations 
+
+{{ << logos >> }}
