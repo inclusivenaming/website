@@ -57,8 +57,3 @@ weight = 3
 name = "Supporting organizations"
 url = "/organizations"
 weight = 4
-
-[[menu.main]]
-name = "Supporting organizations"
-url = "/organizations"
-weight = 4
