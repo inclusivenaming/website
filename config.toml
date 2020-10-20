@@ -29,6 +29,12 @@ color = "#000000"
 url = "https://github.com/inclusivenaming"
 icon = "fab fa-github"
 
+[[params.social]]
+name = "Google Groups mailing ist"
+color = "#4688F4"
+url = "https://groups.google.com/g/inclusivenaming"
+icon = "fas fa-envelope"
+
 [[params.fonts]]
 name = "Open Sans"
 sizes = [300, 400, 600, 700]
