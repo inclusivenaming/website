@@ -32,5 +32,13 @@
         </li>
         {{ end }}
       </ul>
+
+      <ul class="navbar-nav ml-3">
+        {{ with $social }}
+        <li class="navbar-item">
+          {{ partial "social-buttons.html" . }}
+        </li>
+        {{ end }}
+      </ul>
     </div>
 </div>

@@ -20,8 +20,14 @@ navbar = "cncf-color.png"
 [[params.social]]
 name = "Twitter"
 color = "#00aced"
-url = "https://twitter.com/CloudNativeFdn"
+url = "https://twitter.com/inclusivenaming"
 icon = "fab fa-twitter"
+
+[[params.social]]
+name = "GitHub"
+color = "#000000"
+url = "https://github.com/inclusivenaming"
+icon = "fab fa-github"
 
 [[params.fonts]]
 name = "Open Sans"
