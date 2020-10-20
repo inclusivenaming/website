@@ -14,8 +14,6 @@ Join us for a community meeting on **DD/MM/YYYY** at **TT:tt TZ**. Learn more [h
 
 Join the [mailing list](https://groups.google.com/g/inclusivenaming)
 
-
-
 # Participating organizations 
 
-{{ << logos >> }}
+TODO: Logos

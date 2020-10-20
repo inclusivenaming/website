@@ -5,7 +5,7 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="navbar navbar-expand-md navbar-light bg-light sticky-top d-md-none" role="navigation" aria-label="main navigation">
+<div class="navbar navbar-expand-md navbar-light sticky-top d-md-none" role="navigation" aria-label="main navigation" id="top-nav">
   <!-- <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ $home }}">
@@ -18,9 +18,14 @@
       </a>
     </div> -->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <a class="navbar-burger" type="button" 
+    data-toggle="collapse" data-target="#main-nav" 
+    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"
+    title="navigation toggle button">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
 
     <div class="collapse navbar-collapse" id="main-nav">
       <ul class="navbar-nav mr-auto">
@@ -29,14 +34,14 @@
         {{ $isHere := eq .URL $here }}
         <li class="navbar-start navbar-item{{ if $isHere }} is-active{{ end }}">
           {{ $isExternal := hasPrefix .URL "http" }}
-          <a class="nav-link" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
+          <a class="nav-link text-light" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
             {{ .Name }}
           </a>
           {{ end }}
         </li>
         {{ end }}
       </ul>
-      <ul class="navbar-nav float-right">
+      <ul class="navbar-nav">
         {{ with $social }}
         <li class="navbar-item">
           {{ partial "social-buttons.html" . }}

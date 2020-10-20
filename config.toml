@@ -61,11 +61,16 @@ url = "/general-guidance"
 weight = 2
 
 [[menu.main]]
-name = "Word replacement list"
-url = "/word-list"
+name = "Related projects"
+url = "/related-projects"
 weight = 3
 
-[[menu.main]]
-name = "Supporting organizations"
-url = "/organizations"
-weight = 4
+# [[menu.main]]
+# name = "Word replacement list"
+# url = "/word-list"
+# weight = 3
+
+# [[menu.main]]
+# name = "Supporting organizations"
+# url = "/organizations"
+# weight = 4
