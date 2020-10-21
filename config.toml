@@ -50,20 +50,20 @@ name = "Open Sans"
 sizes = [100, 200, 300, 400, 500, 600, 700]
 type = "heading_font"
 
-[[menu.main]]
-name = "About"
-url = "/"
-weight = 1
+# [[menu.main]]
+# name = "About"
+# url = "/"
+# weight = 1
 
-[[menu.main]]
-name = "General guidance"
-url = "/general-guidance"
-weight = 2
+# [[menu.main]]
+# name = "General guidance"
+# url = "/general-guidance"
+# weight = 2
 
-[[menu.main]]
-name = "Related projects"
-url = "/related-projects"
-weight = 3
+# [[menu.main]]
+# name = "Related projects"
+# url = "/related-projects"
+# weight = 3
 
 # [[menu.main]]
 # name = "Word replacement list"
