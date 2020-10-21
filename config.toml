@@ -1,4 +1,4 @@
-title = "Hugo Netlify Starter"
+title = "Inclusive Language Project"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 copyright = "The project authors"
 
@@ -9,8 +9,8 @@ style = "paraiso-dark"
 
 [params]
 font_awesome_version = "5.12.0"
-description = "Boilerplate for building beautiful websites"
-favicon = "favicon.png"
+description = "A project for inclusive language and terminology in open source and technology"
+favicon = ""
 repositoryUrl = "https://github.com/cncf/hugo-netlify-starter"
 contentDir = "/content/"
 
