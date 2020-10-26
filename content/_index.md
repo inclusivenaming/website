@@ -13,10 +13,6 @@ at KubeCon North America, and join the mailing list for more updates!
 
 {{< cta >}}
 
-# Participating organizations 
-
-{{< logos >}}
-
 # Related projects
 
 Projects from our partner organizations and projects include the following:
