@@ -6,7 +6,7 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="d-flex justify-content-left align-items-center" id="nav-container">
+<div class="d-flex justify-content-center align-items-top" id="nav-container">
   <div class="navbar-inner">
     <div class="navbar-brand mx-auto">
       <a class="navbar-item" href="{{ $home }}">
@@ -17,6 +17,9 @@
         {{ $title }}
         {{ end }}
       </a>
+      {{ with $social }}
+        {{ partial "social-buttons.html" . }}
+      {{ end }}
     </div>
 
     <div id="sidebar-nav">
@@ -29,15 +32,7 @@
           <a class="nav-link" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
             {{ .Name }}
           </a>
-          {{ end }}
-        </li>
         {{ end }}
-      </ul>
-
-      <ul class="navbar-nav">
-        {{ with $social }}
-        <li class="navbar-item">
-          {{ partial "social-buttons.html" . }}
         </li>
         {{ end }}
       </ul>
