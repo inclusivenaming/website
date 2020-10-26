@@ -6,8 +6,8 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="d-flex flex-column align-items-start" id="nav-container">
-    <!-- <div class="navbar-brand">
+<div class="d-flex flex-column align-items-end pt-5" id="nav-container">
+    <div class="navbar-brand mx-auto">
       <a class="navbar-item" href="{{ $home }}">
         {{ if $logo }}
         {{ $url := printf "img/logos/%s" $logo | relURL }}
@@ -16,9 +16,9 @@
         {{ $title }}
         {{ end }}
       </a>
-    </div> -->
+    </div>
 
-    <div id="sidebar-nav" class="mt-auto mb-auto">
+    <div id="sidebar-nav" class="mx-auto">
       <ul class="nav flex-column" role="navigation" aria-label="main-navigation">
         {{ with $menu }}
         {{ range . }}
@@ -33,7 +33,7 @@
         {{ end }}
       </ul>
 
-      <ul class="navbar-nav ml-3">
+      <ul class="navbar-nav">
         {{ with $social }}
         <li class="navbar-item">
           {{ partial "social-buttons.html" . }}
