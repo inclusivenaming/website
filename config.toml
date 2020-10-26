@@ -19,7 +19,6 @@ navbar = "naming-logo.png"
 
 [[params.social]]
 name = "Twitter"
-#color = "#00aced"
 url = "https://twitter.com/inclusivenaming"
 icon = "fab fa-twitter"
 
@@ -29,7 +28,7 @@ url = "https://github.com/inclusivenaming"
 icon = "fab fa-github"
 
 [[params.social]]
-name = "Google Groups mailing ist"
+name = "Mailing list"
 url = "https://groups.google.com/g/inclusivenaming"
 icon = "fas fa-envelope"
 
