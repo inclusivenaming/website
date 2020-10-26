@@ -15,7 +15,7 @@ repositoryUrl = "https://github.com/cncf/hugo-netlify-starter"
 contentDir = "/content/"
 
 [params.logos]
-navbar = "cncf-color.png"
+navbar = "naming-logo.png"
 
 [[params.social]]
 name = "Twitter"
