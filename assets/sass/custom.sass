@@ -64,7 +64,12 @@
 
 // Custom
 
-$font-family-headers: "Open Sans" 
+$font-family-base: "Cairo"
+$font-family-headers: "Lexend Deca" 
+$purple: #704BDB
+
+body 
+  font-family: $font-family-base
 
 .logo 
   max-width: 200px
@@ -99,13 +104,13 @@ h1, h2, h3, h4, h5, h6
   margin-top: 1.8rem
 
 h1 
-  font-weight: 600
-  font-size: 1.5rem
+  font-weight: 700
+  font-size: 2rem
   margin-top: 6rem
   margin-bottom: 1.5rem
   &::before 
     content: ""
-    border-top: 10px solid #704BDB
+    border-top: 10px solid $purple
     width: 82px
     height: 10px 
     position: relative 

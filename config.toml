@@ -37,17 +37,17 @@ icon = "fas fa-envelope"
 
 [[params.fonts]]
 name = "Open Sans"
-sizes = [300, 400, 600, 700]
+sizes = [300, 400, 600, 700, 900]
 type = "sans_serif"
 
-[[params.fonts]]
-name = "Fira Mono"
-sizes = [300, 400, 600, 700]
-type = "monospace"
+# [[params.fonts]]
+# name = "Fira Mono"
+# sizes = [300, 400, 600, 700]
+# type = "monospace"
 
 [[params.fonts]]
-name = "Open Sans"
-sizes = [100, 200, 300, 400, 500, 600, 700]
+name = "Lexend Deca"
+sizes = [400]
 type = "heading_font"
 
 # [[menu.main]]
