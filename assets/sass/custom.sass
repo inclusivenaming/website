@@ -64,7 +64,15 @@
 
 // Custom
 
-$font-family-headers: "Fira Sans" 
+$font-family-base: "Cairo"
+$font-family-headers: "Lexend Deca" 
+$purple: #704BDB
+
+body 
+  font-family: $font-family-base
+
+.logo 
+  max-width: 200px
 
 .breadcrumb 
   li
@@ -73,8 +81,11 @@ $font-family-headers: "Fira Sans"
   ul
     padding-left: 0
 
-.hashlink 
+a .hashlink 
   font-size: smaller !important
+  opacity: 0.1
+  &:hover 
+    opacity: 1
 
 .highlight pre 
   padding: 0.5rem
@@ -83,14 +94,45 @@ $font-family-headers: "Fira Sans"
 .content 
   table 
     @extend .table
- 
-  img 
-    @extend .img-fluid
+
+.logos
+  .col 
+    a 
+      width: 100% 
+      height: 100% 
+      display: inline-flex
+      align-items: center
+      text-align: center 
+
+    img 
+      width: 75%
+
 
 h1, h2, h3, h4, h5, h6 
   font-family: $font-family-headers
   scroll-margin-top: 5rem
   margin-top: 1.8rem
+
+h1 
+  font-weight: 700
+  font-size: 2rem
+  margin-top: 6rem
+  margin-bottom: 1.5rem
+  &::before 
+    content: ""
+    border-top: 10px solid $purple
+    width: 82px
+    height: 10px 
+    position: relative 
+    top: -30px
+    display: block
+
+p
+  .copyright
+    font-size: 0.8rem
+    color: #a0a0a0
+    padding-top: 100px
+
 
 nav 
   ul 
@@ -98,3 +140,56 @@ nav
     padding-left: 0
     ul
       padding-left: 1.5rem
+
+#sidebar 
+  background-image: url('/img/layout/sidebar-bg.svg') 
+  background-size: cover
+  position: sticky
+  top: 0
+
+#nav-container 
+  height: 100%
+#sidebar-nav 
+  a
+    color: #FFFFFF
+
+#top-nav 
+  background: linear-gradient(90deg, rgba(73,21,208,1) 0%, rgba(24,151,212,1) 100%)
+
+  .navbar-burger 
+    height: 10px
+    
+    span
+      background-color: #ffffff
+      display: block
+      height: 1px
+      margin-bottom: 4px
+      transform-origin: center
+      transition-duration: 86ms
+      transition-property: background-color, opacity, transform
+      transition-timing-function: ease-out
+      width: 16px
+
+    &.is-active
+      transform-origin: center
+      transition-duration: 86ms
+      transition-property: background-color, opacity, transform
+      transition-timing-function: ease-out
+
+      span:nth-child(1)
+        transform: translateY(5px) rotate(45deg)
+
+      span:nth-child(2)
+        opacity: 0
+
+      span:nth-child(3)
+        transform: translateY(-5px) rotate(-45deg)
+
+.footer 
+  position: relative
+  bottom: 0
+
+.btn-purple
+  background-color: $purple
+  &:hover 
+    background-color: darken($purple, 3%)

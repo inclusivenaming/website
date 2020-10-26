@@ -1,3 +1,4 @@
+
 {{ $home   := site.BaseURL }}
 {{ $here   := .RelPermalink }}
 {{ $title  := site.Title }}
@@ -5,43 +6,34 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="navbar navbar-expand-md navbar-light sticky-top d-md-none" role="navigation" aria-label="main navigation" id="top-nav">
-  <!-- <div class="container">
-    <div class="navbar-brand">
+<div class="d-flex flex-column align-items-start" id="nav-container">
+    <!-- <div class="navbar-brand">
       <a class="navbar-item" href="{{ $home }}">
         {{ if $logo }}
         {{ $url := printf "img/logos/%s" $logo | relURL }}
-          <img src="{{ $url }}" width="200">
+          <img src="{{ $url }}" class="logo">
         {{ else }}
         {{ $title }}
         {{ end }}
       </a>
     </div> -->
 
-    <a class="navbar-burger" type="button" 
-    data-toggle="collapse" data-target="#main-nav" 
-    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"
-    title="navigation toggle button">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-
-    <div class="collapse navbar-collapse" id="main-nav">
-      <ul class="navbar-nav mr-auto">
+    <div id="sidebar-nav" class="mt-auto mb-auto">
+      <ul class="nav flex-column" role="navigation" aria-label="main-navigation">
         {{ with $menu }}
         {{ range . }}
         {{ $isHere := eq .URL $here }}
         <li class="navbar-start navbar-item{{ if $isHere }} is-active{{ end }}">
           {{ $isExternal := hasPrefix .URL "http" }}
-          <a class="nav-link text-light" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
+          <a class="nav-link" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
             {{ .Name }}
           </a>
           {{ end }}
         </li>
         {{ end }}
       </ul>
-      <ul class="navbar-nav">
+
+      <ul class="navbar-nav ml-3">
         {{ with $social }}
         <li class="navbar-item">
           {{ partial "social-buttons.html" . }}
@@ -49,7 +41,4 @@
         {{ end }}
       </ul>
     </div>
-
-
-  </div> 
 </div>

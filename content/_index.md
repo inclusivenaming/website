@@ -1,29 +1,28 @@
 ---
-title: "Home"
+title: "Inclusive Language Guidelines Project"
 ---
 
-[This is a blatantly broken link](https://kubernetes.io/hl)
 
-This is *not* a full-fledged Hugo theme! It's just a convenient way to get started with a brand new site that's wired with:
+# Inclusive Language Guidelines Project
 
-* A [Netlify](https://netlify.com) configuration for easy deployment, plus deploy previews
-* Some baseline [Hugo](https://gohugo.io) scaffolding
-* The [Bootstrap 4.5.x](https://getbootstrap.com/docs/4.5/getting-started/introduction/) CSS framework
-* An example Hugo configuration with:
-  * A main menu
-  * Specified sans-serif and monospace fonts
-  * Some extra colors
-  * A Twitter button
-  * Some copyright text for the footer
+The Inclusive Language Guidelines Project is a cross-organizational effort to remove harmful, racist and unclear language from our open source and closed source projects. We aim to come up with a set of industry standard replacement terms and surface companies and organizations leading efforts in this area. 
 
-To get started, you need to have Hugo and [Yarn](https://yarnpkg.com) installed. Once those are installed:
+# Get involved
 
-```shell
-git clone https://github.com/cncf/hugo-netlify-starter && cd hugo-netlify-starter
+Join us for a community meeting on **Thursday, November 19, 2020** at **9:30AM - 10:00AM PST**   
+at KubeCon North America, and join the mailing list for more updates!
 
-# Install npm assets (just Bulma for Sass/CSS)
-yarn
+{{< cta >}}
 
-# Run the server locally
-make serve
-```
+# Participating organizations 
+
+{{< logos >}}
+
+# Related projects
+
+Projects from our partner organizations and projects include the following:
+
+* IBM & Red Hat: [Conscious language in your open source projects](https://github.com/conscious-lang/conscious-lang-docs)
+* IETF: [Inclusive terminology in IETF documents](https://github.com/ietf/terminology)
+* LF Networking: [Inclusive language working group](https://wiki.lfnetworking.org/display/LN/Inclusive+Language+Initiative) and [mailing list](https://lists.lfnetworking.org/g/inclusive-lang-wg)
+* Kubernetes: [Naming working group](https://github.com/kubernetes/community/tree/master/wg-naming)

@@ -12,12 +12,21 @@
   </head>
 
     <body>
+    <div class="container-fluid m-0 p-0">
       {{ partial "navbar.html" . }}
-    <main>
-      {{ block "main" . }}
-      {{ end }}
-    </main>
-    {{ partial "footer.html" . }}
-    {{ partial "javascript.html" }}
+
+      <div class="row flex-xl-nowrap mr-0 ml-0">
+        <div class="col col-md-3 col-sm-12 d-none d-md-block vh-100" id="sidebar">
+          {{ partial "sidebar.html" . }}
+        </div>
+        <main class="col col-md-9 col-sm-12">
+          {{ block "main" . }}
+          {{ end }}
+
+          {{ partial "footer.html" . }}
+        </main>
+    </div>
+      {{ partial "javascript.html" }}
+  </div>
   </body>
 </html>
