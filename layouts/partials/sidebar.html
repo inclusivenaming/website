@@ -6,7 +6,8 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="d-flex flex-column align-items-end pt-5" id="nav-container">
+<div class="d-flex justify-content-left align-items-center" id="nav-container">
+  <div class="navbar-inner">
     <div class="navbar-brand mx-auto">
       <a class="navbar-item" href="{{ $home }}">
         {{ if $logo }}
@@ -18,7 +19,7 @@
       </a>
     </div>
 
-    <div id="sidebar-nav" class="mx-auto">
+    <div id="sidebar-nav">
       <ul class="nav flex-column" role="navigation" aria-label="main-navigation">
         {{ with $menu }}
         {{ range . }}
@@ -41,4 +42,5 @@
         {{ end }}
       </ul>
     </div>
+  </div>
 </div>
