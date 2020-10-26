@@ -17,39 +17,10 @@
         {{ end }}
       </a>
     </div>
-
-    <a class="navbar-burger" type="button" 
-    data-toggle="collapse" data-target="#main-nav" 
-    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation"
-    title="navigation toggle button">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-
-    <div class="collapse navbar-collapse" id="main-nav">
-      <ul class="navbar-nav mr-auto">
-        {{ with $menu }}
-        {{ range . }}
-        {{ $isHere := eq .URL $here }}
-        <li class="navbar-start navbar-item{{ if $isHere }} is-active{{ end }}">
-          {{ $isExternal := hasPrefix .URL "http" }}
-          <a class="nav-link text-light" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
-            {{ .Name }}
-          </a>
-          {{ end }}
-        </li>
-        {{ end }}
-      </ul>
-      <ul class="navbar-nav">
-        {{ with $social }}
-        <li class="navbar-item">
-          {{ partial "social-buttons.html" . }}
-        </li>
-        {{ end }}
-      </ul>
+    <div class="text-right">
+      {{ with $social }}
+        {{ partial "social-buttons.html" . }}
+      {{ end }}
     </div>
-
-
   </div> 
 </div>

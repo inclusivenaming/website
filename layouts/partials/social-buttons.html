@@ -1,4 +1,3 @@
-<div class="btn-group text-center">
 {{ range . }}
 {{ $color := .color | default "white" }}
 <a class="btn text-light mr-1" title="{{ .name }}" style="background-color: {{ .color }}" href="{{ .url }}" target="_blank">
@@ -9,4 +8,3 @@
     {{ end }}
   </a>
 {{ end }}
-</div>
