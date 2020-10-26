@@ -9,9 +9,10 @@ The Inclusive Language Guidelines Project is a cross-organizational effort to re
 
 # Get involved
 
-Join us for a community meeting on **DD/MM/YYYY** at **TT:tt TZ**. Learn more [here](http://google.com).
+Join us for a community meeting on **Thursday, November 19, 2020** at **9:30AM - 10:00AM PST**   
+at KubeCon North America, and join the mailing list for more updates!
 
-Join the [mailing list](https://groups.google.com/g/inclusivenaming)
+{{< cta >}}
 
 # Participating organizations 
 
