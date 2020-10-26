@@ -1,6 +1,6 @@
 title = "Inclusive Language Project"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-copyright = "The project authors"
+#copyright = "The project authors"
 
 enableGitInfo = true
 
