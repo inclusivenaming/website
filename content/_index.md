@@ -16,7 +16,7 @@ at KubeCon North America, and join the mailing list for more updates!
 
 # Participating organizations 
 
-TODO: Logos
+{{< logos >}}
 
 # Related projects
 
