@@ -67,6 +67,16 @@ type = "heading_font"
 # url = "/word-list"
 # weight = 3
 
+[[menu.main]]
+name ="Language evaluation framework"
+url = "/evaluation-framework"
+weight = 4
+
+[[menu.main]]
+name ="Language evaluation framework"
+url = "/evaluation-framework"
+weight = 4
+
 # [[menu.main]]
 # name = "Supporting organizations"
 # url = "/organizations"
