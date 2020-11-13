@@ -57,6 +57,11 @@ type = "heading_font"
 # url = "/general-guidance"
 # weight = 2
 
+[[menu.main]]
+name = "FAQs"
+url = "/faqs"
+weight = 4
+
 # [[menu.main]]
 # name = "Related projects"
 # url = "/related-projects"
