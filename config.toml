@@ -47,15 +47,15 @@ name = "Lexend Deca"
 sizes = [400]
 type = "heading_font"
 
-# [[menu.main]]
-# name = "About"
-# url = "/"
-# weight = 1
+[[menu.main]]
+name = "About"
+url = "/"
+weight = 1
 
-# [[menu.main]]
-# name = "General guidance"
-# url = "/general-guidance"
-# weight = 2
+[[menu.main]]
+name = "Implementation path"
+url = "/implementation-path"
+weight = 2
 
 [[menu.main]]
 name = "FAQs"
