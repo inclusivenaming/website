@@ -17,7 +17,7 @@ Lists which permit or deny a set of nouns, or select enabled features.
 
 The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. 
 Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries. 
-In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by America and England, two countries which participated in slavery and which grapple with their racist legacies to this day.
+In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day.
 
 From a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. 
 More directly descriptive words like allowlist/denylist enhances understanding. Allowlist/denylist, or simply using allowed/denied as an entity prefix has the added benefit of being easily translatable to other human languages.
@@ -39,8 +39,7 @@ The “master/slave” metaphor in computing refers to a system with a single st
 
 **Proposed alternatives:**
 
-These recommendations are broken into two groups. 
-We recommend choosing an alternative that does not replace one metaphor with another, but understand that some projects may feel that Leader/follower or Parent/child communicates best.
+These recommendations are broken into two groups. The preferred group does not use a new metaphor while the also acceptable group does. We recommend choosing an alternative that does not replace one metaphor with another, but understand that some projects may feel that Leader/follower or Parent/child communicates best.
 
 Preferred: 
 
@@ -62,8 +61,8 @@ While there is some small ambiguity about the term master, the term slave is una
 
 The terms master/slave are harmful to Black and people of color contributors and employees. 
 Slavery is a tradition barely 3 generations abolished – there are grandparents alive today who were actual, non-metaphorical slaves. 
-Segregation is even more recent. 
-In accordance with most open source codes of conduct and company handbooks, the mandate of all people in a project is to create welcome space, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality. 
+Segregation and Apartheid are even more recent. 
+In accordance with most open source codes of conduct and company handbooks, the mandate of all people in a project is to create a welcoming space, regardless of the level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality. 
 Master/slave are not welcoming words.
   
 **Recommendation:** Adopt immediately
