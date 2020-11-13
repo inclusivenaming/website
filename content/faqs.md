@@ -6,7 +6,7 @@ title: "Frequently asked questions"
 
 ## What is inclusive naming about?
 
-The software industry sometimes uses certain words, like blacklist, and slave, that may carry a great deal of emotional and historical baggage. We are encouraging projects to choose phrases that clearly communicate the technical meaning, without using metaphors or colloquialisms.
+The software industry sometimes uses certain words, like blacklist and slave, that may carry a great deal of emotional and historical baggage. We are encouraging projects to choose phrases that clearly communicate the technical meaning, without using metaphors or colloquialisms.
 
 This has the dual purpose of removing problematic terms, and also communicating more clearly, particularly to those who are working in a secondary language.
 
@@ -40,7 +40,7 @@ Everything in the conscious language initiative is *the exact opposite* of that.
 
 For example, "Denylist" is both more precise and more accurate than "blacklist";
 
-"Primary" is both more precise and more accurate than "master" in projects that have made that switch.
+"Primary" is both more precise and more accurate than "master" in projects that have made the switch.
 
 The goal of this project is to use more precise words, in order to avoid
 unintended connotations that some common words and phrases have. Not
@@ -64,4 +64,4 @@ Here are some resources on the topic:
 
 * Join our [mailing list](https://groups.google.com/g/inclusivenaming) to receive project updates and invitations to community meetings. 
 * Identify key people in your organization who can represent this effort in an ongoing fashion
-* Read our Implementation Guid and other resources to start making effective changes
+* Read our Implementation Guide and other resources to start making effective changes
