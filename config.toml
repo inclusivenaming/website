@@ -67,10 +67,10 @@ weight = 4
 # url = "/related-projects"
 # weight = 3
 
-# [[menu.main]]
-# name = "Word replacement list"
-# url = "/word-list"
-# weight = 3
+[[menu.main]]
+name = "Word replacement list"
+url = "/word-list"
+weight = 3
 
 # [[menu.main]]
 # name = "Supporting organizations"
