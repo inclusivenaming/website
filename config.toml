@@ -52,29 +52,34 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "Project leadership"
+url = "/leadership"
+weight = 2
+
+[[menu.main]]
 name = "Word replacement list"
 url = "/word-list"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name ="Language evaluation framework"
 url = "/evaluation-framework"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Implementation path"
 url = "/implementation-path"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "Related projects"
 url = "/related-projects"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "FAQs"
 url = "/faqs"
-weight = 6
+weight = 7
 
 # [[menu.main]]
 # name = "Supporting organizations"
