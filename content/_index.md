@@ -4,7 +4,7 @@ title: "Inclusive Naming Initiative"
 
 # Inclusive Naming Initiative
 
-The Inclusive Naming Initiative is a cross-organizational effort to remove harmful, racist and unclear language from our open source and closed source projects. We aim to come up with a set of industry standard replacement terms and surface companies and organizations leading efforts in this area.
+The Inclusive Naming Initiative’s mission is to help companies and projects remove all harmful and unclear language of any kind and replace it with an agreed-upon set of neutral terms. The initiative’s goal is to define processes and tools to remove harmful language from projects. This includes creating a comprehensive list of terms with replacements, language evaluation frameworks and templates, and infrastructure to aid the transition. 
 
 # Get involved
 
