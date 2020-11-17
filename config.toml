@@ -68,14 +68,14 @@ url = "/implementation-path"
 weight = 4
 
 [[menu.main]]
-name = "FAQs"
-url = "/faqs"
+name = "Related projects"
+url = "/related-projects"
 weight = 5
 
-# [[menu.main]]
-# name = "Related projects"
-# url = "/related-projects"
-# weight = 3
+[[menu.main]]
+name = "FAQs"
+url = "/faqs"
+weight = 6
 
 # [[menu.main]]
 # name = "Supporting organizations"
