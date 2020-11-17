@@ -1,4 +1,4 @@
-title = "Inclusive Language Project"
+title = "Inclusive Naming Initiative"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 # copyright = "The project authors"
 
@@ -9,9 +9,9 @@ style = "paraiso-dark"
 
 [params]
 font_awesome_version = "5.12.0"
-description = "A project for inclusive language and terminology in open source and technology"
+description = "Helping projects and companies make consistent, responsible choices to remove harmful language"
 favicon = "favicon.png"
-repositoryUrl = "https://github.com/cncf/hugo-netlify-starter"
+repositoryUrl = "https://github.com/inclusivenaming"
 contentDir = "/content/"
 [params.logos]
 navbar = "inclusive-naming-logo.svg"
@@ -48,33 +48,45 @@ type = "heading_font"
 
 [[menu.main]]
 name = "About"
-url = "/"
+url = "#"
 weight = 1
-
-[[menu.main]]
-name = "Project leadership"
-url = "/leadership"
-weight = 2
-
-[[menu.main]]
-name = "Word replacement list"
-url = "/word-list"
-weight = 3
-
-[[menu.main]]
-name ="Language evaluation framework"
-url = "/evaluation-framework"
-weight = 4
-
-[[menu.main]]
-name = "Implementation path"
-url = "/implementation-path"
-weight = 5
+identifier ="about"
 
 [[menu.main]]
 name = "Related projects"
 url = "/related-projects"
+parent ="about"
 weight = 6
+
+[[menu.main]]
+name = "Project leadership"
+url = "/leadership"
+parent = "about"
+weight = 2
+
+[[menu.main]]
+name = "Resources"
+url = "#"
+identifier = "lang"
+weight = 3
+
+[[menu.main]]
+name = "Word replacement list"
+url = "/language/word-list"
+parent = "lang"
+weight = 1
+
+[[menu.main]]
+name ="Language evaluation framework"
+url = "/language/evaluation-framework"
+parent = "lang"
+weight = 2
+
+[[menu.main]]
+name = "Implementation path"
+url = "/language/implementation-path"
+parent = "lang"
+weight = 3
 
 [[menu.main]]
 name = "FAQs"
