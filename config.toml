@@ -1,6 +1,6 @@
 title = "Inclusive Language Project"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-#copyright = "The project authors"
+# copyright = "The project authors"
 
 enableGitInfo = true
 
@@ -10,10 +10,9 @@ style = "paraiso-dark"
 [params]
 font_awesome_version = "5.12.0"
 description = "A project for inclusive language and terminology in open source and technology"
-favicon = ""
+favicon = "favicon.png"
 repositoryUrl = "https://github.com/cncf/hugo-netlify-starter"
 contentDir = "/content/"
-
 [params.logos]
 navbar = "inclusive-naming-logo.svg"
 
