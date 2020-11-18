@@ -1,6 +1,6 @@
 {{ $title := site.Title }}
 {{ $desc  := site.Params.description | markdownify }}
-<section class="jumbotron">
+<section class="text-white jumbotron rounded-0" id="hero">
   <div class="container">
     <h1>
       {{ $title }}
@@ -11,5 +11,21 @@
       {{ . }}
     </p>
     {{ end }}
+
+  <a 
+    class="my-3 mr-3 btn btn-purple text-light btn-lg" href="/about" 
+    aria-label="Learn more"
+    rel="noopener"
+  >
+  Learn more
+  </a>
+
+  <a 
+    class="my-3 mr-3 btn btn-purple text-light btn-lg" href="/get-involved" 
+    aria-label="Get involved"
+    rel="noopener"
+  >
+  Get involved
+  </a>
   </div>
 </section>

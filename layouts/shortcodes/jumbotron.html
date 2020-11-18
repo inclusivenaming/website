@@ -1,0 +1,17 @@
+
+{{ $bgcolor := .Get "bgcolor" }}
+{{ $textcolor := .Get "textcolor" }}
+{{ $title := .Get "title" }}
+{{ $align_class := .Get "align" }}
+<section class="mt-0 mb-0 jumbotron {{$align_class }}" 
+style="background-color: {{ $bgcolor }}; color: {{ $textcolor }}">
+  <div class="container">
+    <h1>
+      {{ $title }}
+    </h1>
+
+    <p class="lead">
+      {{ .Inner }}
+    </p>
+  </div>
+</section>

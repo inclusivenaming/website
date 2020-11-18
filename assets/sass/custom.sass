@@ -70,9 +70,6 @@ $purple: #704BDB
 
 // Utilities 
 
-.bg-purple 
-  background-color: #704BDB
-
 body 
   font-family: $font-family-base
 
@@ -118,19 +115,20 @@ h1, h2, h3, h4, h5, h6
   scroll-margin-top: 5rem
   margin-top: 1.8rem
 
-h1 
-  font-weight: 700
-  font-size: 2rem
-  margin-top: 6rem
-  margin-bottom: 1.5rem
-  &::before 
-    content: ""
-    border-top: 10px solid $purple
-    width: 82px
-    height: 10px 
-    position: relative 
-    top: -30px
-    display: block
+.single 
+  h1 
+    font-weight: 700
+    font-size: 2rem
+    margin-top: 6rem
+    margin-bottom: 1.5rem
+    &::before 
+      content: ""
+      border-top: 10px solid $purple
+      width: 82px
+      height: 10px 
+      position: relative 
+      top: -30px
+      display: block
 
 h2 
   font-size: 1.8rem
@@ -198,11 +196,36 @@ nav
       span:nth-child(3)
         transform: translateY(-5px) rotate(-45deg)
 
+
+.jumbotron 
+  margin-top: 0
+  margin-bottom: 0
+  .container
+    h1
+    margin-top: 3rem
+    &::before 
+      border-top: 0px solid $purple
+      width: 0px
+      height: 0px 
+      position: relative 
+      top: 0px
+      display: none
+
+#hero 
+  background-image: url('/img/layout/hero-bg-compressed.jpg') 
+  background-size: 100%
+  min-height: 350px
+
 .footer 
   position: relative
   bottom: 0
+  @extend .bg-dark
+  color: $white
+  min-height: 100px
+  margin-top: $spacer * 7
 
 .btn-purple
   background-color: $purple
   &:hover 
     background-color: darken($purple, 3%)
+

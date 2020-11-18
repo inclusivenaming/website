@@ -1,6 +1,6 @@
 title = "Inclusive Naming Initiative"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-# copyright = "The project authors"
+ copyright = "The Inclusive Naming Initiative authors and collaborating organizations"
 
 enableGitInfo = true
 
@@ -53,16 +53,21 @@ weight = 1
 identifier ="about"
 
 [[menu.main]]
-name = "Related projects"
-url = "/related-projects"
-parent ="about"
-weight = 6
+name = "About the initiative"
+url = "/about"
+parent = "about"
+weight = 1
 
 [[menu.main]]
 name = "Project leadership"
 url = "/leadership"
 parent = "about"
 weight = 2
+
+[[menu.main]]
+name = "Get involved"
+url = "/get-involved"
+weight = 3
 
 [[menu.main]]
 name = "Resources"
@@ -89,11 +94,11 @@ parent = "lang"
 weight = 3
 
 [[menu.main]]
+name = "Related projects"
+url = "/related-projects"
+weight = 4
+
+[[menu.main]]
 name = "FAQs"
 url = "/faqs"
-weight = 7
-
-# [[menu.main]]
-# name = "Supporting organizations"
-# url = "/organizations"
-# weight = 4
+weight = 5
