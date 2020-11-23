@@ -2,7 +2,7 @@
 title: "About the Inclusive Naming Initiative"
 ---
 
-The Inclusive Naming Initiative’s mission is to help companies and projects remove all harmful and unclear language of any kind and replace it with an agreed-upon set of neutral terms. The initiative’s goal is to define processes and tools to remove harmful language from projects. This includes creating a comprehensive list of terms with replacements, language evaluation frameworks and templates, and infrastructure to aid the transition. RedHat, IBM, LF Networking, and the Kubernetes Naming WG are all already on board.
+The Inclusive Naming Initiative’s mission is to help companies and projects remove all harmful and unclear language of any kind and replace it with an agreed-upon set of neutral terms. The initiative’s goal is to define processes and tools to remove harmful language from projects. This includes creating a comprehensive list of terms with replacements, language evaluation frameworks and templates, and infrastructure to aid the transition. Red Hat, IBM, LF Networking, and the Kubernetes Naming WG are all already on board.
 
 
 ## Goals
