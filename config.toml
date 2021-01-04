@@ -32,14 +32,9 @@ url = "https://groups.google.com/g/inclusivenaming"
 icon = "fas fa-envelope"
 
 [[params.fonts]]
-name = "Open Sans"
+name = "Cairo"
 sizes = [300, 400, 600, 700, 900]
 type = "sans_serif"
-
-# [[params.fonts]]
-# name = "Fira Mono"
-# sizes = [300, 400, 600, 700]
-# type = "monospace"
 
 [[params.fonts]]
 name = "Lexend Deca"
