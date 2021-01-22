@@ -2,6 +2,41 @@
 title: "Word replacement list"
 ---
 
+## Taiwan, Province of China
+
+**Definition:**
+
+A country in East Asia.
+
+**Proposed alternative:**
+
+* Taiwan
+
+**Reasoning:**
+
+"Province of China" is regularly added after "Taiwan", for example in country
+dropdowns on signup or shipping pages. This addition does not reflect Taiwan's
+*de facto* status and gives undue credence to territorial claims made by the
+Chinese Communist Party.
+
+The Inclusive Naming Initiative's mission is to help companies and projects
+remove all harmful and unclear language of any kind and replace it with an
+agreed-upon set of neutral terms. It is difficult to imagine language more
+pernicious than that which perpetuates propaganda of a government that
+routinely threatens to invade another country. The "Province of China" phrase
+goes beyond being unclear and is intentionally counterfactual.
+
+We recommend replacing phrases such as "Taiwan, Province of China" with simply
+"Taiwan".
+
+**Recommendation:** Adopt immediately.
+
+**Supporting research and precedents:**
+
+* [Taiwan country profile - BBC News](https://www.bbc.com/news/world-asia-16164639)
+* [Taiwan - Wikipedia](https://en.wikipedia.org/wiki/Taiwan)
+* [Taiwan president calls for international support to defend democracy | Reuters](https://www.reuters.com/article/us-taiwan-china/taiwan-president-calls-for-international-support-to-defend-democracy-idUSKCN1OZ058)
+
 ## Whitelist, blacklist
 
 **Definition:** 
