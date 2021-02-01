@@ -32,6 +32,11 @@ name = "Mailing list"
 url = "https://groups.google.com/g/inclusivenaming"
 icon = "fas fa-envelope"
 
+[[params.social]]
+name = "Slack Invite"
+url = "https://communityinviter.com/apps/inclusive-naming/invite"
+icon = "fab fa-slack"
+
 [[params.fonts]]
 name = "Cairo"
 sizes = [300, 400, 600, 700, 900]
