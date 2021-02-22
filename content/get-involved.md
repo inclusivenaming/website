@@ -4,9 +4,8 @@ title: "Get involved"
 
 ## Participate!
 
-**Join our mailing list:** [inclusivenaming@googlegroups.com](https://groups.google.com/g/inclusivenaming)
-
-**Join our Slack workspace:** [Get an Invite](https://communityinviter.com/apps/inclusive-naming/invite)
+**Join the mailing list:** [inclusivenaming@googlegroups.com](https://groups.google.com/g/inclusivenaming)
+Send a mail to <inclusivenaming+subscribe@googlegroups.com> if you want to use a non Google email address.
 
 **Join the Bi-weekly meeting: Mondays @ 9:15 Pacific Time**: you can get an invitation via the mailing list!
 
