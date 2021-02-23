@@ -36,6 +36,8 @@ We recommend replacing phrases such as "Taiwan, Province of China" with simply
 * [Taiwan country profile - BBC News](https://www.bbc.com/news/world-asia-16164639)
 * [Taiwan - Wikipedia](https://en.wikipedia.org/wiki/Taiwan)
 * [Taiwan president calls for international support to defend democracy | Reuters](https://www.reuters.com/article/us-taiwan-china/taiwan-president-calls-for-international-support-to-defend-democracy-idUSKCN1OZ058)
+* [Pop!\_OS installer PR](https://github.com/pop-os/distinst/pull/241)
+* [elementary OS installer issue #455](https://github.com/elementary/installer/issues/455)
 
 ## Whitelist, blacklist
 
