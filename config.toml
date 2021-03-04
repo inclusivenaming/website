@@ -67,7 +67,26 @@ weight = 2
 
 [[menu.main]]
 name = "Get involved"
-url = "/get-involved"
+url = "#"
+weight = 3
+identifier = "getinvolved"
+
+[[menu.main]]
+name = "Participate"
+url = "/participate"
+parent = "getinvolved"
+weight = 1
+
+[[menu.main]]
+name = "Workstreams"
+url = "/workstreams"
+parent = "getinvolved"
+weight = 2
+
+[[menu.main]]
+name = "Meeting calendar"
+url = "/calendar"
+parent = "getinvolved"
 weight = 3
 
 [[menu.main]]

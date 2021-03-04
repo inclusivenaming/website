@@ -1,5 +1,5 @@
 ---
-title: "Get involved"
+title: "Participate"
 ---
 
 ## Participate!
