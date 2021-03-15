@@ -36,5 +36,5 @@ Our [leadership team](/leadership) includes members from the Cloud Native Comput
 
 Sound interesting?
 
-{{< button "/participate/"Get involved" >}}
+{{< button "/participate/" "Get involved" >}}
 
