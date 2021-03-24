@@ -50,7 +50,7 @@
 //@import "bootstrap/scss/alert" 
 //@import "bootstrap/scss/progress" 
 //@import "bootstrap/scss/media" 
-//@import "bootstrap/scss/list-group" 
+@import "bootstrap/scss/list-group" 
 //@import "bootstrap/scss/close" 
 //@import "bootstrap/scss/toasts" 
 //@import "bootstrap/scss/modal" 
@@ -67,11 +67,17 @@
 $font-family-base: "Cairo"
 $font-family-headers: "Lexend Deca" 
 $purple: #704BDB
+$link-color-primary: $purple 
+$link-color-secondary: #663ed8
 
 // Utilities 
 
 body 
   font-family: $font-family-base
+  a 
+    color: $link-color-primary 
+    &:hover 
+      color: $link-color-secondary
 
 .logo 
   max-width: 200px
@@ -142,13 +148,26 @@ p
     color: #a0a0a0
     padding-top: 100px
 
-
 nav 
   ul 
     list-style-type: none
     padding-left: 0
     ul
       padding-left: 1.5rem
+
+.pagination
+  @extend .list-group 
+  @extend .list-group-horizontal 
+  a
+    color: $link-color-primary
+  a:hover 
+    color: $link-color-secondary
+  .page-item 
+    @extend .list-group-item
+    border: 0px
+  .active.page-item
+    @extend .bg-light
+    border: 0px 
 
 #sidebar 
   background-image: url('/img/layout/sidebar-bg.svg') 
@@ -162,7 +181,7 @@ nav
   height: 100%
 #sidebar-nav 
   a
-    color: #FFFFFF
+    color: #ffffff
 
 #top-nav 
   background: linear-gradient(90deg, rgba(73,21,208,1) 0%, rgba(24,151,212,1) 100%)

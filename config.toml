@@ -1,9 +1,9 @@
 baseURL = "https://inclusivenaming.org"
 title = "Inclusive Naming Initiative"
 disableKinds = ["taxonomy", "taxonomyTerm"]
- copyright = "The Inclusive Naming Initiative authors and collaborating organizations"
-
+copyright = "The Inclusive Naming Initiative authors and collaborating organizations"
 enableGitInfo = true
+summaryLength = 20
 
 [markup.highlight]
 style = "paraiso-dark"
@@ -89,11 +89,16 @@ url = "/calendar"
 parent = "getinvolved"
 weight = 3
 
+# [[menu.main]]
+# name = "Blog"
+# url = "/blog"
+# weight = 4
+
 [[menu.main]]
 name = "Resources"
 url = "#"
 identifier = "lang"
-weight = 3
+weight = 5
 
 [[menu.main]]
 name = "Word replacement list"
@@ -116,9 +121,9 @@ weight = 3
 [[menu.main]]
 name = "Related projects"
 url = "/related-projects"
-weight = 4
+weight = 6
 
 [[menu.main]]
 name = "FAQs"
 url = "/faqs"
-weight = 5
+weight = 7
