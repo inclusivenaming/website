@@ -6,19 +6,17 @@ slug: welcome-post
 
 **A Short History**
 
-The Inclusive Naming Initiative was born out of the efforts by the Kubernetes community to address non inclusive language, which coalesced with the BLM movement that rose to prominence last year. 
+The Inclusive Naming Initiative was born out of the efforts by the Kubernetes community to address non inclusive language, which coalesced with the Black Lives Matter movement that rose to prominence last year. 
 
-Kubernetes is the fastest growing open-source software project in history and is now used by companies around the world to make software development faster, and better. As a leading force, Kubernetes has set the bar for many software projects. However, Kubernetes didn’t want to be alone in this effort because nothing in open source is ever done alone. Open source is done by a global community of developers. The very nature of open source is that many minds working together can produce a better outcome for everybody who can then share the benefits of the open source software. Thus the Inclusive Naming Initiative was born to give every organization, project, company, individual, and body the language and tools to make their work more inclusive and welcoming.
+Kubernetes is the fastest growing open-source software project in history and is now used by companies around the world to make software development faster, and better. As a leading force, Kubernetes has set the bar for many software projects. However, Kubernetes wanted to include the larger community because nothing in open source is ever done alone. Open-source is created by a global community of developers. The very ethos of open-source is that many minds working together can produce a better outcome and that everybody who uses the OSS software can then share in the benefits. Thus, the Inclusive Naming Initiative was born to give every organization, project, company, individual, and body, the language and tools to make their work more inclusive and welcoming.
 
 **How We Work**
 
-The Inclusive Naming Initiative is not a standards setting body, nor a replacement for one. It is a working group that was recently formed to inform the decisions that are ultimately made by software standards setting bodies. INI is working WITH the various standards bodies in a supportive way, to inform the work they do around changing non-inclusive terms. 
+The Inclusive Naming Initiative is a working group that was formed to inform the decisions that are ultimately made by software standards setting bodies. INI is not a standards setting body, nor a replacement for one, INI is working in partnership _with_ the various standards bodies in a supportive way, to inform the work they do around changing non-inclusive terms. 
 
-INI aims to provide our industry, including standards bodies, with documentation on how to do change terms without depreciation, frameworks, a glossary of offensive coding terms that should be changed, and developer input on how to make the changes so that they are made everywhere, not just in one company, or in one open source software project. 
+INI aims to provide our industry, including standards bodies, with documentation on how to change terms without depreciation, frameworks, a glossary of offensive coding terms that should be changed, and developer input on how to make the changes so that they are made everywhere, not just in one company, or in one open source software project. 
 
-INI provides a home for developers to collaborate on how best to do this work, and to do it well. We don’t want software code that is non inclusive. Nor do we want software code that no longer works because changes made in one place don’t translate down the line. Working together, we’ll get these changes made faster with less disruption to the software that runs companies around the world. The key thing to remember, this work will never be finished and a standard is not absolute. 
-
-Nor is everyone going to agree all the time, but INI shows there are plenty of us who are committed to making these changes. 
+INI provides a home for developers to collaborate on how to best do this work. We do not want software code that is non-inclusive because it is harmful to society. Nor do we want software code that breaks because changes made in one place don’t translate down the line. As we all work together towards a unifying goal, we’ll get these changes made faster with less disruption to the software that runs companies around the world. The key thing to remember, this work will never be finished and a standard is not absolute. Nor is everyone going to agree all the time, but INI shows there are plenty of us who are committed to making change. 
 
 **How to get involved**
 
