@@ -20,7 +20,7 @@ INI provides a home for developers to collaborate on how to best do this work. W
 
 **How to get involved**
 
-We are always looking for new contributors and we would love to have you onboard. The easiest place to start is to join the mailing list: [inclusivenaming@googlegroups.com](https://groups.google.com/g/inclusivenaming), and identify yourself and your company. [Join a workstream](https://inclusivenaming.org/workstreams/) that fits your interest whether it be open source or marketing, we have a space for everyone no matter their background.
+We are always looking for new contributors and we would love to have you onboard. The easiest place to start is to join the mailing list: [inclusivenaming@googlegroups.com](https://groups.google.com/g/inclusivenaming), and identify yourself and your company. [Join a workstream](https://inclusivenaming.org/workstreams/) that fits your interest whether it be open source or marketing, we have a space for everyone no matter their background. We are also looking for people to step up and tell the stories around inclusive language in their organizations and be included in our blog. Please reach out to the marketing Slack channel with your story.
 
 Next, view the project board and [file issues](https://github.com/inclusivenaming/org/issues). The Project Board is where we track the work being done for the Inclusive naming initiative. You can also file issues for work you’d like to see or open questions you have via the [inclusivenaming/org repository](https://github.com/inclusivenaming/org).
 
