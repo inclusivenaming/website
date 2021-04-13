@@ -30,6 +30,7 @@ More directly descriptive alternatives such as the ones proposed above both avoi
 * [IETF Network Working Group: Terminology, Power and Oppressive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html)
 * [Android PR](https://9to5google.com/wp-content/uploads/sites/4/2020/06/android-aosp-allowlist-explanation.png)
 * [cURL PR](https://github.com/curl/curl/pull/5546)
+* ["Inclusive Language", a statement by Kludge Cyber Systems](https://github.com/kludge-cs/transparency/blob/master/open-statements/2021-04-04--TERMINOLOGY.md)
 
 ## Master, slave
 
