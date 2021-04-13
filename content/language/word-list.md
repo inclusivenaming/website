@@ -10,8 +10,8 @@ Lists which permit or deny a set of nouns, or select enabled features.
 
 **Proposed alternative:** 
 
-* allowlist/denylist 
-* allowedNouns/deniedNouns
+* `whitelist` -> exception list, inclusion list, list of allowed X / allowed X list
+* `blacklist` -> exclusion list, prohibition list, list of unauthorized X / unauthorized X list
 
 **Reasoning:** 
 
@@ -20,7 +20,7 @@ Because colors in and of themselves have no predetermined meaning, any meaning w
 In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day.
 
 From a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. 
-More directly descriptive words like allowlist/denylist enhances understanding. Allowlist/denylist, or simply using allowed/denied as an entity prefix has the added benefit of being easily translatable to other human languages.
+More directly descriptive alternatives such as the ones proposed above both avoid these connotations and also provide the additional benefit of being accessible to readers from other linguistic backgrounds. Other proposed alternatives such as `allowlist`, `denylist`, `grantlist`, `blocklist`, et cetera, do more harm than good when dealing with languages other than English, so they should not be used.
 
 **Recommendation:** Adopt immediately
 
