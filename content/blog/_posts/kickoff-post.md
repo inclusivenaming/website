@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the Inclusive Naming Project"
-date: 2021-04-15
+date: 2021-04-13
 slug: welcome-post
 ---
 
