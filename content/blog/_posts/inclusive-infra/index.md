@@ -16,7 +16,7 @@ Recently, one of my peers pinged me via WebEx Teams and pointed out that someon
 
 She is right.  It's not only inappropriate to perpetuate the use of terms that are harmful to our diverse employees, it's also specifically against Cisco Policy to do so. 
 
-<p align=center><a href=cisco-inclusive-policy.jpg> <img src=cisco-inclusive-policy-thumb.jpg></a></p>
+[{{< figure src="cisco-inclusive-policy-thumb.jpg" class="text-center">}}](cisco-inclusive-policy.jpg)
 
 Since these hosts had been created via "infrastructure as code", it was a simple matter to send a pull request to the repo containing that code with more inclusive - and indeed more descriptive - names, and re-deploy. 
 
