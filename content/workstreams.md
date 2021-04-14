@@ -8,7 +8,7 @@ The Inclusive Naming Initiative does its work in a set of workstreams which focu
 
 These workstreams support the work of the domain-specific workstreams by producing recommendations as well as driving community and marketing efforts.
 
-## Community workstream
+## Community and Tooling workstream
 
 Handles community intake, managing donated projects and wording recommendations, and system administration.
 
@@ -16,7 +16,7 @@ Handles community intake, managing donated projects and wording recommendations,
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-community
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-community-and-tooling](https://inclusive-naming.slack.com/archives/C01K578H0TY) 
 
 
 ## Marketing workstream
@@ -27,7 +27,7 @@ Handles marketing, events, and membership for the Inclusive Naming Initiative.
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-marketing
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-marketing](https://inclusive-naming.slack.com/archives/C01K57AHD9U) 
 
 ## Language workstream
 
@@ -37,7 +37,7 @@ Researches inclusive language and produces recommendations to remove insensitive
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-language 
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-language](https://inclusive-naming.slack.com/archives/C01KC0PU3EE) 
 
 # Domain-specific workstreams
 
@@ -51,7 +51,7 @@ Develops guidance for open source projects and maintainers executing inclusive n
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-company
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-company](https://inclusive-naming.slack.com/archives/C01KHU9QB0C) 
 
 ## Standards organizations
 
@@ -61,7 +61,7 @@ Works with standards bodies and organizations that work with them on driving inc
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-standards
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-standards](https://inclusive-naming.slack.com/archives/C01K8LY0H8V) 
 
 ## Open source 
 
@@ -71,4 +71,4 @@ Develops guidance for open source projects and maintainers executing inclusive n
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-oss
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-open-source](https://inclusive-naming.slack.com/archives/C01KHU7SS68) 
