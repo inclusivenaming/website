@@ -14,9 +14,7 @@ My team builds platform services that underlie the multiple projects within the 
 
 Recently, one of my peers pinged me via WebEx Teams and pointed out that someone on my team had just announced the expansion of our CI build environment with the addition of "slaves 10-15". She inquired about the use of the term “slave” and I immediately knew she was pointing to a form of microaggression in code and something not in line with our values.
 
-She is right.  It's not only inappropriate to perpetuate the use of terms that are harmful to our diverse employees, it's also specifically against Cisco Policy to do so. 
-
-[{{< figure src="cisco-inclusive-policy-thumb.jpg" class="text-center">}}](cisco-inclusive-policy.jpg)
+She is right.  It's not only inappropriate to perpetuate the use of terms that are harmful to our diverse employees, it's also specifically against [Cisco Policy](https://www.cisco.com/c/en/us/about/social-justice/inclusive-language-policy.html) to do so. 
 
 Since these hosts had been created via "infrastructure as code", it was a simple matter to send a pull request to the repo containing that code with more inclusive - and indeed more descriptive - names, and re-deploy. 
 
