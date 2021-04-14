@@ -38,9 +38,8 @@ Newspeak involved multiple changes but the most essential were:
 
 Everything in the conscious language initiative is *the exact opposite* of that.
 
-For example, "Denylist" is both more precise and more accurate than "blacklist";
-
-"Primary" is both more precise and more accurate than "master" in projects that have made the switch.
+For example, "Primary" is both more precise and more accurate than "master" in projects that have
+made the switch.
 
 The goal of this project is to use more precise words, in order to avoid
 unintended connotations that some common words and phrases have. Not
