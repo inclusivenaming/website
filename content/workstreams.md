@@ -16,7 +16,7 @@ Handles community intake, managing donated projects and wording recommendations,
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-community, [ws-community@inclusivenaming.org](ws-community@inclusivenaming.org) 
+**Communication methods:** Inclusive naming initiative slack: #ws-community
 
 
 ## Marketing workstream
@@ -27,7 +27,7 @@ Handles marketing, events, and membership for the Inclusive Naming Initiative.
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-marketing, [ws-marketing@inclusivenaming.org](ws-marketing@inclusivenaming.org) 
+**Communication methods:** Inclusive naming initiative slack: #ws-marketing
 
 ## Language workstream
 
@@ -37,7 +37,7 @@ Researches inclusive language and produces recommendations to remove insensitive
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-language, [ws-language@inclusivenaming.org](ws-language@inclusivenaming.org) 
+**Communication methods:** Inclusive naming initiative slack: #ws-language 
 
 # Domain-specific workstreams
 
@@ -51,7 +51,7 @@ Develops guidance for open source projects and maintainers executing inclusive n
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-company, [ws-company@inclusivenaming.org](ws-company@inclusivenaming.org) 
+**Communication methods:** Inclusive naming initiative slack: #ws-company
 
 ## Standards organizations
 
@@ -61,7 +61,7 @@ Works with standards bodies and organizations that work with them on driving inc
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-standards, [ws-standards@inclusivenaming.org](ws-standards@inclusivenaming.org) 
+**Communication methods:** Inclusive naming initiative slack: #ws-standards
 
 ## Open source 
 
@@ -71,4 +71,4 @@ Develops guidance for open source projects and maintainers executing inclusive n
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** Inclusive naming initiative slack: #ws-oss, [ws-oss@inclusivenaming.org](ws-oss@inclusivenaming.org) 
+**Communication methods:** Inclusive naming initiative slack: #ws-oss
