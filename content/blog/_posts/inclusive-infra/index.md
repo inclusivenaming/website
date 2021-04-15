@@ -6,17 +6,18 @@ authors: Reinhardt Quelle
 ---
 Posted by Reinhardt Quelle, Dir. Site Reliability Engineering for Cisco Emerging Technolgies and Incubation
 
-This is cross-posted from the [Cisco Tech Blog](https://ciscotechblog.com/blog/inclusive-infrastructure/). Cisco is excited to be a part of the "Inclusive Naming Initiative" and we are looking forward to working with this community. Through the INI and the open source community at large, we believe we can illuminate and amplify the efforts happening across our whole industry.
+This is cross-posted from our [Tech Blog](https://ciscotechblog.com/blog/inclusive-infrastructure/). We are excited to be a part of the "Inclusive Naming Initiative" and we are looking forward to working with this community. Through the INI and the open source community at large, we believe we can illuminate and amplify the efforts happening across our whole industry.
 
 ---
 
 This post will be short, because it really is _that simple_.
 
-My team builds platform services that underlie the multiple projects within the Emerging Technology and Incubation team at Cisco.  Our mission is to build 'paved roads' for developers; we create common reusable patterns and services that any engineer or venture needs to deliver an application.
+My team builds platform services that underlie the multiple projects within the Emerging Technology and Incubation team.  Our mission is to build 'paved roads' for developers; we create common reusable patterns and services that any engineer or venture needs to deliver an application.
 
-Recently, one of my peers pinged me via WebEx Teams and pointed out that someone on my team had just announced the expansion of our CI build environment with the addition of "slaves 10-15". She inquired about the use of the term “slave” and I immediately knew she was pointing to a form of microaggression in code and something not in line with our values.
+Recently, one of my peers pinged me in chat and pointed out that someone on my team had just announced the expansion of our CI build environment with the addition of "slaves 10-15". She inquired about the use of the term “slave” and I immediately knew she was pointing to a form of microaggression in code and something not in line with our values.
 
-She is right.  It's not only inappropriate to perpetuate the use of terms that are harmful to our diverse employees; it's also specifically against [Cisco Policy](https://www.cisco.com/c/en/us/about/social-justice/inclusive-language-policy.html) to do so. 
+
+She is right.  It's not only inappropriate to perpetuate the use of terms that are harmful to our diverse employees; it's also specifically against our company [policy](https://www.cisco.com/c/en/us/about/social-justice/inclusive-language-policy.html) to do so. 
 
 Since these hosts had been created via "infrastructure as code", it was a simple matter to send a pull request to the repo containing that code with more inclusive - and indeed more descriptive - names, and re-deploy. 
 
@@ -30,7 +31,7 @@ Indeed, a quick web search turns up not just one, but several open source projec
 
 This is where things became even more interesting. When announcing the change to let all of our engineering teams (SRE and product) know that they would be seeing warnings from the inclusive linter in their build outputs, we were immediately met with resistance. That then prompted a very healthy discussion around the "why" and the underlying context.  What was even more interesting was the response from the global team - it turns out that our linter is very US-centric and is missing language that is problematic to our international community. 
 
-Yes, there is more to be done – working with upstream projects, expanding to the wider Cisco community, reporting back to our Office of Inclusive Futures, improving tools, and the list goes on. But, the most important thing is to just take the first step. 
+Yes, there is more to be done – working with upstream projects, expanding to the other groups in our company, reporting back to our Office of Inclusive Futures, improving tools, and the list goes on. But, the most important thing is to just take the first step. 
 
 This has been an incredibly rewarding experience; in one simple exercise, we have seen the power of infrastructure as code, the open source community, and robust collaboration technology that "powers an inclusive future for all". 
 
