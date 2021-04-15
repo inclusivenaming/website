@@ -6,10 +6,6 @@ authors: Reinhardt Quelle
 ---
 Posted by Reinhardt Quelle, Dir. Site Reliability Engineering for Cisco Emerging Technolgies and Incubation
 
-This is cross-posted from our [Tech Blog](https://ciscotechblog.com/blog/inclusive-infrastructure/). We are excited to be a part of the "Inclusive Naming Initiative" and we are looking forward to working with this community. Through the INI and the open source community at large, we believe we can illuminate and amplify the efforts happening across our whole industry.
-
----
-
 This post will be short, because it really is _that simple_.
 
 My team builds platform services that underlie the multiple projects within the Emerging Technology and Incubation team.  Our mission is to build 'paved roads' for developers; we create common reusable patterns and services that any engineer or venture needs to deliver an application.
@@ -34,6 +30,10 @@ This is where things became even more interesting. When announcing the change to
 Yes, there is more to be done – working with upstream projects, expanding to the other groups in our company, reporting back to our Office of Inclusive Futures, improving tools, and the list goes on. But, the most important thing is to just take the first step. 
 
 This has been an incredibly rewarding experience; in one simple exercise, we have seen the power of infrastructure as code, the open source community, and robust collaboration technology that "powers an inclusive future for all". 
+
+This was cross-posted from our [Cisco Tech Blog](https://ciscotechblog.com/blog/inclusive-infrastructure/). We are excited to be a part of the "Inclusive Naming Initiative" and we are looking forward to working with this community. Through the INI and the open source community at large, we believe we can illuminate and amplify the efforts happening across our whole industry.
+
+---
 
 Tools:
 
