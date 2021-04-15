@@ -2,13 +2,12 @@
 title: "Towards More Inclusive Infrastructure"
 date: 2021-04-14
 slug: inclusive-infra
-authors: Reinhardt Quelle
+author: Reinhardt Quelle
 ---
-Posted by Reinhardt Quelle, Dir. Site Reliability Engineering for Cisco Emerging Technolgies and Incubation
 
 This post will be short, because it really is _that simple_.
 
-My team builds platform services that underlie the multiple projects within the Emerging Technology and Incubation team.  Our mission is to build 'paved roads' for developers; we create common reusable patterns and services that any engineer or venture needs to deliver an application.
+My team at Cisco builds platform services that underlie the multiple projects within the Emerging Technology and Incubation group.  Our mission is to build 'paved roads' for developers; we create common reusable patterns and services that any engineer or venture needs to deliver an application.
 
 Recently, one of my peers pinged me in chat and pointed out that someone on my team had just announced the expansion of our CI build environment with the addition of "slaves 10-15". She inquired about the use of the term “slave” and I immediately knew she was pointing to a form of microaggression in code and something not in line with our values.
 
@@ -17,7 +16,7 @@ She is right.  It's not only inappropriate to perpetuate the use of terms that 
 
 Since these hosts had been created via "infrastructure as code", it was a simple matter to send a pull request to the repo containing that code with more inclusive - and indeed more descriptive - names, and re-deploy. 
 
-But, since we are an SRE team, we are conditioned to ask "how could we prevent this from happening again?" Policy is fine as far as it goes, but we like to fix things in code. We enforce computer language standards and security policies via "linters" in our pipelines, so why not insensitive language? 
+But, since we are site reliability engineers, we are conditioned to ask "how could we prevent this from happening again?" Policy is fine, but we like to fix things in code. We enforce computer language standards and security policies via linters in our pipelines, so why not inclusive language? 
 
 Again, it really is this simple.  To make our platform more inclusive: 
 
@@ -31,18 +30,22 @@ Yes, there is more to be done – working with upstream projects, expanding to t
 
 This has been an incredibly rewarding experience; in one simple exercise, we have seen the power of infrastructure as code, the open source community, and robust collaboration technology that "powers an inclusive future for all". 
 
-This was cross-posted from our [Cisco Tech Blog](https://ciscotechblog.com/blog/inclusive-infrastructure/). We are excited to be a part of the "Inclusive Naming Initiative" and we are looking forward to working with this community. Through the INI and the open source community at large, we believe we can illuminate and amplify the efforts happening across our whole industry.
+This was cross-posted from our [Cisco Tech Blog](https://ciscotechblog.com/blog/inclusive-infrastructure/). We are excited to be a part of the [Inclusive Naming Initiative](https://inclusivenaming.org) and we are looking forward to working with this community. Through the INI and the open source community at large, we believe we can illuminate and amplify the efforts happening across our whole industry.
+
+
+Reinhardt Quelle  
+Director, Site Reliability Engineering, Cisco Emerging Technolgies and Incubation
 
 ---
 
 Tools:
 
- * [Woke](https://github.com/get-woke/woke)
+ * [woke](https://github.com/get-woke/woke)
  * [inclusivelint-lib](https://github.com/inclusivelint/inclusivelint-lib)
 
 References:
 
- * [InclusiveNaming.org](https://inclusivenaming.org/)
- * [Linux Kernel inclusive-terminology](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=49decddd39e5f6132ccd7d9fdc3d7c470b0061bb)
+ * [Inclusive Naming Initiative](https://inclusivenaming.org)
+ * [Linux Kernel inclusive-terminology merge tag](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=49decddd39e5f6132ccd7d9fdc3d7c470b0061bb)
  * [Cisco Social Justice Beliefs and Actions ](https://www.cisco.com/c/en/us/about/social-justice.html)
 
