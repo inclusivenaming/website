@@ -6,7 +6,7 @@
       {{ if $isPost }}
       {{ $date := dateFormat "January 2, 2006" .Date }}
       <h2>
-        {{ .Params.author }} | {{ $date }}
+        {{ .Params.authors }} | {{ $date }}
       </h2>
       {{ end }}
   </div>
