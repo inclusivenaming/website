@@ -38,8 +38,11 @@ Newspeak involved multiple changes but the most essential were:
 
 Everything in the conscious language initiative is *the exact opposite* of that.
 
-For example, "Primary" is both more precise and more accurate than "master" in projects that have
-made the switch.
+For example, "Primary" is both more precise and more accurate than "master" in
+projects that have made the switch. Some project choose to use "main" as an
+alternative for brevity. On the other side of this paradigm, projects have
+elected to use terminology pertaining to "secondary" for instances of the
+primary branch - for example, "indev", "clone", "staging", and others.
 
 The goal of this project is to use more precise words, in order to avoid
 unintended connotations that some common words and phrases have. Not
@@ -58,9 +61,10 @@ Here are some resources on the topic:
  * [Broken Metaphor: The Master-Slave Analogy in Technical Literature (2007)](https://www.jstor.org/stable/40061475?seq=1) - article in JSTOR, requires free membership to read
  * [Terminology, Power and Oppressive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html) - article with recommendations by Mallory Knodel and Niels ten Oever
  * [Why "master" matters](https://twitter.com/mislav/status/1270388510684598272) - A twitter thread.
+ * Point 3 of "A Framework for Analysis" in [Kludge Cyber Systems' "TERMINOLOGY" Statement](https://github.com/kludge-cs/transparency/blob/master/open-statements/2021-04-04--TERMINOLOGY.md#a-framework-for-analysis)
 
 ## How do I get my organization involved?
 
-* Join our [mailing list](https://groups.google.com/g/inclusivenaming) to receive project updates and invitations to community meetings. 
+* Join our [mailing list](https://groups.google.com/g/inclusivenaming) to receive project updates and invitations to community meetings.
 * Identify key people in your organization who can represent this effort in an ongoing fashion
 * Read our Implementation Guide and other resources to start making effective changes
