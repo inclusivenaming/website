@@ -16,7 +16,7 @@ This project currently uses their [FAQs](faqs.md).
 
 {{< button "https://github.com/ietf/terminology" "Inclusive terminology in IETF documents" >}}
 
-A list of alternative terms in technology published by the IETF standards group for use on an ongoing basis. We also recommend reading the [Terminology, Power and Oppressive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html) draft document for more research and background.
+A list of alternative terms in technology published by the IETF standards group for use on an ongoing basis. We also recommend reading the [Terminology, Power and Oppressive Language](https://tools.ietf.org/html/draft-knodel-terminology) draft document for more research and background.
 
 ## By Kubernetes 
 
