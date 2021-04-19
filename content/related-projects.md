@@ -2,7 +2,7 @@
 title: "Related projects"
 ---
 
-We're lucky to be working with some of the most innovative and caring organizations on the planet for this initiative. Here's a list of the initatives our participants are working on!
+We're lucky to be working with some of the most innovative and caring organizations on the planet for this initiative. Here's a list of the initiatives our participants are working on!
 
 ## By IBM and Red Hat 
 
@@ -16,7 +16,7 @@ This project currently uses their [FAQs](faqs.md).
 
 {{< button "https://github.com/ietf/terminology" "Inclusive terminology in IETF documents" >}}
 
-A list of alternative terms in technology published by the IETF standards group for use on an ongoing basis. We also recommend reading the [Terminology, Power and Oppresive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html) draft document for more research and background.
+A list of alternative terms in technology published by the IETF standards group for use on an ongoing basis. We also recommend reading the [Terminology, Power and Oppressive Language](https://tools.ietf.org/id/draft-knodel-terminology-00.html) draft document for more research and background.
 
 ## By Kubernetes 
 
