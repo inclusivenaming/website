@@ -23,7 +23,7 @@ Handles community intake, managing donated projects and wording recommendations,
 
 Handles marketing, events, and membership for the Inclusive Naming Initiative.
 
-**Leads:** Bill Mulligan, Priyanka Sharma, Jim St Leger
+**Leads:** Bill Mulligan, Priyanka Sharma, Jim St. Leger
 
 **Meeting times:** See the [calendar](/calendar)
 
