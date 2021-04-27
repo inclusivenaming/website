@@ -4,8 +4,7 @@ title: "A framework for evaluating harmful language"
 
 ## About
 
-The language evaluation framework is a guidance document developed by the [Kubernetes Naming Working Group](https://github.com/kubernetes/community/tree/master/wg-naming). 
-The version of this documentation found on the Inclusive Naming website is a mirror. 
+The language evaluation framework is a guidance document developed by the Inclusive Naming Initiative. It is intended to be a companion document to the [Principles](/principles). 
 
 It outlines a structured framework for evaluating language and terminology for harm to the community. 
 This enables the community to navigate divisive conversations with a measure of clarity.
@@ -33,48 +32,45 @@ If a significant number of second- or third- order concerns are a “yes”, str
 
 This framework is intentionally non-prescriptive. The intention in this work is to reduce harm for the community; let harm reduction guide your decisions.
 
-### First-order concerns
+### First-order concerns: bias, stereotypes, and a history of injustice
 
-First-order concerns are characterized by: 
+First-order concerns should be immediate candidates for replacement and correspond to the following principles:
 
-- Overtness: regardless of its use in the context of code or technology, there is little to no ambiguity outside of technology as to whether the language in question indicates harm
-- Identity-specificity: language in question specifically unambiguously identifies a group of people
+- Do not use a term or phrase if it perpetuates bias or stereotypes.
+- Do not use terms associated with identity or status of a historically underrepresented group in a way that is negative or judgmental.
+- Avoid use of terms and phrases that are unnecessarily gendered.
 
-#### Is the term overtly racist?
+You can use the following questions to evaluate whether a term is discordant with the principles:
 
-Examples include “master/slave”.
+1. Is the term racist?
+    - i.e. “master/slave”.
+2. Is the term sexist, transphobic, or pejorative about a gender identity?
+3. Is the term ableist, or pejorative to neurodiverse or disabled people?
+    - i.e. performing “sanity checks”. 
+4. Is the term homophobic or exlcusionary to non-straight people?
+5. Is the term biased, or does it assign positive connotation to some characteristics and negative to others?
 
-#### Is the term overtly sexist, transphobic, or pejorative about a gender identity?
+### Second-order concerns: violence, injustice and cultural appropriation
 
-Examples do _not_ include “transclusion” of dependencies, or “binary” operators. 
+Second order concerns correspond to the following principles, and should be strongly considered for future removal:
+ 
+- Avoid use of unnecessarily violent, oppressive, or elitist terms.
+- Avoid terms or phrases that originate from a history of injustice, oppression, or identity-based discrimination except when referring to the actual historical events.
+- Avoid terms which are culturally appopriated
 
-#### Is the term overtly ableist, or pejorative to neurodiverse or disabled people
+You can use the following questions to evaluate whether a term is discordant with the principles:
 
-Examples include performing “sanity checks”. 
-
-#### Is the term overtly homophobic? 
-
-Examples do not include “homogenizing” or “homogenous” data. 
-
-### Second-order concerns
-
-Second-order concerns are characterized by: 
-
-- Ambiguity: outside the context of code or technology, language might have connotations related to harmful scenarios like war, militarization, or policing, but the actual etymology of the term is not related to harm of a specific identity
-- Lack of specific identity: concerns in this category do not target specific identities, or do so in a non-overt way
-
-#### Is the term violent?
-
-Examples include “KILL” commands in Unix systems.
-
-#### Is the term militaristic?
-
-Examples include “marshal/unmarshal”.
+1. Is the term violent and could a non-violent replacement be used?
+    - i.e. "kill" commands
+2. Does the historical context of a term, regardless of its current useage, originate from or link to a historicial context of injustice, opression or identity-based descrimination?
+    - i.e. "grandfathering in" services
+3. Is the term cuturally appropriated or otherwise does it have a history of being used pejoratively?
+    - i.e. "opening the kimono", or having a "pow-wow"
 
 
-### Third-order concerns
+### Third-order concerns: language clarity
 
-Third-order concerns are characterized by:
+Third-order concerns center around language clarity and correspond to the following principles: 
 
 - Clarity: is the language in use a metaphor that could be described more precisely using different words?
 
