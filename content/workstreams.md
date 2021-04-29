@@ -57,7 +57,7 @@ Develops guidance for open source projects and maintainers executing inclusive n
 
 Works with standards bodies and organizations that work with them on driving inclusive naming work.
 
-**Leads:** Joanne Lee, Matthew Schnoor  
+**Leads:** Joanna Lee, Matthew Schnoor  
 
 **Meeting times:** See the [calendar](/calendar)
 
