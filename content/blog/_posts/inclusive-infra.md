@@ -34,7 +34,7 @@ This was cross-posted from our [Cisco Tech Blog](https://ciscotechblog.com/blog/
 
 
 Reinhardt Quelle  
-Director, Site Reliability Engineering, Cisco Emerging Technolgies and Incubation
+Director, Site Reliability Engineering, Cisco Emerging Technologies and Incubation
 
 ---
 
