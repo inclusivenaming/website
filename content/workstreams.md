@@ -8,16 +8,16 @@ The Inclusive Naming Initiative does its work in a set of workstreams which focu
 
 These workstreams support the work of the domain-specific workstreams by producing recommendations as well as driving community and marketing efforts.
 
-## Community and Tooling workstream
+## Community workstream
 
-Handles community intake, managing donated projects and wording recommendations, and system administration.
+- Handles community intake, managing donated projects, and system administration
+- Develops guidance for open source projects and maintainers executing inclusive naming work
 
-**Leads (interim):** Stephen Augustus 
+**Leads:** Stephen Augustus, Celeste Horgan, Dale Davis Jones, Jason Brooks
 
 **Meeting times:** See the [calendar](/calendar)
 
-**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-community-and-tooling](https://inclusive-naming.slack.com/archives/C01K578H0TY) 
-
+**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-community](https://inclusive-naming.slack.com/archives/C01KHU7SS68)
 
 ## Marketing workstream
 
@@ -62,13 +62,3 @@ Works with standards bodies and organizations that work with them on driving inc
 **Meeting times:** See the [calendar](/calendar)
 
 **Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-standards](https://inclusive-naming.slack.com/archives/C01K8LY0H8V) 
-
-## Open source 
-
-Develops guidance for open source projects and maintainers executing inclusive naming work.
-
-**Leads:** Stephen Augustus, Celeste Horgan 
-
-**Meeting times:** See the [calendar](/calendar)
-
-**Communication methods:** [Inclusive naming initiative slack](https://communityinviter.com/apps/inclusive-naming/invite): [#ws-open-source](https://inclusive-naming.slack.com/archives/C01KHU7SS68) 
