@@ -11,7 +11,7 @@ Send a mail to <inclusivenaming+subscribe@googlegroups.com> if you want to use a
 
 **Join the Bi-weekly meeting: Mondays @ 9:15 Pacific Time**: you can get an invitation via the mailing list!
 
-You can also follow us on Twitter: [@inclusivenaming](https://twitter.com/inclusivenaming) and [LinkedIN](https://www.linkedin.com/company/inclusive-naming/)
+You can also follow us on Twitter: [@inclusivenaming](https://twitter.com/inclusivenaming) and [LinkedIn](https://www.linkedin.com/company/inclusive-naming/)
 
 ## Get your company involved 
 
