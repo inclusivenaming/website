@@ -90,6 +90,12 @@ parent = "getinvolved"
 weight = 3
 
 [[menu.main]]
+name = "Code of conduct"
+url = "/code-of-conduct"
+parent = "getinvolved"
+weight = 4
+
+[[menu.main]]
 name = "Blog"
 url = "/blog"
 weight = 4
