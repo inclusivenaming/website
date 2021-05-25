@@ -133,12 +133,11 @@ The Inclusive Naming Initiative does not tolerate retaliation against community 
 
 ## Acknowledgements and License
 
-This documentat is adapted from the [Community Covenant, version 1.0](http://community-covenant.net), which is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The Community Covenant is an open source effort and is built on codes of conduct that came before it, including the [Contributor Covenant](http://contributor-covenant.org/) and the [LGBTQ in Tech community code of conduct](http://lgbtq.technology/coc.html).
+This document is adapted from the [Community Covenant, version 1.0](http://community-covenant.net), which is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The Community Covenant is an open source effort and is built on codes of conduct that came before it, including the [Contributor Covenant](http://contributor-covenant.org/) and the [LGBTQ in Tech community code of conduct](http://lgbtq.technology/coc.html).
 
 This document also includes content from the  [Mozilla “How to Report Violations of the Community Participation Guidelines” document](https://www.mozilla.org/en-US/about/governance/policies/participation/reporting/), which is based in part on the  [PyCon Code of Conduct Revision 2f4d980](https://us.pycon.org/2018/about/code-of-conduct/).  Both of these resources are licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
 
 This document is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
 
 
 
