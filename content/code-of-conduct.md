@@ -76,9 +76,68 @@ The CoC Committee respects the confidentiality requests for the purpose of prote
 
 Participants who are asked to stop any harassing behavior are expected to comply immediately. If a participant engages in harassing behavior, the CoC Committee may take any action they deem appropriate, including expulsion from the community and identification of the participant as a harasser to other community members, other communities, and/or the general public.  
 
+
+# Code of Conduct Committee 
+
+## Members
+
+The Inclusive Naming Initiative Code of Conduct Committee (“CoC Committee”) consists of the following members:
+
+- Celeste Horgan (celestehorgan)
+- Joanna Lee (joannalee333)
+- Jason Brooks (jasonbrooks)
+
+## Purpose
+
+The CoC Committee oversees and enforces the Inclusive Naming Initiative Code of Conduct.  The CoC Committee investigates and evaluates reports of potential violations of the Code of Conduct to determine whether a violation occurred.  When the CoC Committee determines that a violation has occurred, the CoC decides what remediation steps to take in response to the violation.  The CoC Committee also periodically reviews the Code of Conduct to determine whether updates are necessary or advisable.
+
+## Recusal of Committee Members with a Conflict of Interest
+
+If any Code of Conduct Committee member has a potential conflict of interest that is likely to interfere with their ability to exercise independent and impartial decision-making with respect to a reported incident, they will not be allowed to participate in any activities or discussions of the CoC Committee related to investigation or evaluation of the reported incident, determination if a violation occurred, or deciding upon remediation steps.  Any such conflicted member’s participation shall be limited to allowing the remaining CoC Committee members to interview them as a witness and otherwise providing information requested by the CoC Committee to aid in the investigation.
+
+A CoC member will automatically be deemed to have a conflict of interest if they were involved in a reported incident either as the alleged wrongdoer or as an individual who was the direct target or victim of the prohibited behavior, or if they have a close personal relationship (e.g., immediate family member) with the alleged wrongdoer or with the target or victim.  Merely witnessing a potential Code of Conduct violation will not disqualify a CoC Committee member from being able to participate in the investigation of a reported incident, so long as their role in the incident is not likely to impact their ability to exercise impartial and independent decision-making.  
+
+When a CoC Committee member has a potential conflict of interest with respect to a reported incident, they have an obligation to promptly disclose the nature of their potential conflict of interest to the rest of the CoC Committee (unless such potential conflict of interest is already known to the other members of the CoC Committee).
+
+
+# How To Report a Code of Conduct Violation
+
+If you believe someone is in immediate physical danger, please call your local emergency number.
+
+To report a violation of our Code of Conduct, please email [conduct@inclusivenaming.org](mailto:conduct@inclusivenaming.org).  You may submit the contents of your report in writing, or you may request a telephone or virtual conference meeting with a CoC Committee member to provide your report in a spoken conversation.
+
+## To Report Anonymously
+
+If you want to submit a report anonymously, please send a direct message to any individual member of our Code of Conduct Committee via the Inclusive Naming Initiative Slack community and let them know you would like to submit a Code of Conduct report anonymously.  If you submit your report anonymously, that member of the Code of Conduct Committee will share the contents of your report with the rest of the Code of Conduct Committee, but they will not disclose your identity as the reporter to the other members of the Code of Conduct Committee (unless such disclosure is necessary to comply with applicable law, or to protect you or someone else from imminent danger).
+
+## What Information to Include in Your Report
+
+When reporting a potential Code of Conduct violation, please include the following information in your report:
+Names of the people involved (or if names are unknown, use descriptions and any identifiable info such as appearance, role, username, or handle), including the person who you believe violated the Code of Conduct and any witnesses.
+
+Description of the incident, including the events that occured, the date and time, and location or community space where the incident occured.
+
+## What happens after the report is filed
+
+Reports are handled discretely and privately, and will only be shared with the CoC Committee.  The CoC Committee will investigate the report by reviewing available evidence and, if appropriate, interviewing witnesses, the alleged wrongdoer, and/or the targets or victims of the alleged harassment or other prohibited conduct.
+
+If the CoC Committee determines that the Code of Conduct was violated, the CoC will decide on what remediation steps should be taken. 
+
+As part of this investigation or remediation, it may be necessary for some information to be disclosed to others, for example, to key stakeholders administering communities or events, witnesses, and the wrongdoers.  
+
+When an investigation is complete, a member of the CoC Committee will inform the person who submitted the report that the investigation is complete.  The CoC Committee will determine, in its sole discretion, how much information to share with the reporter regarding the committee’s finding of whether or not a violation occurred and what remediation steps were taken, if any.
+
+## No Retaliation
+
+The Inclusive Naming Initiative does not tolerate retaliation against community members who report concerns under the CoC in good faith. Acts of retaliation should be reported in the same process as described above.
+
 ## Acknowledgements and License
 
-This Code of Conduct is adapted from the [Community Covenant, version 1.0](http://community-covenant.net), which is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The Community Covenant is an open source effort and is built on codes of conduct that came before it, including the [Contributor Covenant](http://contributor-covenant.org/) and the [LGBTQ in Tech community code of conduct](http://lgbtq.technology/coc.html).
+This document is adapted from the [Community Covenant, version 1.0](http://community-covenant.net), which is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). The Community Covenant is an open source effort and is built on codes of conduct that came before it, including the [Contributor Covenant](http://contributor-covenant.org/) and the [LGBTQ in Tech community code of conduct](http://lgbtq.technology/coc.html).
+
+This document also includes content from the  [Mozilla “How to Report Violations of the Community Participation Guidelines” document](https://www.mozilla.org/en-US/about/governance/policies/participation/reporting/), which is based in part on the  [PyCon Code of Conduct Revision 2f4d980](https://us.pycon.org/2018/about/code-of-conduct/).  Both of these resources are licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
 
 This document is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+
 
