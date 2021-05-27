@@ -20,7 +20,7 @@ recommended_replacements:
 unsuitable_replacements:
     - N/A
 rationale: |
-    The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries. In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day.
+    The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries.
 
     From a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. A suitable verb or adjective enhances understanding by replacing the metaphor with a direct description.
 
