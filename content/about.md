@@ -2,14 +2,15 @@
 title: "About the Inclusive Naming Initiative"
 ---
 
-The Inclusive Naming Initiative’s mission is to help companies and projects remove all harmful and unclear language of any kind and replace it with an agreed-upon set of neutral terms. The initiative’s goal is to define processes and tools to remove harmful language from projects. This includes creating a comprehensive list of terms with replacements, language evaluation frameworks and templates, and infrastructure to aid the transition. Red Hat, IBM, LF Networking, and the Kubernetes Naming WG are all already on board.
+The Inclusive Naming Initiative’s mission is to promote and facilitate replacing harmful and exclusionary language in information technology
 
 
-## Goals
+## Activities, Goals, and Deliverables
 
-We're looking to:
+We're looking to bring together a community of information technology organizations and professionals to collaboratively:
 
-* Provide a consistent set of **language recommendations** in projects
+* Define **processes** for removing harmful and exclusionary language from software, APIs, standards, and other IT-related materials
+* Develop **resources and tools** such as a comprehensive list of harmful terms and suggested replacements, language evaluation frameworks, templates, and guidance and best practice materials
 * Recommend **implementation paths** for different use cases
 * Provide **tooling** to measure implementation success
 * Act as a platform for **community recognition** of organizations actively doing the work
@@ -19,7 +20,7 @@ We're looking to:
 Note: Roadmap is subject to change
 
 * **Q1 2021**
-  * Define best practices and replacements with the community, providing documents and tools for folx to get started
+  * Define best practices and replacements with the community, providing documents and tools for participants to get started
   * Discuss at KubeCon community meeting
 
 * **Q3 2021**
