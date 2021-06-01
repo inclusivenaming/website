@@ -2,7 +2,7 @@
 title: "Making Inclusion Part of Your Business is Better for Business. Period."
 date: 2021-06-01
 slug: inclusive-good-for-business
-author: Wendy Renstchler, Shahed Alqadi
+author: Wendy Rentschler, Shahed Alqadi
 ---
 
 As we continue to advance into the age of technology, attention is being paid to how companies are responding to their learnings from the various social justice initiatives surrounding us. The enormity of social justice inequalities coming to light last year has been a catalyst for many businesses to look within themselves at how they do business—as an organization, as an employer, and as a member of the community and the world.
