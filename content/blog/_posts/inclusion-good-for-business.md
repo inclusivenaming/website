@@ -1,6 +1,6 @@
 ---
 title: "Making Inclusion Part of Your Business is Better for Business. Period."
-date: 2021-05-26
+date: 2021-06-01
 slug: inclusive-good-for-business
 author: Wendy Renstchler, Shahed Alqadi
 ---
