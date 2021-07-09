@@ -26,3 +26,9 @@ The [Project Board](https://github.com/orgs/inclusivenaming/projects/1) is where
 ## Make changes in your projects
 
 Use the resources we've compiled so far – the [Word replacement list](/language/word-list), [Implementation path](/language/implementation-path), and the [Language evaluation framework](/language/evaluation-framework) and start making changes in your own projects! This is the most impactful way to get involved and our goal as an initiative.
+
+## Approach other projects
+
+Outreach to other projects, to encourage them to change their language, needs to be handled carefully, patiently, and
+compassionately. We've collected some [tips on approaching projects](/outreach) to increase your chances of success.
+

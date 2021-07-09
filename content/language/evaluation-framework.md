@@ -18,7 +18,7 @@ it might be helpful to use it in conjunction with the [approval workflow](https:
 
 ## Using the framework
 
-The framework is divided into three sections: first-, second-, and third-order concerns, ranked in order of potential harm to the community. 
+The framework is divided into three sections: first-, second-, and third-order concerns, ranked in order of potential harm to the community.
 
 First-order concerns are language where harm is egregious, overt, and clearly problematic. Second-order concerns are language which is problematic but with a less definite impact. Third-order concerns indicate language that could use improvement but does no demonstrable harm.
 
@@ -32,6 +32,9 @@ If any first-order concerns are a “yes”, replace the language.
 If a significant number of second- or third- order concerns are a “yes”, strongly consider replacing the language. 
 
 This framework is intentionally non-prescriptive. The intention in this work is to reduce harm for the community; let harm reduction guide your decisions.
+
+See also the 
+[implementation path document](/language/implementation-path) for a discussion of how changes in different portions of your project have different levels of impact on your users.
 
 ### First-order concerns
 
