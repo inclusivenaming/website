@@ -32,7 +32,10 @@ If a significant number of second- or third- order concerns are a “yes”, str
 
 This framework is intentionally non-prescriptive. The intention in this work is to reduce harm for the community; let harm reduction guide your decisions.
 
-# First-order concerns
+See also the 
+[implementation path document](/language/implementation-path) for a discussion of how changes in different portions of your project have different levels of impact on your users.
+
+# First-order-concerns
 
 - The term perpetuates bias or stereotypes in a manner that is harmful to any historically underrepresented group of people.
 - The term is overtly disparaging towards any historically underrepresented group of people. 
@@ -45,7 +48,7 @@ This framework is intentionally non-prescriptive. The intention in this work is 
 - In discussion of the term, are opinions strongly split, even if the term isn’t directly harmful?
 
 
-## Second-order concerns
+# Second-order concerns
 
 - The term is unnecessarily violent, oppressive, or elitist terms.
 - The term originates from a history of injustice, oppression, or identity-based discrimination except when referring to the actual historical events.
@@ -60,14 +63,17 @@ This framework is intentionally non-prescriptive. The intention in this work is 
 - Is the term classist or otherwise segregational? 
 - Is the term strongly associated with one gender?
 
-## Third-order concerns 
-Clarity: is the language in use a metaphor that could be described more precisely using different words?
-Anthropomorphism: does language unnecessarily humanize components or processes?
-Idiomatic: Is language unclear to someone outside a specific culture?
-Questions to ask
-Does the term use metaphor, simile or other literary devices to communicate a point?
-Is understanding the term conditional on belonging to a specific culture or in-group? 
-Does the term assign human-like qualities to technological systems? 
+# Third-order concerns 
+
+- The term is unclear, uses metaphor, or a more precise word is available.
+- The term anthropomorphizes (ascribes human traits to nonhuman objects) code or computer systems
+- The language is idomatic, and understanding is limited to those in a particular culture or in-group
+
+## Questions to ask
+
+- Does the term use metaphor, simile or other literary devices to communicate a point?
+- Is understanding the term conditional on belonging to a specific culture or in-group? 
+- Does the term assign human-like qualities to technological systems? 
 
 
 # Acknowledgements
