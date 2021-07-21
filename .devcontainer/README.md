@@ -2,7 +2,7 @@
 
 ## What is a Development Container?
 
-* Learn more about [using a Docker container as a development environment in VSCode](https://code.visualstudio.com/docs/remote/containers).
+* Learn more about [using a Docker container as a development environment in VS Code](https://code.visualstudio.com/docs/remote/containers).
 * Learn more about [using a Docker container as a development environment with GitHub Codespaces](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace).
 
 ## Contents
