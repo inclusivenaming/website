@@ -35,15 +35,15 @@ This framework is intentionally non-prescriptive. The intention in this work is 
 See also the 
 [implementation path document](/language/implementation-path) for a discussion of how changes in different portions of your project have different levels of impact on your users.
 
-# First-order-concerns
+# First-order concerns
 
-- The term perpetuates bias or stereotypes in a manner that is harmful to any historically underrepresented group of people.
+- The term perpetuates bias or stereotypes in a manner that is harmful to any historically underrepresented group of people/
 - The term is overtly disparaging towards any historically underrepresented group of people. 
 - The term is loaded, problematic or politically charged outside of technology contexts, even if the language is itself etymologically neutral.
 
 ## Questions to ask
 
-- Does the term refer to a group of people in contexts outside of technology? If so, are these 
+- Does the term refer to a group of people in contexts outside of technology?
 - Is the term potentially disparaging in other contexts? 
 - In discussion of the term, are opinions strongly split, even if the term isn’t directly harmful?
 
