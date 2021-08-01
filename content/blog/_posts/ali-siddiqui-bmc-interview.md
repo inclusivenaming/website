@@ -1,3 +1,8 @@
+title: "Moving the needle on inclusive language. Mark Miller"
+date: 2021-08-01
+slug: inclusive-language-inititives-bmc
+author: Oshrat Nir
+
 # Moving the needle on inclusive language, with Ali Siddiqui from BMC
 
 Welcome to our series Moving the Needle on inclusive language. In this series, we will be talking to leaders in the cloud native space as they share the inclusive naming initiatives they care about. This will include tools, activities, and results they have discovered along the way.
