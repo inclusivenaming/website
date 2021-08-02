@@ -1,9 +1,17 @@
 {{ with site.Copyright }}
 {{ $year := now.Year }}
+{{ $social := site.Params.social }}
 <footer class="footer">
   <div class="container">
     <p class="pt-5 copyright">
       &copy; {{ $year }} {{ . }}
+    </p>
+  </div>
+  <div class="container">
+    <p>
+      {{ with $social }}
+        {{ partial "social-buttons.html" . }}
+      {{ end }}
     </p>
   </div>
 </footer>
