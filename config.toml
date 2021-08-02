@@ -23,11 +23,6 @@ url = "https://twitter.com/inclusivenaming"
 icon = "fab fa-twitter"
 
 [[params.social]]
-name = "LinkedIn"
-url = "https://www.linkedin.com/company/inclusive-naming/"
-icon = "fab fa-linkedin-in"
-
-[[params.social]]
 name = "YouTube"
 url = "https://www.youtube.com/channel/UCP1oEIxHSl77RCWRPwRjdiQ"
 icon = "fab fa-youtube"
@@ -36,6 +31,11 @@ icon = "fab fa-youtube"
 name = "GitHub"
 url = "https://github.com/inclusivenaming"
 icon = "fab fa-github"
+
+[[params.social]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/company/inclusive-naming/"
+icon = "fab fa-linkedin-in"
 
 [[params.social]]
 name = "Mailing list"
@@ -141,59 +141,26 @@ weight = 7
 
 [[menu.main]]
 name = "News & Media"
-url = "/faqs"
+url = "#"
 weight = 8
-identifier = "blogandnews"
+identifier = "news-and-media"
 
 [[menu.main]]
 name = "Blog"
 url = "/blog"
-parent = "blogandnews"
+parent = "news-and-media"
 weight = 1
 
 [[menu.main]]
-name = "Twitter"
-url = "https://twitter.com/inclusivenaming"
-parent = "blogandnews"
-post = "external"
+name = "Media mentions"
+url = "/media-mentions"
+parent = "news-and-media"
+identifier = "media-mentions"
 weight = 2
 
 [[menu.main]]
-name = "LinkedIn"
-parent = "blogandnews"
-url = "https://www.linkedin.com/company/inclusive-naming/"
-icon = "fab fa-linkedin-in"
-post = "external"
+name = "Presentations"
+url = "https://github.com/inclusivenaming/org/tree/main/ws-marketing"
+parent = "news-and-media"
+identifier = "presentations"
 weight = 3
-
-[[menu.main]]
-name = "YouTube"
-parent = "blogandnews"
-url = "https://www.youtube.com/channel/UCP1oEIxHSl77RCWRPwRjdiQ"
-icon = "fab fa-youtube"
-post = "external"
-weight = 4
-
-[[menu.main]]
-name = "GitHub"
-parent = "blogandnews"
-url = "https://github.com/inclusivenaming"
-icon = "fab fa-github"
-post = "external"
-weight = 5
-
-[[menu.main]]
-name = "Mailing list"
-parent = "blogandnews"
-url = "https://groups.google.com/g/inclusivenaming"
-icon = "fas fa-envelope"
-post = "external"
-weight = 6
-
-[[menu.main]]
-name = "Slack Invite"
-parent = "blogandnews"
-url = "https://communityinviter.com/apps/inclusive-naming/invite"
-icon = "fab fa-slack"
-post = "external"
-weight = 7
