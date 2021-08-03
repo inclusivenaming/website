@@ -1,6 +1,8 @@
 ---
-title: "Word replacement list"
+title: "Tier 1: Replace Immediately"
 ---
+
+Terms in this list should be replaced immediately when encountered. Read the [Overview](/word-lists/overview) for more information.
 
 ## Whitelist, blacklist
 
