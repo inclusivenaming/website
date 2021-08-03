@@ -1,7 +1,9 @@
+---
 title: "Moving the needle on inclusive language. Mark Miller"
 date: 2021-08-01
 slug: inclusive-language-inititives-lll
 author: Oshrat Nir, Mark Miller
+---
 
 
 # Moving the needle on inclusive language, with Mark Miller of Lawrence Livermore National Lab.
