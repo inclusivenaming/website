@@ -12,6 +12,14 @@ Conscious language in your open source projects is a guide created by IBM and Re
 
 This project currently uses their [FAQs](faqs.md).
 
+## By IBM
+
+{{< button "https://github.com/IBM/IBMInclusiveITLanguage" "IBM Inclusive IT Language" >}}
+
+IBM's Inclusive IT Language team put together a list of alternative terms, FAQ and advice for projects looking to make this switch.
+
+This project currently cooperates and uses the contribution of many of this project's leads.
+
 ## By the IETF
 
 {{< button "https://github.com/ietf/terminology" "Inclusive terminology in IETF documents" >}}
