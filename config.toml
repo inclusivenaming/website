@@ -23,11 +23,6 @@ url = "https://twitter.com/inclusivenaming"
 icon = "fab fa-twitter"
 
 [[params.social]]
-name = "LinkedIn"
-url = "https://www.linkedin.com/company/inclusive-naming/"
-icon = "fab fa-linkedin-in"
-
-[[params.social]]
 name = "YouTube"
 url = "https://www.youtube.com/channel/UCP1oEIxHSl77RCWRPwRjdiQ"
 icon = "fab fa-youtube"
@@ -36,6 +31,11 @@ icon = "fab fa-youtube"
 name = "GitHub"
 url = "https://github.com/inclusivenaming"
 icon = "fab fa-github"
+
+[[params.social]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/company/inclusive-naming/"
+icon = "fab fa-linkedin-in"
 
 [[params.social]]
 name = "Mailing list"
@@ -106,11 +106,6 @@ parent = "getinvolved"
 weight = 4
 
 [[menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 4
-
-[[menu.main]]
 name = "Resources"
 url = "#"
 identifier = "lang"
@@ -143,3 +138,29 @@ weight = 6
 name = "FAQs"
 url = "/faqs"
 weight = 7
+
+[[menu.main]]
+name = "News & Media"
+url = "#"
+weight = 8
+identifier = "news-and-media"
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+parent = "news-and-media"
+weight = 1
+
+[[menu.main]]
+name = "Media mentions"
+url = "/media-mentions"
+parent = "news-and-media"
+identifier = "media-mentions"
+weight = 2
+
+[[menu.main]]
+name = "Presentations"
+url = "https://github.com/inclusivenaming/org/tree/main/ws-marketing"
+parent = "news-and-media"
+identifier = "presentations"
+weight = 3
