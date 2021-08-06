@@ -88,6 +88,12 @@ parent = "getinvolved"
 weight = 1
 
 [[menu.main]]
+name = "Sponsor"
+url = "https://enrollment.lfx.linuxfoundation.org/?project=ini"
+parent="getinvolved"
+weight = 2
+
+[[menu.main]]
 name = "Workstreams"
 url = "/workstreams"
 parent = "getinvolved"
