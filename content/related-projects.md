@@ -18,7 +18,7 @@ This project currently uses their [FAQs](faqs.md).
 
 IBM's Inclusive IT Language team put together a list of alternative terms, FAQ and advice for projects looking to make this switch.
 
-This project currently cooperates and uses the contribution of many of this project's leads.
+Members of this IBM project participate in INI as project leads and contributors. 
 
 ## By the IETF
 
