@@ -1,6 +1,6 @@
 ---
 title: "Moving the needle on inclusive language. Mark Miller"
-date: 2021-08-01
+date: 2021-09-08
 slug: inclusive-language-inititives-lll
 author: Oshrat Nir, Mark Miller
 ---
