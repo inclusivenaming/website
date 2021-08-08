@@ -1,0 +1,27 @@
+name: Media Mentions
+description: Create an issue to add media mentions of the INI
+title: "[Media Mentions] Issue Title"
+labels: [documentation]
+assignees:
+  - gkarthiks
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to let us know about the Media Mention of Inclusive Naming Intitiative. This helps us in keeping the website up-to-date.
+
+  - type: textarea
+    id: media
+    attributes:
+      label: What's the name of the site/media that has mentioned the Inclusive Naming Initiative?
+      description: For example `New York Times`.
+    validations:
+      required: true
+
+  - type: input
+    id: media-link
+    attributes:
+      label: What is the URL to the article that has mentioned/featured the INI?
+      placeholder: Copy paste the entire URL from the browser tab that has the article opened.
+    validations:
+      required: true
