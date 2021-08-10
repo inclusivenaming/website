@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: media
     attributes:
-      label: What's the name of the site/media that has mentioned the Inclusive Naming Initiative?
+      label: What's the name of the site/media that mentioned Inclusive Naming Initiative?
       description: For example `New York Times`.
     validations:
       required: true
