@@ -1,7 +1,9 @@
-title: "Moving the needle on inclusive language. Mark Miller"
+---
+title: "Moving the needle on inclusive language. Ali Siddiqui"
 date: 2021-08-11
 slug: inclusive-language-inititives-bmc
 author: Oshrat Nir
+---
 
 # Moving the needle on inclusive language, with Ali Siddiqui from BMC
 
