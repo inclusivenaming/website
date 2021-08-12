@@ -11,7 +11,7 @@ author: Oshrat Nir, Mark Miller
 Welcome back to our series **Moving the Needle on inclusive language**. In this series, we talk to leaders in the cloud native space as they share the inclusive naming
 initiatives they care about. This will include tools, activities, and results they have discovered along the way.
 
-[Mark Miller](https://www.linkedin.com/in/mark-miller-8a1742163/) works at the Lawrence Livermore National Laboratory. He contributes to the development of visualization
+Mark Miller works at the Lawrence Livermore National Laboratory. He contributes to the development of visualization
 tools  used to analyze data from very large simulations. Mark is the first member of a national lab that is involved in the Inclusive Naming Initiative while many other contributors 
 come from commercial companies and academia.
 
