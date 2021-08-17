@@ -1,10 +1,8 @@
 ---
----
 title: "Moving the needle on inclusive language. Monique Umphrey"
 date: 2021-08-25
 slug: inclusive-language-inititives-hcc
 author: Oshrat Nir, Shahed Alqadi
----
 ---
 
 # Moving the needle on inclusive language, with Dr. Monique Umphrey from Houston Community College
