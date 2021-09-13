@@ -1,5 +1,5 @@
 ---
-Whitelist, blacklist
+title: "Whitelist, blacklist"
 ---
 
 **Definition:** 

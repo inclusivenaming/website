@@ -1,5 +1,5 @@
 ---
-master
+title: Master
 ---
 
 In computing, A "master"often refers to the original or main version of an entity.

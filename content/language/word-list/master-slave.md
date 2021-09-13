@@ -1,5 +1,5 @@
 ---
-"Master/slave"
+title: "Master, Slave"
 ---
 
 **Definition(s):**
