@@ -1,0 +1,21 @@
+{{ $time := .Get "time" }}
+{{ $tz := .Get "tz" }}
+<script>
+  //
+  // var iso =  luxon.DateTime.fromISO("{{$time}}",{ zone: "{{$tz}}"})
+  // iso = luxon.DateTime.fromISO(iso.toISOTime())
+  // var localized = iso.toLocaleString({hour: '2-digit', minute: '2-digit', hour12: true, timeZoneName: 'short'})
+  // document.write(localized)
+var toReplace = document.currentScript
+document.addEventListener('DOMContentLoaded', function() {
+  // A few words on valid formats
+  // $time must be in a 0 padded format, so "9:15" must be "09:15" or it won't work
+  // $tz must be in IANA timezone format, for example "America/Los_Angeles"
+  var iso =  luxon.DateTime.fromISO("{{$time}}",{ zone: "{{$tz}}"})
+  iso = luxon.DateTime.fromISO(iso.toISOTime())
+  var localized = iso.toLocaleString({hour: '2-digit', minute: '2-digit', hour12: true, timeZoneName: 'short'})
+  var parent = toReplace.parentNode
+  parent.replaceChild(document.createTextNode(localized),toReplace)
+  parent.normalize()
+});
+</script>
