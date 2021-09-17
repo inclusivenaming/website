@@ -119,7 +119,7 @@ weight = 5
 
 [[menu.main]]
 name = "Word replacement list"
-url = "/language/word-list"
+url = "/word-lists/overview"
 parent = "lang"
 weight = 1
 
