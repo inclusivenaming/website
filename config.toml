@@ -112,16 +112,28 @@ parent = "getinvolved"
 weight = 4
 
 [[menu.main]]
-name = "Resources"
+name = "Word lists"
 url = "#"
-identifier = "lang"
+identifier = "lists"
 weight = 5
 
 [[menu.main]]
-name = "Word replacement list"
-url = "/language/word-list"
-parent = "lang"
+name = "Overview"
+url = "/word-lists/overview"
+parent = "lists"
 weight = 1
+
+[[menu.main]]
+name = "Tier 1: Replace Immediately"
+url = "/word-lists/tier-1"
+parent = "lists"
+weight = 2
+
+[[menu.main]]
+name = "Resources"
+url = "#"
+identifier = "lang"
+weight = 6
 
 [[menu.main]]
 name ="Language evaluation framework"
@@ -138,17 +150,17 @@ weight = 3
 [[menu.main]]
 name = "Related projects"
 url = "/related-projects"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "FAQs"
 url = "/faqs"
-weight = 7
+weight = 8
 
 [[menu.main]]
 name = "News & Media"
 url = "#"
-weight = 8
+weight = 9
 identifier = "news-and-media"
 
 [[menu.main]]

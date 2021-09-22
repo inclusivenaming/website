@@ -20,7 +20,7 @@ The [Inclusive Naming Initiative](https://inclusivenaming.org/) is a business co
 
 DEI initiatives also strive to address issues of gender, gender identity, and gender discrimination, and there are new rules for that, too. For example, new social norms around gender identity have created an awareness and ownership of pronouns. It’s rapidly becoming a part of the social discourse, and social media, to include mention of “he/him,” “she/her,” or “they/them” in how you identify and wish to be referred to in the third person.
 
-[Here](https://inclusivenaming.org/language/word-list) is a basic guide to problematic terms you might use every day without being conscious of their impact, and alternative options. BMC is addressing this with our own employees and partners through a style guide [resource](https://s7280.pcdn.co/wp-content/uploads/2021/02/Language-compressed-3.pdf) on how to use inclusive language.
+[Here](https://inclusivenaming.org/word-lists/overview) is a basic guide to problematic terms you might use every day without being conscious of their impact, and alternative options. BMC is addressing this with our own employees and partners through a style guide [resource](https://s7280.pcdn.co/wp-content/uploads/2021/02/Language-compressed-3.pdf) on how to use inclusive language.
 
 
 ## Consider the broader implications
