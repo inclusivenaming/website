@@ -130,6 +130,12 @@ parent = "lists"
 weight = 2
 
 [[menu.main]]
+name = "Tier 3: Recommendations to Replace"
+url = "/word-lists/tier-3"
+parent = "lists"
+weight = 4
+
+[[menu.main]]
 name = "Resources"
 url = "#"
 identifier = "lang"
