@@ -15,7 +15,7 @@ title: "Tier 2: Strongly Consider Replacing"
 
 Replace.
 
-### Recommendd replacement terms 
+### Recommended replacement terms
 
 - confidence check 
 - coherence check 
@@ -30,4 +30,6 @@ None.
 
 This term might be derogatory to neurodiverse people. Jargon, such as "sanity test", is difficult to translate and is difficult to understand by readers whose first language is not English.
 
-Note: The original recommendation via IBM’s words matter group included different recommendations, but INI liked [Twitter’s recommendations](https://www.mediaite.com/news/twitter-bans-sanity-checks-company-announces-plan-to-make-code-more-politically-correct/) of confidence check and coherence check and have decided to recommend these. 
+Note: The original recommendation via IBM’s Words Matter group included different recommendations, but INI liked [Twitter’s recommendations][twitter-recs] of "confidence check" and "coherence check" and have opted to use them instead.
+
+[twitter-recs]: https://www.mediaite.com/news/twitter-bans-sanity-checks-company-announces-plan-to-make-code-more-politically-correct/
