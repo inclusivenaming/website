@@ -36,3 +36,33 @@ This meets one of the INI’s evaluation framework’s [first-order concerns](/l
 While the word is in use in security contexts and in GDPR and data protection contexts, it does not appear to be codified into any laws, policies, or other difficult to change or heavily embedded frameworks. Moreover, the replacement terms recommended—"segmentation” and “separation”—are both equally descriptive and in common use in technology, so we recommend replacing as you see the term.
 
 We acknowledge that switching from "segregation" to "segmentation" or "separation" loses a small amount of nuance: specifically, "segregation" implies "separation" based on a policy or human-defined ruleset. If this is an issue in the context in which you use the word, we recommend using descriptive words along with the replacement, such as “policy-based segmentation.”
+
+
+## Tribe
+
+**Recommendation from the IBM Inclusive IT Language Initiative Words Matter working group** 
+
+### Term
+
+Tribe
+
+### Recommended replacement terms
+
+- Squad of squads
+- Team
+
+### Unsuitable replacement terms 
+
+- None
+
+### Use context 
+
+Used to describe teams within an organization.
+
+### Recommendation
+
+Use with caution. Do not use to refer to a group formed to accomplish a task.
+
+### Rationale for replacement 
+
+"Tribe" is a term that can be associated with colonialism or can be considered cultural appropriation. The word has a history of being used to describe division along ethnic or racial lines. As such, choose other words to describe groups of people.
