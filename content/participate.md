@@ -9,7 +9,7 @@ Send a mail to <inclusivenaming+subscribe@googlegroups.com> if you want to use a
 
 **[Join the slack](https://communityinviter.com/apps/inclusive-naming/invite)**
 
-**Join the Bi-weekly meeting: Mondays @ {{< localize time="09:15" tz="America/Los_Angeles" >}}**: you can get an invitation via the mailing list!
+Various meetings are held at different times across worksteams and general meetings, the [meeting calendar](/calendar) is always up to date and you can get invitations to the meetings via the mailing list!
 
 You can also follow us on Twitter: [@inclusivenaming](https://twitter.com/inclusivenaming) and [LinkedIn](https://www.linkedin.com/company/inclusive-naming/)
 
