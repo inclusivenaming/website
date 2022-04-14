@@ -33,7 +33,7 @@ Note: Roadmap is subject to change
 
 ## Who is involved? 
 
-Our [leadership team](/leadership) includes members from the Cloud Native Computing Foundation, Cisco, Red Hat, VMWare and IBM. We are currently seeking representatives from other companies and open source projects looking to make these changes consistently! 
+Our [leadership team](/leadership) includes members from the Cloud Native Computing Foundation, Cisco, Red Hat, VMware and IBM. We are currently seeking representatives from other companies and open source projects looking to make these changes consistently! 
 
 Sound interesting?
 

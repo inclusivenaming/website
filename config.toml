@@ -89,7 +89,7 @@ weight = 1
 
 [[menu.main]]
 name = "Sponsor"
-url = "https://enrollment.lfx.linuxfoundation.org/?project=ini"
+url = "/sponsor"
 parent="getinvolved"
 weight = 2
 
