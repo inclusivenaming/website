@@ -1,0 +1,7 @@
+{
+    "term": "{{ .Params.term }}",
+    "related_terms" : "{{ .Params.related_terms }}",
+    "definition": "{{.Params.definition}}",
+    "rationale": "{{.Params.rationale}}",
+    "permalink" : "{{ .Permalink }}"
+}
