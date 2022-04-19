@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <div class="container single">
+      <section class="row">
+        <section class="mb-5 col col-lg-9 col-sm-12">
+          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
+          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
+          
+          <section>
+            <h2>{{ .Site.Params.title}}</h2>
+            <h3>{{ .Params.term}}</h3>
+            <p></p>
+
+            <p>
+             
+            </p>
+          </section>
+
+          
+
+        </section>
+      </section>
+    </div>
+{{ end }}

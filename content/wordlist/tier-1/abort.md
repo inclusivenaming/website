@@ -2,11 +2,13 @@
 ---
 title: "Tier 1: Abort"
 type: wordlist
+layout: wordlist
 outputs:
     - html
     - json
 
 
+tier: 1
 term: "abort"
 related_terms:
     - abortion

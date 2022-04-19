@@ -1,0 +1,31 @@
+{{ $lang := site.LanguageCode }}
+<!DOCTYPE html>
+<html{{ with $lang }} lang="{{ . }}"{{ end }}>
+  <head>
+    <title>
+      {{ block "title" . }}
+        {{ site.Title }}
+      {{ end }}
+    </title>
+    {{ partial "css.html" . }}
+    {{ partial "favicon.html" . }}
+  </head>
+
+    <body>
+    <div class="p-0 m-0 container-fluid">
+      {{ partial "navbar.html" . }}
+
+      <div class="ml-0 mr-0 flex-xl-nowrap">
+        <!-- <div class="col col-lg-3 col-md-12 d-none d-lg-block vh-100" id="sidebar">
+          {{ partial "sidebar.html" . }}
+        </div> -->
+        <main>
+          {{ block "main" . }}
+          {{ end }}
+          {{ partial "footer.html" . }}
+        </main>
+    </div>
+      {{ partial "javascript.html" }}
+  </div>
+  </body>
+</html>
