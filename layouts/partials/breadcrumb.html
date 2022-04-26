@@ -1,20 +1,24 @@
-{{ define "breadcrumb" }}
-{{ if .p1.Parent }}
-  {{ template "breadcrumb" (dict "p1" .p1.Parent "p2" .p2) }}
-{{ else if not .p1.IsHome }}
-  {{ template "breadcrumb" (dict "p1" .p1.Site.Home "p2" .p2) }}
-{{ end }}
-
-{{ $isHere := eq .p1 .p2 }}
-<li {{ if $isHere }} class="is-active"{{ end }}>
-  / <a href="{{ .p1.RelPermalink }}">
-    {{ .p1.Title | markdownify }}
-  </a>
-</li>
-{{ end }}
-
-<div class="col col-8 breadcrumb" aria-label="breadcrumbs">
-  <ul class="mb-0 pt-2" style="vertical-align: middle">
-    {{ template "breadcrumb" (dict "p1" . "p2" .) }}
-  </ul>
-</div>
+<p style="vertical-align: middle" id="breadcrumbs">
+    <a href="/">Home</a> 
+    {{- $.Scratch.Set "url" "" -}}
+    {{- range (split .RelPermalink "/") -}}
+        {{- if (gt (len .) 0) -}}    
+            {{- $.Scratch.Set "isPage" "false" -}}
+            {{- $.Scratch.Add "url" (print "/" . ) -}}
+            {{- if $.Site.GetPage (print . ".md") -}}
+                {{- with $.Site.GetPage (print . ".md") -}}
+                    {{- if .IsPage -}}
+                        {{- $.Scratch.Set "isPage" "true" -}}
+                    {{- end -}}
+                {{- end -}}
+            {{- end -}}
+            {{- if eq ($.Scratch.Get "isPage") "true" -}}
+                {{- with $.Site.GetPage (print . ".md") -}}
+                  &nbsp;&nbsp; > <a href="{{ $.Scratch.Get `url` }}">{{ .Title }}</a>
+                {{- end -}}
+            {{- else -}}
+               &nbsp;&nbsp; > <a href="{{ $.Scratch.Get `url` }}">{{ humanize . }}</a>
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+</p>

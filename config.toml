@@ -119,7 +119,7 @@ weight = 5
 
 [[menu.main]]
 name = "Overview"
-url = "/word-lists/overview"
+url = "/word-lists"
 parent = "lists"
 weight = 1
 
@@ -146,6 +146,12 @@ name = "No Changes Recommended"
 url = "/word-lists/no-change"
 parent = "lists"
 weight = 5
+
+[[menu.main]]
+name = "Wordlist Template"
+url = "/word-lists/template"
+parent = "lists"
+weight = 6
 
 [[menu.main]]
 name = "Resources"

@@ -1,6 +1,5 @@
-
 ---
-title: "Tier 1: Abort"
+title: "Abort"
 type: wordlist
 layout: wordlist
 outputs:
@@ -12,11 +11,10 @@ tier: 1
 term: "abort"
 related_terms:
     - abortion
-definition: ""
+definition: "None"
 use_context: "'Abort' usually refers to the abnormal, abrupt termination of a process, either by the system itself or by a user."
 recommendation: "Replace when possible."
-recommended_replacemets: |
-    Depending on context, the INI recommends the following alternative terms.
+recommended_replacements:
     - User-Initiated Termination
     - Force quit
     - Cancel 
@@ -50,6 +48,7 @@ status: |
         * [x] Approved by Inclusive Naming Initiative Language Workstream 
         * [ ] Reviewed by URM organizations and working groups 
         * [ ] Reviewed by professional diversity consultants 
-supporting_content:
+supporting_content: | 
+    None
 
 ---

@@ -2,17 +2,68 @@
   <div class="container single">
       <section class="row">
         <section class="mb-5 col col-lg-9 col-sm-12">
-          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
-          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
-          
-          <section>
-            <h2>{{ .Site.Params.title}}</h2>
-            <h3>{{ .Params.term}}</h3>
-            <p></p>
 
-            <p>
-             
-            </p>
+          <p class="mt-5 mb-5">
+            {{ partial "breadcrumb.html" . }}
+          </p>
+          
+          <h1 class="title">Word List: Tier {{ .Params.tier}}</h1>
+          <section>
+            <h2>Term: {{ .Params.term}}</h2>
+           
+
+            <h3>Definition</h3>
+            <p>{{.Params.definition}}</p>
+            
+            <h3>Related Terms</h3>
+            <ul>
+              {{ range .Params.related_terms }}
+              <li>
+              {{ . }}
+              </li>
+              {{ end }}
+            </ul>
+
+            <h3>Usage Context</h3>
+            <p>{{.Params.usage_context}}</p>
+
+            <h3>Recommendation</h3>
+            <p>{{.Params.recommendation}}</p>
+
+            <h3>Recommended Replacements</h3>
+            <ul>
+              {{ range .Params.recommended_replacements }}
+              <li>
+              {{ . }}
+              </li>
+              {{ end }}
+            </ul>
+
+            <h3>Unsuitable Replacements</h3>
+            <ul>
+              {{ range .Params.unsuitable_replacements }}
+              <li>
+              {{ . }}
+              </li>
+              {{ end }}
+            </ul>
+
+            <h3>Rationale</h3>
+
+            <p>{{.Params.rationale}}</p>
+
+            <h3>Term Status</h3>
+
+            <p>{{.Params.status}}</p>
+
+            <h3>Supporting Content</h3>
+
+            <p>{{.Params.supporting_content}}</p>
+
+
+            <h3>Other Formats</h3>
+            <a href="{{.Permalink}}index.json"><img src="/img/icons/json-file-tiny.png" ></a>
+           
           </section>
 
           
