@@ -1,6 +1,6 @@
 {
     "term": "{{ .Params.term }}",
-    "tier" : "{{ .Params.related_terms }}",
-    "recommendationn": "{{.Params.definition}}",
+    "tier" : "{{ .Params.tier }}",
+    "recommendationn": "{{.Params.recommendation}}",
     "term_page" : "{{ .Permalink }}index.html"
 }

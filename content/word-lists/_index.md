@@ -6,6 +6,10 @@ title: "Overview"
 
 The Inclusive Naming Initiative produces three tiers of language recommendation. These are compiled into lists for easy consumption by adopters. Terms are separated into lists based on the severity of the term in question as well as the level of review the terms have received.
 
+## [Tier 0: No-Change](/word-lists/no-change/)
+
+This word list captures terms the Inclusive Naming Initiative and its partner organizations evaluated but did not recommend any changes for. 
+
 ## [Tier 1: Replace Immediately](/word-lists/tier-1/)
 
 Tier 1 terms should be replaced whenever encountered. 
@@ -31,4 +35,4 @@ Terms included in this list have one or all of the following:
 
 - Review by the Inclusive Naming Initiative, with particular attention paid to finding consensus among member companies and participants' companies for replacements
 - Research conducted by the Inclusive Naming Initiative on the etymology of the word and non-tech cultural connotations, per the [Language Evaluation Framework](https://inclusivenaming.org/language/evaluation-framework/)
-- A consensus-based replacement term or terms proposed by the Language Workstream and sent for approval and review to the larger Initiative
+- A consensus-based replacement term or terms proposed by the Language Workstream and sent for approval and review to the larger Initiative.

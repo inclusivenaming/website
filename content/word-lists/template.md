@@ -11,24 +11,23 @@ outputs:
     - html
     - json
 
-
 tier: 1
 term: "test1"
 related_terms:
-    - 
-definition: "None"
+    - None
+definition: "N/A"
 use_context: "N/A"
 recommendation: "N/A"
 recommended_replacements:
-    - 
+    - None
 unsuitable_replacements:
-    - 
+    - None
 rationale: |
-    Nill
+    N/A
 status: | 
-    Nill
+    N/A
 supporting_content: | 
-    Nill
+    N/A
 
 ---
 ```
