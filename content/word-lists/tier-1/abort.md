@@ -1,12 +1,18 @@
 ---
-title: "Abort"
+
+############################
+### DO NOT CHANGE VALUES ###
 type: wordlist
 layout: wordlist
 outputs:
     - html
     - json
+############################
 
+## YOU CAN CHANGE THE VALUES OF THE FIELDS BELOW ##
+## DO NOT CHANGE THE FIELD NAMES ##
 
+title: "Abort"
 tier: 1
 term: "abort"
 related_terms:
@@ -28,7 +34,6 @@ recommended_replacements:
 unsuitable_replacements:
     - Kill (as in Linux systems) 
 rationale: |
-
     The term “abort” frequently appeared in Inclusive Language Initiative surveys and standards reviews. Multiple organizations felt that usage of the word posed an issue worth addressing in their individual companies and projects. Given this widespread interest, the INI has decided to offer its own guidance.
 
     INI recommends replacing “abort” wherever possible. In accordance with the INI’s language framework, the term does not necessarily constitute a first-order concern. However, because it is such a charged term outside of computing, “abort” fails to provide a clear description of the action being taken, and serves primarily to distract. There are numerous other words in the English language that can serve the same purpose in computing without invoking the emotionally charged cultural context of “abort.”
@@ -40,14 +45,16 @@ rationale: |
     Some organizations have noted that using “abort” in contexts other than the medical or political serves to de-stigmatize the term, thereby promoting reproductive rights and bodily autonomy. Conversely, discouraging the term could be interpreted as accepting a framing that denies a pregnant person’s right to control their body. The judgment of the INI is that the term causes discomfort or offense without providing a necessary degree of technical clarity, and therefore it should be avoided. At some future point, because language changes over time, “abort” may become a less contentious term; at that juncture, the appropriateness of the term may be revisited.
 
 status: | 
-    
+
     Version: 0.1 
+
     Created: August 2021
+    
     Review status:
-        * [x] Reviewed by Inclusive Naming Initiative
-        * [x] Approved by Inclusive Naming Initiative Language Workstream 
-        * [ ] Reviewed by URM organizations and working groups 
-        * [ ] Reviewed by professional diversity consultants 
+    - [x] Reviewed by Inclusive Naming Initiative
+    - [x] Approved by Inclusive Naming Initiative Language Workstream 
+    - [ ] Reviewed by URM organizations and working groups 
+    - [ ] Reviewed by professional diversity consultants 
 supporting_content: | 
     None
 

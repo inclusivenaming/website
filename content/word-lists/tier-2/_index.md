@@ -1,7 +1,8 @@
 ---
 title: "Tier 2: Strongly Consider Replacing"
+outputs:
+    - html
 ---
-
 
 Terms in this list should be replaced whenever possible, barring major breaking changes.
 Terms included in this list have one or all of the following:

@@ -1,5 +1,8 @@
 ---
 title: "Tier 3: Recommendations to Replace"
+
+outputs:
+    - html
 ---
 
 Terms in this list should be considered for replacement. 

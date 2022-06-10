@@ -2,8 +2,3 @@
       {{ . }}
 {{ end }}
 
-{{ range .RegularPagesRecursive }}
-          <li>
-              <a style="font-size: large;" href="{{.Permalink}}">{{.Params.term}}</a>
-          </li>
- {{ end }}

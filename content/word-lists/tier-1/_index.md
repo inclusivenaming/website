@@ -1,5 +1,7 @@
 ---
 title: "Tier 1: Replace Immediately"
+outputs:
+    - html
 ---
 
 Tier 1 terms should be replaced whenever encountered. 
@@ -11,4 +13,3 @@ Terms included in this list have one or all of the following:
 - Have passed through all the review stages in Tiers 2 and 3
 
 ## Terms
-

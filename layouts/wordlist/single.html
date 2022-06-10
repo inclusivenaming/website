@@ -13,7 +13,7 @@
            
 
             <h3>Definition</h3>
-            <p>{{.Params.definition}}</p>
+            <p>{{.Params.definition | markdownify}}</p>
             
             <h3>Related Terms</h3>
             <ul>
@@ -25,10 +25,10 @@
             </ul>
 
             <h3>Usage Context</h3>
-            <p>{{.Params.usage_context}}</p>
+            <p>{{.Params.usage_context | markdownify}}</p>
 
             <h3>Recommendation</h3>
-            <p>{{.Params.recommendation}}</p>
+            <p>{{.Params.recommendation | markdownify}}</p>
 
             <h3>Recommended Replacements</h3>
             <ul>
@@ -50,15 +50,15 @@
 
             <h3>Rationale</h3>
 
-            <p>{{.Params.rationale}}</p>
+            <p>{{.Params.rationale | markdownify}}</p>
 
             <h3>Term Status</h3>
 
-            <p>{{.Params.status}}</p>
+            <p>{{.Params.status | markdownify}}</p>
 
             <h3>Supporting Content</h3>
 
-            <p>{{.Params.supporting_content}}</p>
+            <p>{{.Params.supporting_content | markdownify}}</p>
 
 
             <h3>Other Formats</h3>

@@ -1,0 +1,11 @@
+
+<nav class="section-nav">
+  <h3>Terms Glossary</h3>
+  {{ if .IsSection}}
+  {{ range .RegularPagesRecursive }}
+            <li>
+                <a style="font-size: large;" href="{{.Permalink}}">{{.Params.term}}</a>
+            </li>
+   {{ end }}
+   {{ end }}
+</nav>

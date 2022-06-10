@@ -8,6 +8,9 @@ summaryLength = 20
 [markup.highlight]
 style = "paraiso-dark"
 
+[blackfriday]
+extensions = ["hardLineBreak"]
+
 [params]
 font_awesome_version = "5.12.0"
 description = "Helping projects and companies make consistent, responsible choices to remove harmful language"
