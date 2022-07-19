@@ -1,0 +1,7 @@
+{
+    "term": "{{ .Params.term }}",
+    "tier" : "{{ .Params.tier }}",
+    "recommendation": "{{.Params.recommendation}}",
+    "recommended_replacements": {{.Params.recommended_replacements | jsonify}},
+    "term_page" : "{{ .Permalink }}index.html"
+}

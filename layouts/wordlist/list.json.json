@@ -1,0 +1,7 @@
+{{ define "response" }}
+[
+    {{ range $index, $e := .Site.Pages }}
+    {{ if and ($index) ( .Params.term) }} {{ .Render "item" }},{{ end }}
+    {{ end }}
+]
+{{ end }}
