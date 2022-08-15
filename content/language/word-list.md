@@ -115,7 +115,7 @@ In the marketing context:
 
 **Reasoning:** 
 
-The word bulletproof is associated with gun violence, especially in the USA. Some individuals find the term especially threatening or offensive.
+The word bulletproof is associated with gun violence.
 In the context of cybersecurity, bulletproof suggests that something is completely invulnerable, which is unrealistic. No system or application is invulnerable. The term also demands that the reader understand a metaphor, which is unnecessary when there exist several clear, straightforward alternatives. 
 
 **Recommendation:** Replace when possible
