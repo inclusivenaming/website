@@ -44,7 +44,7 @@ Replace immediately.
 
 These terms are based on a metaphor where black represents bad and white represents good, which reinforces systemic racial bias. Terms that use color representationally, such as “black box” and “white glove,” do not reinforce this discriminatory metaphor and are fine to use.
 
-From a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. More directly descriptive words like blocklist/allowlist enhances understanding.
+From a technical communication perspective, using whitelist/blacklist as a naming convention applies metaphor (and, in turn, unintended meaning) when it isn’t needed. More directly descriptive words like blocklist/allowlist enhance understanding.
 
 **Supporting research and precedents:**
 
