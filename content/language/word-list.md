@@ -106,7 +106,7 @@ Bulletproof is also sometimes used in marketing communication when comparing pro
 **Proposed alternatives:** 
 
 In the cybersecurity context:
-* Secure
+* Secure, or More secure
 * Safe
 * Protected
 
