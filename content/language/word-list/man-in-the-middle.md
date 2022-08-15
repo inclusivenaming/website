@@ -10,7 +10,7 @@ Gendered language that can perpetuate bias and stereotypes.
 Implies that women do not have the skills to perpetrate this type of hacking.
 
 
-**Recommendation:** Adopt immediately.
+**Recommendation:** Consider replacement.
 
 Recommended replacement terms
 -	Interceptor attack
