@@ -28,7 +28,7 @@ Replace immediately.
 * blocklist/denylist/block
 * allowlist/allow
 
-**Admitted replacement terms**
+**Alternative replacement terms**
 
 * passlist
 * deny
