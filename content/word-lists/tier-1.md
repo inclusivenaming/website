@@ -81,7 +81,8 @@ As the IETF puts it, “Master-slave is an oppressive metaphor that will and sho
 The word’s origins and historicial use reveal use that is at best chauvinistic and racist, and in almost all cases connotative of ownership.
 While there is some small ambiguity about the term master, the term slave is unambiguously about the ownership and subjugation of another person, and has been since its inception.
 
-The terms master/slave are harmful to Black and people of color contributors and employees.
+The master/slave terminology normalizes and perpetuates the historical practice of enslavement.
+Additionally, the terms master/slave are directly harmful to Black, indigenous, and people of color (BIPOC).
 Slavery is a tradition barely 3 generations abolished – there are grandparents alive today who were actual, non-metaphorical slaves.
 Segregation and Apartheid are even more recent.
 In accordance with most open source codes of conduct and company handbooks, the mandate of all people in a project is to create a welcoming space, regardless of the level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality.
