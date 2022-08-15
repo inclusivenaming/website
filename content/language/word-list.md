@@ -110,7 +110,7 @@ In the cybersecurity context:
 * Safe
 * Protected
 
-In the marketing context:
+In the marketing context (except when describing something truly bulletproof):
 * Robust
 
 **Reasoning:** 
