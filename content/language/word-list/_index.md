@@ -1,3 +1,0 @@
----
-title: "Word replacement list"
----
