@@ -27,6 +27,7 @@ use_context: "N/A"
 recommendation: "Consider replacement"
 
 recommended_replacements:
+    - Adversary-in-the-middle attack
     - Interceptor attack
     - Intermediary attack
 
