@@ -26,12 +26,6 @@ Members of this IBM project participate in INI as project leads and contributors
 
 A list of alternative terms in technology published by the IETF standards group for use on an ongoing basis. We also recommend reading the [Terminology, Power and Oppressive Language](https://tools.ietf.org/html/draft-knodel-terminology) draft document for more research and background.
 
-## By Kubernetes 
-
-{{< button "https://github.com/kubernetes/community/tree/master/wg-naming" "Naming working group" >}}
-
-The Kubernetes naming working group is tacking many of the issues addressed by the Inclusive Language Initiative on a smaller, more tactical scale. Viewing the working group's documents and process could prove useful for projects and companies trying to make similar changes. We also recommend joining their [mailing list](https://groups.google.com/g/kubernetes-wg-naming).
-
 ## By Linux Foundation Networking
 
 {{< button "https://wiki.lfnetworking.org/display/LN/Inclusive+Language+Initiative" "Inclusive language working group" >}}
