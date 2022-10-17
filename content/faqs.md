@@ -38,7 +38,7 @@ Newspeak involved multiple changes but the most essential were:
 
 Everything in the conscious language initiative is *the exact opposite* of that.
 
-For example, "Denylist" is both more precise and more accurate than "blacklist";
+For example, "waived failures" is both more precise and more accurate than "whitelist";
 
 "Primary" is both more precise and more accurate than "master" in projects that have made the switch.
 
