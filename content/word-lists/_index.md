@@ -49,7 +49,7 @@ Terms included in this list have one or all of the following:
 This word list captures terms the Inclusive Naming Initiative and its partner organizations evaluated but did not recommend any changes for. 
 
 
-## JSON Formmated list
+## JSON Formatted list
 
 The complete wordlist can be accessed in a single [JSON file](/word-lists/index.json), formatted as follows:
 
