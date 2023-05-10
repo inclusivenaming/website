@@ -15,9 +15,6 @@ The Inclusive Naming Initiative produces three tiers of language recommendation.
 To add new terms to the lists, review the [Wordlist template](/word-lists/template/) page.
 
 
-
-
-
 ## [Tier 1: Replace Immediately](/word-lists/tier-1/)
 
 Tier 1 terms should be replaced whenever encountered. 
@@ -48,23 +45,3 @@ Terms included in this list have one or all of the following:
 ## [No-Change](/word-lists/no-change/)
 
 This word list captures terms the Inclusive Naming Initiative and its partner organizations evaluated but did not recommend any changes for. 
-
-
-## JSON Formatted list
-
-The complete wordlist can be accessed in a single [JSON file](/word-lists/index.json), formatted as follows:
-
-```
-{
-    "data" : 
-        [
-            {
-                "term": "abort",
-                "tier" : "1",
-                "recommendation": "Replace when possible.",
-                "recommended_replacements": ["User-Initiated Termination","Force quit","Cancel","System-Initiated Termination","Fail","Close (app, program, connection)","End","Halt","Hard stop","Stop (something you triggered)"],
-                "term_page" : "http://inclusivenaming.org/word-lists/tier-1/abort/index.html"
-            }
-        ]
-}
-```
