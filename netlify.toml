@@ -1,12 +1,12 @@
 [build]
 publish = "public"
-command = "apt install -y texlive-base && hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
+command = "&& hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
 
 [build.environment]
 HUGO_VERSION = "0.111.3"
 
 [context.deploy-preview]
-command = "apt install -y texlive-base && hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
+command = " hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
 
 [context.branch-deploy]
-command = "apt install -y texlive-base && hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
+command = "hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
