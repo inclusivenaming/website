@@ -28,7 +28,7 @@ traverse()
       # current working directory
       traverse "$1/$i" `expr $2 + 1`
     else 
-        if [ "$i" -eq "index.custom" ]; then
+        if [[ "$i" == "index.custom" ]]; then
             echo "File: $1/$i"
             ./pandoc/pandoc-3.1.2/bin/pandoc -f html -t pdf -s "$1/$i" -o "$1/index.pdf"
             ./pandoc/pandoc-3.1.2/bin/pandoc -f html -t html -s "$1/$i" -o "$1/index-simplified.html"
