@@ -5,6 +5,7 @@ layout: wordlist
 outputs:
     - html
     - json
+    - custom
 
 tier: 0
 term: "blackbox"

@@ -1,7 +1,11 @@
 ---
 title: "Tier 2: Strongly Consider Replacing"
+type: wordlist
+layout: wordlist
 outputs:
     - html
+    - json
+    - custom
 ---
 
 Terms in this list should be replaced whenever possible, barring major breaking changes.

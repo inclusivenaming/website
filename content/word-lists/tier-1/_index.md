@@ -1,9 +1,10 @@
 ---
 title: "Tier 1: Replace Immediately"
-layout: wordlist
 type: wordlist
+layout: wordlist
 outputs:
     - html
+    - json
     - custom
 ---
 

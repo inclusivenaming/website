@@ -1,8 +1,12 @@
 ---
 title: "Tier 3: Recommendations to Replace"
 
+type: wordlist
+layout: wordlist
 outputs:
     - html
+    - json
+    - custom
 ---
 
 Terms in this list should be considered for replacement. 

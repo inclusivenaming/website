@@ -9,6 +9,9 @@
         <section class="col col-8">
           <h1 class="title">{{ .Page.Title | markdownify }}</h1>
           <p class="subtitle">{{ .Page.Description | markdownify }}</p>
+
+          <p> <em>Page available in <a href="index-simplified.html" target="_blank">html</a> | <a href="index.pdf" target="_blank">pdf</a> | <a href="index.odt" target="_blank">odt</a> formats. </em></p>
+
           {{ partial "docs/content_wordlist.html" . }}
         </section>
         <section class="col col-4">
