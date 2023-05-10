@@ -5,6 +5,14 @@ copyright = "The Inclusive Naming Initiative authors and collaborating organizat
 enableGitInfo = true
 summaryLength = 20
 
+[mediaTypes]
+  [mediaTypes.'text/html']
+    suffixes = ['custom']
+
+[outputFormats]
+  [outputFormats.custom]
+    mediaType = 'text/html'
+
 [markup.highlight]
 style = "paraiso-dark"
 

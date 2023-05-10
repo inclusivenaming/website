@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <header>
+    <div>
+      
+    </div>
+  </header>
+  <div class="container">
+      <section class="">
+        <section class="">
+          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
+          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
+          {{ partial "docs/content_wordlist.html" . }}
+        </section>
+        <section class="">
+          {{ partial "docs/section-wordlist.html" . }}
+          <hr />
+          © 2023 The Inclusive Naming Initiative authors and collaborating organizations
+        </section>
+      </section>
+    </div>
+{{ end }}

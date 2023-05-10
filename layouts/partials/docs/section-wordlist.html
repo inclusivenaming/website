@@ -1,0 +1,77 @@
+
+<nav class="section-nav">
+  <h3>Terms</h3>
+  {{ if .IsSection}}
+  {{ range .RegularPagesRecursive }}
+            
+  <div class="container single">
+    <section class="row">
+      <section class="mb-5">
+
+        <p class="mt-5 mb-5">
+         
+        </p>
+        
+        <h1 class="title">Word List: Tier {{ .Params.tier}}</h1>
+        <section>
+          <h2>Term: {{ .Params.term}}</h2>
+         
+
+          <h3>Definition</h3>
+          <p>{{.Params.definition | markdownify}}</p>
+          
+          <h3>Related Terms</h3>
+          <ul>
+            {{ range .Params.related_terms }}
+            <li>
+            {{ . }}
+            </li>
+            {{ end }}
+          </ul>
+
+          <h3>Usage Context</h3>
+          <p>{{.Params.usage_context | markdownify}}</p>
+
+          <h3>Recommendation</h3>
+          <p>{{.Params.recommendation | markdownify}}</p>
+
+          <h3>Recommended Replacements</h3>
+          <ul>
+            {{ range .Params.recommended_replacements }}
+            <li>
+            {{ . }}
+            </li>
+            {{ end }}
+          </ul>
+
+          <h3>Unsuitable Replacements</h3>
+          <ul>
+            {{ range .Params.unsuitable_replacements }}
+            <li>
+            {{ . }}
+            </li>
+            {{ end }}
+          </ul>
+
+          <h3>Rationale</h3>
+
+          <p>{{.Params.rationale | markdownify}}</p>
+
+          <h3>Term Status</h3>
+
+          <p>{{.Params.status | markdownify}}</p>
+
+          <h3>Supporting Content</h3>
+
+          <p>{{.Params.supporting_content | markdownify}}</p>
+         
+        </section>
+
+        
+
+      </section>
+    </section>
+  </div>
+   {{ end }}
+   {{ end }}
+</nav>

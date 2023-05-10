@@ -1,7 +1,10 @@
 ---
 title: "Tier 1: Replace Immediately"
+layout: wordlist
+type: wordlist
 outputs:
     - html
+    - custom
 ---
 
 Tier 1 terms should be replaced whenever encountered. 
