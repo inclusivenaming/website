@@ -7,6 +7,11 @@
   <div class="container">
       <section class="row">
         <section class="col col-8">
+
+          <p class="mt-5 mb-5">
+            {{ partial "breadcrumb.html" . }}
+          </p>
+
           <h1 class="title">{{ .Page.Title | markdownify }}</h1>
           <p class="subtitle">{{ .Page.Description | markdownify }}</p>
 
