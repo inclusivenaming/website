@@ -31,8 +31,8 @@ traverse()
         if [ "$i" = "index.custom" ]; then
             echo "File: $1/$i"
             #./bin/pandoc -f html -t pdf -s "$1/$i" -o "$1/index.pdf"
-            ./bin/pandoc -f html -t html -s "$1/$i" -o "$1/index-simplified.html"
-            ./bin/pandoc -f html -t odt -s "$1/$i" -o "$1/index.odt"
+            ./bin/pandoc -f html -t html -s "$1/$i" -o "$1/inclusive-naming-word-lists-v1.0.html"
+            ./bin/pandoc -f html -t odt -s "$1/$i" -o "$1/inclusive-naming-word-lists-v1.0.odt"
         fi
     fi
   done
