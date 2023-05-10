@@ -7,8 +7,16 @@
   <div class="container">
       <section class="row">
         <section class="col col-8">
+
+          <p class="mt-5 mb-5">
+            {{ partial "breadcrumb.html" . }}
+          </p>
+
           <h1 class="title">{{ .Page.Title | markdownify }}</h1>
           <p class="subtitle">{{ .Page.Description | markdownify }}</p>
+
+          <p> <em>Page available in <a href="index-simplified.html" target="_blank">html</a> |  <a href="index.odt" target="_blank">odt</a> |  <a href="index.json" target="_blank">json</a>  formats.  PDF and other formats will be added soon.</em></p>
+
           {{ partial "docs/content_wordlist.html" . }}
         </section>
         <section class="col col-4">

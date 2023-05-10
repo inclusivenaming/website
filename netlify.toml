@@ -1,12 +1,12 @@
 [build]
 publish = "public"
-command = "make production-build"
+command = " hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"
 
 [build.environment]
-HUGO_VERSION = "0.75.1"
+HUGO_VERSION = "0.111.3"
 
 [context.deploy-preview]
-command = "make preview-build"
+command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
 
 [context.branch-deploy]
-command = "make preview-build"
+command = "hugo && chmod +x generateDocFormats.sh && ./generateDocFormats.sh public/word-lists"

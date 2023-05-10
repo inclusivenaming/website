@@ -7,6 +7,7 @@ layout: wordlist
 outputs:
     - html
     - json
+    - custom
 ############################
 
 ## YOU CAN CHANGE THE VALUES OF THE FIELDS BELOW ##

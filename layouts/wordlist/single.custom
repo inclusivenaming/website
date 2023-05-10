@@ -1,13 +1,11 @@
 {{ define "main" }}
   <div class="container single">
       <section class="row">
-        <section class="mb-5 col col-lg-9 col-sm-12">
+        <section class="mb-5">
 
           <p class="mt-5 mb-5">
-            {{ partial "breadcrumb.html" . }}
+           
           </p>
-
-          <p> <em>Page available in <a href="index-simplified.html" target="_blank">html</a> |  <a href="index.odt" target="_blank">odt</a> | <a href="index.json" target="_blank">json</a> formats.  PDF and other formats will be added soon.</em></p>
           
           <h1 class="title">Word List: Tier {{ .Params.tier}}</h1>
           <section>
