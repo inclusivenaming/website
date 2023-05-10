@@ -30,9 +30,9 @@ traverse()
     else 
         if [ "$i" == "index.custom" ]; then
             echo "File: $1/$i"
-            pandoc -f html -t pdf -s "$1/$i" -o "$1/index.pdf"
-            pandoc -f html -t html -s "$1/$i" -o "$1/index-simplified.html"
-            pandoc -f html -t odt -s "$1/$i" -o "$1/index.odt"
+            ./pandoc/pandoc-3.1.2/bin/pandoc -f html -t pdf -s "$1/$i" -o "$1/index.pdf"
+            ./pandoc/pandoc-3.1.2/bin/pandoc -f html -t html -s "$1/$i" -o "$1/index-simplified.html"
+            ./pandoc/pandoc-3.1.2/bin/pandoc -f html -t odt -s "$1/$i" -o "$1/index.odt"
         fi
     fi
   done
