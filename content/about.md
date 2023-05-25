@@ -9,7 +9,7 @@ The Inclusive Naming Initiative’s mission is to promote and facilitate replaci
 
 We're looking to bring together a community of information technology organizations and professionals to collaboratively:
 
-* Define **processes** for removing harmful and exclusionary language from software, APIs, standards, and other IT-related materials
+* Define **processes** for removing harmful and exclusionary language from software, APIs, standards, documentation, and other IT-related materials
 * Develop **resources and tools** such as a comprehensive list of harmful terms and suggested replacements, language evaluation frameworks, templates, and guidance and best practice materials
 * Recommend **implementation paths** for different use cases
 * Provide **tooling** to measure implementation success
