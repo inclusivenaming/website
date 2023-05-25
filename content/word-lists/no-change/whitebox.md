@@ -10,7 +10,7 @@ outputs:
 tier: 0
 term: "whitebox"
 related_terms:
-    - black box
+    - blackbox
 definition: |
     From [Wikipedia](https://en.wikipedia.org/wiki/White-box_testing):
 
