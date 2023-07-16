@@ -4,7 +4,7 @@
   {{ if .IsSection}}
   {{ range where .RegularPagesRecursive "Params.ignore" "!=" "true" }}
             <li>
-                <a style="font-size: large;" href="{{.Permalink}}">{{.Params.term}}</a>
+                <a style="font-size: large;" href="{{.Permalink}}">{{ title .Params.term}}</a>
             </li>
    {{ end }}
    {{ end }}
