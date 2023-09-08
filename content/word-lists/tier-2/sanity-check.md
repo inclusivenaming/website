@@ -23,7 +23,7 @@ recommended_replacements:
 unsuitable_replacements:
     - N/A
 rationale: |
-    This term might be derogatory to neurodiverse people. Jargon, such as "sanity test", is difficult to translate and is difficult to understand by readers whose first language is not English.
+    This term might be derogatory to people with mental health issues. Jargon, such as "sanity test", is difficult to translate and is difficult to understand by readers whose first language is not English.
 
     Note: The original recommendation via IBM’s Words Matter group included different recommendations, but INI liked [Twitter’s recommendations][twitter-recs] of "confidence check" and "coherence check" and have opted to use them instead.
 status: | 
