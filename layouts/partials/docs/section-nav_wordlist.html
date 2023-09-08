@@ -2,9 +2,9 @@
 <nav class="section-nav">
   <h3>Terms Glossary</h3>
   {{ if .IsSection}}
-  {{ range .RegularPagesRecursive }}
+  {{ range where .RegularPagesRecursive "Params.ignore" "!=" "true" }}
             <li>
-                <a style="font-size: large;" href="{{.Permalink}}">{{.Params.term}}</a>
+                <a style="font-size: large;" href="{{.Permalink}}">{{ title .Params.term}}</a>
             </li>
    {{ end }}
    {{ end }}

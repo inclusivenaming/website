@@ -9,7 +9,7 @@ outputs:
 
 
 tier: 3
-term: "Segregate"
+term: "segregate"
 related_terms:
     - All Derivatives
     - Segregation
