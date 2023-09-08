@@ -1,12 +1,12 @@
 [build]
 publish = "public"
-command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && apt-get install -y wkhtmltopdf && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
+command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip && unzip context-linux-64.zip && ./context-linux-64/install.sh && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
 
 [build.environment]
 HUGO_VERSION = "0.111.3"
 
 [context.deploy-preview]
-command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && apt-get install -y wkhtmltopdf && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
+command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip && unzip context-linux-64.zip && ./context-linux-64/install.sh && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
 
 [context.branch-deploy]
-command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && apt-get install -y wkhtmltopdf && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
+command = "wget https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-linux-amd64.tar.gz && tar xvzf pandoc-3.1.2-linux-amd64.tar.gz --strip-components 1 && wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip && unzip context-linux-64.zip && ./context-linux-64/install.sh && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"

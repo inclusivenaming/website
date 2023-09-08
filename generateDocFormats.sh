@@ -30,7 +30,7 @@ traverse()
     else 
         if [ "$i" = "index.custom" ]; then
             echo "File: $1/$i"
-            ./bin/pandoc -f html -t pdf --pdf-engine=wkhtmltopdf -s "$1/$i" -o "$1/inclusive-naming-word-lists-v1.0.pdf"
+            ./bin/pandoc -f html -t pdf --pdf-engine=context -s "$1/$i" -o "$1/inclusive-naming-word-lists-v1.0.pdf"
             ./bin/pandoc -f html -t html -s "$1/$i" -o "$1/inclusive-naming-word-lists-v1.0.html"
             ./bin/pandoc -f html -t odt -s "$1/$i" -o "$1/inclusive-naming-word-lists-v1.0.odt"
         fi
