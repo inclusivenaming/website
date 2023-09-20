@@ -161,4 +161,56 @@ No change recommended.
 
 This use of "red" does not refer to Indigenous people and does not reinforce a negative stereotype.
 
+## Throttle
 
+### Term
+throttle
+
+### Definition 
+Merriam-Webster: To limit or reduce (the bandwidth available to users of an electronic communication system, such as the Internet)
+
+### Recommendation
+No change recommended. If the word *throttle* makes someone uncomfortable, choose a plain-language alternative from the Recommended Replacements list.
+
+### Recommended Replacements
+- reduce
+- suppress
+
+### Unsuitable Replacements
+None
+
+### Rationale
+ Associating the word *throttle* with an act of violence doesn’t directly translate with the definition of *throttle* used in the computational or mechanical sense. As long as readers know the context in which the word *throttle* is used in technology, especially in regard to bandwidth or data usage, there is little chance of the term being misinterpreted as an act of physical violence.
+ 
+### Supporting Content
+- https://www.merriam-webster.com/dictionary/throttle
+
+## Trigger
+
+### Term
+trigger
+
+### Definition 
+- Merriam-Webster: something that acts like a mechanical trigger in initiating a process or reaction
+- National Institute of Standards and Technology (NIST): a set of logic statements to be applied to a data stream that produces an alert when an anomalous incident or behavior occurs
+- NIST: an event that causes the system to initiate a response. Also known as a triggering event.
+
+### Recommendation
+No change recommended. If the word *trigger* makes someone uncomfortable, choose a plain-language alternative from the Recommended Replacements list.
+
+### Recommended Replacements
+- generate
+- create
+- prompt
+- set off
+
+### Unsuitable Replacements
+None
+
+### Rationale
+Sociopolitical associations of the word *trigger*, especially in the phrase *trigger warning*, don't directly translate with the definition of *trigger* used in the computational or mechanical sense. As long as readers know the context in which the word *trigger* is used in technology, especially in regard to alerts and responses, there is little chance of a technical reference being misinterpreted with a weapon or trauma recovery. 
+ 
+### Supporting Content
+- https://www.merriam-webster.com/dictionary/trigger 
+- https://csrc.nist.gov/glossary/term/trigger
+- https://ncdj.org/style-guide/#T
