@@ -9,7 +9,7 @@ outputs:
 
 
 tier: 1
-term: "Tribe"
+term: "tribe"
 related_terms:
     - N/A
 definition: "N/A"

@@ -8,7 +8,7 @@ outputs:
     - custom
 
 tier: 0
-term: "Blackout"
+term: "blackout"
 related_terms:
     - None
 definition: "N/A"
