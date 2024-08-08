@@ -5,10 +5,11 @@ layout: wordlist
 outputs:
     - html
     - json
+    - custom
 
 
 tier: 3
-term: "Segregate"
+term: "segregate"
 related_terms:
     - All Derivatives
     - Segregation

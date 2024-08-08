@@ -5,6 +5,7 @@ layout: wordlist
 outputs:
     - html
     - json
+    - custom
 ---
 
 # Language recommendation lists
@@ -12,9 +13,6 @@ outputs:
 The Inclusive Naming Initiative produces three tiers of language recommendation. These are compiled into lists for easy consumption by adopters. Terms are separated into lists based on the severity of the term in question as well as the level of review the terms have received.
 
 To add new terms to the lists, review the [Wordlist template](/word-lists/template/) page.
-
-
-
 
 
 ## [Tier 1: Replace Immediately](/word-lists/tier-1/)
@@ -67,3 +65,4 @@ The complete wordlist can be accessed in a single [JSON file](/word-lists/index.
         ]
 }
 ```
+

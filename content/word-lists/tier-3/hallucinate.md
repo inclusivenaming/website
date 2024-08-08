@@ -17,27 +17,28 @@ outputs:
 
 ## Rationale, Status & Supporting Content allows multiline content, you can also use markdown format. Please make use the | symbol is not deleted.
 
-title: "Man in the Middle attack"
+title: "Hallucinate"
 
 tier: 3
-term: "man-in-the-middle"
+term: "hallucinate"
 related_terms:
     - None
-definition: "N/A"
 use_context: "N/A"
-recommendation: "Consider replacement"
+definition: "An artificial intelligence (AI) application generates information that has no basis in fact."
+
+recommendation: "Recommended to replace when possible."
 
 recommended_replacements:
-    - Adversary-in-the-middle attack
-    - Interceptor attack
-    - Intermediary attack
+    - "inaccurate information (noun)"
+    - "*create* or *generate* inaccurate information (verb)"
 
 
 unsuitable_replacements:
     - None
 
 rationale: |
-    When an attacker secretly intercepts and relays communications between two systems or people who believe that they are communicating directly with each other. Gendered language that can perpetuate bias and stereotypes. Implies that women do not have the skills to perpetrate this type of hacking.
+    Hallucinations -- perceptions that are not based in reality -- are often associated with mental illness or drug use. Using the term in a technology context, in either its noun or verb form, can be seen as insensitive to people who experience those conditions.
+
 status: | 
     N/A
 supporting_content: | 

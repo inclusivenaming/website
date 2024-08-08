@@ -7,6 +7,7 @@ layout: wordlist
 outputs:
     - html
     - json
+    - custom
 ############################
 
 ## YOU CAN CHANGE THE VALUES OF THE FIELDS BELOW ##
@@ -28,11 +29,10 @@ use_context: "N/A"
 recommendation: "Adopt immediately."
 
 recommended_replacements:
-    - Impact
+    - Impacted
     - Degraded
-    - Restrict
-    - Immobilize
-    - Examples of replacement
+    - Restricted
+    - Immobilized
 
 unsuitable_replacements:
     - None
@@ -53,8 +53,8 @@ rationale: |
     - Crippled functionality
         - Restricted
     - Security issues cripple an organization
-        - Impact
-        - Immobilize
+        - Impacted
+        - Immobilized
     - Crippleware
         - Software with restricted functionality
 status: | 
