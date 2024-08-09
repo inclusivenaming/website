@@ -1,5 +1,7 @@
 ---
 title: "Implementation Path"
+aliases:
+- /language/implementation-path/
 ---
 
 ## Implementation path

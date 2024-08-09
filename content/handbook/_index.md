@@ -8,7 +8,5 @@ The INI Handbook is the public resource of the Inclusive Naming Initiative, maki
 
 ## Table of Content
 
-- [How the initiative works](/handbook/how-ini-works/)
-- [Language Evaluation Framework](/handbook/evaluation-framework/)
-- [Implementation Path](/handbook/implementation-path/)
-- [Contributor Guide](/handbook/contributor-guide/)
+- [Language Evaluation Framework](/handbook/evaluation-framework)
+- [Implementation Path](/handbook/implementation-path)
