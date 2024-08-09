@@ -61,3 +61,6 @@ Maintainers are familiar with GitHub and have technical knowledge to contribute 
 - Advise and provide support as available to the initiative.
 - Time commitment is 1-2 hours per week
 - A contributor can be a reviewer and a maintainer.
+
+
+You can sign up to be a collaborator using our [Call for Participation](https://forms.gle/wkaqTmhvSwgPn69t7) form.
