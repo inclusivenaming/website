@@ -1,5 +1,7 @@
 ---
 title: "Language evaluation principles and framework"
+aliases:
+- /language/evaluation-framework/
 ---
 
 

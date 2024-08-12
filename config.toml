@@ -165,22 +165,10 @@ parent = "lists"
 weight = 6
 
 [[menu.main]]
-name = "Resources"
-url = "#"
+name = "Handbook"
+url = "/handbook"
 identifier = "lang"
 weight = 6
-
-[[menu.main]]
-name ="Language evaluation framework"
-url = "/language/evaluation-framework"
-parent = "lang"
-weight = 2
-
-[[menu.main]]
-name = "Implementation path"
-url = "/language/implementation-path"
-parent = "lang"
-weight = 3
 
 [[menu.main]]
 name = "Related projects"
