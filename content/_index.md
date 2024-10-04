@@ -5,7 +5,6 @@ layout: wordlist
 
 {{< jumbotron title="Get involved" bgcolor="#2478D3" textcolor="#FFFFFF" align="text-center" >}}
 
-Join the mailing list to get invites to meetings. 
 
 {{< cta >}}
 
