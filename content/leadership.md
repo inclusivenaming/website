@@ -1,5 +1,0 @@
----
-title: "Project Leadership"
----
-
-{{< leadership >}}

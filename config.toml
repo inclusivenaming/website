@@ -81,12 +81,6 @@ parent = "about"
 weight = 1
 
 [[menu.main]]
-name = "Project leadership"
-url = "/leadership"
-parent = "about"
-weight = 2
-
-[[menu.main]]
 name = "Get involved"
 url = "#"
 weight = 3
@@ -102,12 +96,6 @@ weight = 1
 name = "Sponsor"
 url = "/sponsor"
 parent="getinvolved"
-weight = 2
-
-[[menu.main]]
-name = "Workstreams"
-url = "/workstreams"
-parent = "getinvolved"
 weight = 2
 
 [[menu.main]]
