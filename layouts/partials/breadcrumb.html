@@ -1,24 +1,29 @@
-<p style="vertical-align: middle" id="breadcrumbs">
-    <a href="/">Home</a> 
-    {{- $.Scratch.Set "url" "" -}}
-    {{- range (split .RelPermalink "/") -}}
-        {{- if (gt (len .) 0) -}}    
-            {{- $.Scratch.Set "isPage" "false" -}}
-            {{- $.Scratch.Add "url" (print "/" . ) -}}
-            {{- if $.Site.GetPage (print . ".md") -}}
-                {{- with $.Site.GetPage (print . ".md") -}}
-                    {{- if .IsPage -}}
-                        {{- $.Scratch.Set "isPage" "true" -}}
-                    {{- end -}}
-                {{- end -}}
-            {{- end -}}
-            {{- if eq ($.Scratch.Get "isPage") "true" -}}
-                {{- with $.Site.GetPage (print . ".md") -}}
-                  &nbsp;&nbsp; > <a href="{{ $.Scratch.Get `url` }}">{{ .Title }}</a>
-                {{- end -}}
-            {{- else -}}
-               &nbsp;&nbsp; > <a href="{{ $.Scratch.Get `url` }}">{{ humanize . }}</a>
-            {{- end -}}
-        {{- end -}}
-    {{- end -}}
-</p>
+<nav class="text-sm mb-6" aria-label="Breadcrumb">
+  <ol class="flex flex-wrap items-center space-x-2">
+    <li>
+      <a href="/" class="text-gray-500 hover:text-purple">Home</a>
+    </li>
+    {{ $url := .RelPermalink }}
+    {{ $.Scratch.Set "path" "" }}
+    {{ range $index, $element := split (trim $url "/") "/" }}
+      {{ if ne $element "" }}
+        <li class="flex items-center">
+          <svg class="h-4 w-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+          </svg>
+          {{ $.Scratch.Add "path" (printf "/%s" $element) }}
+          {{ $currentPath := $.Scratch.Get "path" }}
+          {{ $title := $element | humanize }}
+          {{ range $.Site.Pages }}
+            {{ if eq .RelPermalink $currentPath }}
+              {{ $title = .Title }}
+            {{ end }}
+          {{ end }}
+          <a href="{{ $currentPath }}" class="{{ if eq $.RelPermalink $currentPath }}text-purple font-medium{{ else }}text-gray-500 hover:text-purple{{ end }}">
+            {{ $title }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ol>
+</nav>

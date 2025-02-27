@@ -2,8 +2,6 @@
 title: "Participate"
 ---
 
-## Participate!
-
 There are a number of ways you can participate in the INI community.
 
 ### General Community

@@ -1,6 +1,22 @@
-{{ with .Content }}
+<div class="container mx-auto px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    {{ with .Content }}
       {{ . }}
-{{ end }}
+    {{ end }}
+    
+    {{ if .Sections }}
+      <div class="mt-8">
+        {{ range .Sections }}
+          <div class="mb-4">
+            <a href="{{ .RelPermalink }}" class="text-xl font-semibold text-purple hover:text-purple-dark">
+              {{ .Title }}
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+</div>
 
 {{ if .IsSection}}
 {{ range .RegularPagesRecursive }}

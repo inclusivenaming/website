@@ -1,21 +1,25 @@
 {{ define "main" }}
-  <header>
-    <div>
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl font-bold mb-4">{{ .Page.Title | markdownify }}</h1>
+      {{ with .Page.Description }}
+        <p class="text-lg text-gray-600 mb-6">{{ . | markdownify }}</p>
+      {{ end }}
       
+      <div class="content-wrapper mb-8">
+        {{ partial "docs/content_wordlist.html" . }}
+      </div>
+      
+      <div class="mt-8">
+        <div class="bg-white rounded-lg shadow-sm p-6">
+          <h3 class="text-xl font-bold mb-4 pb-2 border-b border-gray-200">Word Lists</h3>
+          {{ partial "docs/section-nav_wordlist.html" . }}
+        </div>
+      </div>
+      
+      <div class="mt-8 text-center text-sm text-gray-600">
+        © 2023 The Inclusive Naming Initiative authors and collaborating organizations
+      </div>
     </div>
-  </header>
-  <div class="container">
-      <section class="">
-        <section class="">
-          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
-          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
-          {{ partial "docs/content_wordlist.html" . }}
-        </section>
-        <section class="">
-          {{ partial "docs/section-wordlist.html" . }}
-          <hr />
-          © 2023 The Inclusive Naming Initiative authors and collaborating organizations
-        </section>
-      </section>
-    </div>
+  </div>
 {{ end }}

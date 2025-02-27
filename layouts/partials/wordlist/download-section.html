@@ -1,0 +1,21 @@
+<div class="bg-white rounded-lg shadow-sm p-6 mb-8 sticky top-24">
+  <h4 class="text-xl font-bold mb-4 pb-2 border-b border-gray-200">Download Word Lists</h4>
+  
+  <div class="flex flex-wrap gap-2 mb-6">
+    <a href="inclusive-naming-word-lists-v1.0.html" target="_blank" class="inline-flex items-center justify-center bg-purple hover:bg-purple-dark text-white font-medium py-1.5 px-3 rounded text-sm transition-colors">
+      HTML
+    </a>
+    <a href="inclusive-naming-word-lists-v1.0.odt" target="_blank" class="inline-flex items-center justify-center bg-purple hover:bg-purple-dark text-white font-medium py-1.5 px-3 rounded text-sm transition-colors">
+      OpenDocument
+    </a>
+    <a href="index.json" target="_blank" class="inline-flex items-center justify-center bg-purple hover:bg-purple-dark text-white font-medium py-1.5 px-3 rounded text-sm transition-colors">
+      JSON
+    </a>
+    {{ if eq .Layout "section" }}
+      <a href="inclusive-naming-word-lists-v1.0.pdf" target="_blank" class="inline-flex items-center justify-center bg-purple hover:bg-purple-dark text-white font-medium py-1.5 px-3 rounded text-sm transition-colors">
+        PDF
+      </a>
+    {{ end }}
+  </div>
+  
+</div> 

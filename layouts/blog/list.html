@@ -3,6 +3,48 @@
 {{ end }}
 
 {{ define "main" }}
-{{ partial "blog/hero.html" . }}
-{{ partial "blog/post-list.html" . }}
+<div class="container mx-auto px-4 py-12">
+  <div class="max-w-6xl mx-auto">
+    <h1 class="text-4xl font-bold mb-10 text-center">{{ .Title }}</h1>
+    
+    {{ if .Content }}
+      <div class="prose max-w-3xl mx-auto mb-12">
+        {{ .Content }}
+      </div>
+    {{ end }}
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {{ range .Pages }}
+        <article class="card h-full flex flex-col border border-gray-200 rounded-lg overflow-hidden">
+          <div class="p-6 flex flex-col flex-grow">
+            <h2 class="text-xl font-bold mb-3">
+              <a href="{{ .RelPermalink }}" class="text-gray-900 hover:text-purple">
+                {{ .Title }}
+              </a>
+            </h2>
+            
+            <div class="flex items-center text-sm text-gray-600 mb-4">
+              {{ if .Params.author }}
+                <span class="text-purple font-medium">{{ .Params.author }}</span>
+              {{ end }}
+              {{ if .Date }}
+                <time class="ml-2 text-gray-500">{{ .Date.Format "Jan 2, 2006" }}</time>
+              {{ end }}
+            </div>
+            
+            <div class="prose prose-sm text-gray-600 mb-6 flex-grow">
+              <p class="line-clamp-3">{{ .Summary }}</p>
+            </div>
+            
+            <div class="mt-auto text-right">
+              <a href="{{ .RelPermalink }}" class="btn btn-xs btn-purple">
+                Continue reading
+              </a>
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</div>
 {{ end }}

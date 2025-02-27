@@ -1,11 +1,21 @@
 {{ define "main" }}
-  <div class="container single">
-      <section class="row">
-        <section class="mb-5 col col-lg-9 col-sm-12">
-          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
-          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
-          {{ partial "docs/content.html" . }}
-        </section>
-      </section>
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <article class="bg-white rounded-lg shadow-sm p-8">
+        <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+        
+        {{ if .Params.description }}
+          <p class="text-xl text-gray-600 mb-8">{{ .Params.description }}</p>
+        {{ end }}
+        
+        <div class="prose prose-purple max-w-none">
+          {{ .Content }}
+        </div>
+      </article>
     </div>
+  </div>
 {{ end }}

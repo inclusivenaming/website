@@ -5,28 +5,83 @@
 {{ $menu   := site.Menus.main }}
 {{ $social := site.Params.social }}
 
-<div class="navbar navbar-expand-lg navbar-light sticky-top" role="navigation" aria-label="main navigation" id="top-nav">
-  <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{ $home }}">
+<nav class="sticky top-0 z-50 bg-[#5a0fc8] shadow-md" role="navigation" aria-label="main navigation">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+      <a class="flex items-center" href="{{ $home }}">
         {{ if $logo }}
         {{ $url := printf "img/logos/%s" $logo | relURL }}
-          <img src="{{ $url }}" width="200">
+          <img src="{{ $url }}" alt="{{ $title }}" class="h-10 mr-2">
         {{ else }}
-        {{ $title }}
+          <span class="text-white text-xl font-bold">{{ $title }}</span>
         {{ end }}
       </a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="main-nav">
-      {{ partial "menu-loop.html" . }}
       
-      <!-- {{ with $social }}
-        {{ partial "social-buttons.html" . }}
-      {{ end }} -->
-    </div>  
-  </div> 
-</div>
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button type="button" class="text-white hover:text-gray-200 focus:outline-none focus:text-gray-200" id="mobile-menu-button">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Desktop menu -->
+      <div class="hidden md:flex md:items-center">
+        <div class="flex space-x-4">
+          {{ range site.Menus.main }}
+            {{ $isHere := eq .URL $here }}
+            {{ if .HasChildren }}
+              <div class="dropdown-wrapper relative group">
+                <button class="text-white hover:text-gray-200 px-3 py-2 inline-flex items-center">
+                  {{ .Name }}
+                  <svg class="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                  </svg>
+                </button>
+                <div class="dropdown-menu absolute left-0 mt-0 pt-2 w-48 hidden group-hover:block">
+                  <div class="bg-white rounded-md shadow-lg py-1 z-10">
+                    {{ range .Children }}
+                      <a href="{{ .URL }}" {{ if eq .Post "external" }} target="_blank" {{ end }}
+                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                        {{ .Name }}
+                      </a>
+                    {{ end }}
+                  </div>
+                </div>
+              </div>
+            {{ else }}
+              <a href="{{ .URL }}" {{ if eq .Post "external" }} target="_blank" {{ end }}
+                class="text-white hover:text-gray-200 px-3 py-2 {{ if $isHere }} font-bold {{ end }}">
+                {{ .Name }}
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mobile menu, show/hide based on menu state -->
+    <div class="md:hidden hidden" id="mobile-menu">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        {{ range site.Menus.main }}
+          {{ $isHere := eq .URL $here }}
+          <a href="{{ .URL }}" {{ if eq .Post "external" }} target="_blank" {{ end }}
+            class="block px-3 py-2 rounded-md text-white {{ if $isHere }} font-bold {{ else }} hover:bg-purple-dark {{ end }}">
+            {{ .Name }}
+          </a>
+          
+          {{ if .HasChildren }}
+            {{ range .Children }}
+              <a href="{{ .URL }}" {{ if eq .Post "external" }} target="_blank" {{ end }}
+                class="block px-3 py-2 rounded-md text-white pl-6 hover:bg-purple-dark">
+                {{ .Name }}
+              </a>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</nav>
+

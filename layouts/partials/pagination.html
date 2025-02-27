@@ -1,0 +1,51 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<nav class="flex justify-center">
+  <ul class="flex space-x-1">
+    <!-- First page -->
+    {{ if $pag.HasPrev }}
+    <li>
+      <a href="{{ $pag.First.URL }}" class="px-3 py-2 bg-white rounded border border-gray-300 text-purple hover:bg-gray-50">
+        «
+      </a>
+    </li>
+    {{ end }}
+    
+    <!-- Previous page -->
+    {{ if $pag.HasPrev }}
+    <li>
+      <a href="{{ $pag.Prev.URL }}" class="px-3 py-2 bg-white rounded border border-gray-300 text-purple hover:bg-gray-50">
+        ‹
+      </a>
+    </li>
+    {{ end }}
+    
+    <!-- Page numbers -->
+    {{ range $pag.Pagers }}
+    <li>
+      <a href="{{ .URL }}" class="px-3 py-2 rounded border {{ if eq . $pag }}bg-purple text-white border-purple{{ else }}bg-white text-purple border-gray-300 hover:bg-gray-50{{ end }}">
+        {{ .PageNumber }}
+      </a>
+    </li>
+    {{ end }}
+    
+    <!-- Next page -->
+    {{ if $pag.HasNext }}
+    <li>
+      <a href="{{ $pag.Next.URL }}" class="px-3 py-2 bg-white rounded border border-gray-300 text-purple hover:bg-gray-50">
+        ›
+      </a>
+    </li>
+    {{ end }}
+    
+    <!-- Last page -->
+    {{ if $pag.HasNext }}
+    <li>
+      <a href="{{ $pag.Last.URL }}" class="px-3 py-2 bg-white rounded border border-gray-300 text-purple hover:bg-gray-50">
+        »
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }} 

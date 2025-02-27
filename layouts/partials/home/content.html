@@ -1,3 +1,9 @@
-{{ with .Content }}
-      {{ . }}
-{{ end }}
+<div class="container mx-auto px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    {{ with .Content }}
+      <div class="prose prose-lg max-w-none">
+        {{ . }}
+      </div>
+    {{ end }}
+  </div>
+</div>

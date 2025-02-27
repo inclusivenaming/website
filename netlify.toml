@@ -1,12 +1,18 @@
 [build]
 publish = "public"
-command = "wget https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-linux-amd64.tar.gz && tar xvzf pandoc-3.4-linux-amd64.tar.gz --strip-components 1 && wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip && unzip context-linux-64.zip && chmod +x install.sh && ./install.sh && export PATH=/opt/build/repo/tex/texmf-linux-64/bin:$PATH && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
+command = "hugo"
 
 [build.environment]
-HUGO_VERSION = "0.111.3"
+HUGO_VERSION = "0.145.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+NODE_VERSION = "16.14.0"
 
 [context.deploy-preview]
-command = "wget https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-linux-amd64.tar.gz && tar xvzf pandoc-3.4-linux-amd64.tar.gz --strip-components 1 && wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip && unzip context-linux-64.zip && chmod +x install.sh && ./install.sh && export PATH=/opt/build/repo/tex/texmf-linux-64/bin:$PATH && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
+command = "hugo"
 
 [context.branch-deploy]
-command = "wget https://github.com/jgm/pandoc/releases/download/3.4/pandoc-3.4-linux-amd64.tar.gz && tar xvzf pandoc-3.4-linux-amd64.tar.gz --strip-components 1 && wget https://lmtx.pragma-ade.com/install-lmtx/context-linux-64.zip && unzip context-linux-64.zip && chmod +x install.sh && ./install.sh && export PATH=/opt/build/repo/tex/texmf-linux-64/bin:$PATH && hugo && chmod +x generateDocFormats.sh && ls -al && ./generateDocFormats.sh public/word-lists"
+command = "hugo"
+
+[context.production.environment]
+HUGO_ENV = "production"

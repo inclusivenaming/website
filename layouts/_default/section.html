@@ -1,26 +1,32 @@
 {{ define "main" }}
-  <header>
-    <div>
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <header class="mb-8">
+        <h1 class="text-3xl font-bold">{{ .Title }}</h1>
+        {{ with .Description }}
+          <div class="mt-2 text-lg text-gray-600">{{ . }}</div>
+        {{ end }}
+      </header>
       
-    </div>
-  </header>
-  <div class="container">
-      <section class="row">
-        <section class="col col-8">
-          <p class="mt-5 mb-5">
-            {{ partial "breadcrumb.html" . }}
-          </p>
-          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
-          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
-          {{ partial "docs/content.html" . }}
-
-        </section>
-        <section class="col col-4">
-          {{ partial "section-nav.html" . }}
-          <hr />
-        </section>
-      </section>
-
+      <div class="content-wrapper">
+        {{ .Content }}
+      </div>
       
+      {{ $pages := .Pages }}
+      {{ if $pages }}
+        <div class="mt-8">
+          {{ range $pages }}
+            <div class="mb-4">
+              <a href="{{ .RelPermalink }}" class="text-xl font-semibold text-purple hover:text-purple-dark">
+                {{ .Title }}
+              </a>
+              {{ with .Description }}
+                <div class="mt-1 text-gray-600">{{ . }}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
     </div>
+  </div>
 {{ end }}

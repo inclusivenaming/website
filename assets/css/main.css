@@ -1,0 +1,450 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca:400,600,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+@layer base {
+  body {
+    @apply font-sans text-gray-800 leading-relaxed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold text-gray-900;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
+  
+  h1 {
+    @apply text-4xl;
+    margin-top: 0;
+  }
+  
+  h2 {
+    @apply text-3xl;
+  }
+  
+  h3 {
+    @apply text-2xl;
+  }
+  
+  h4 {
+    @apply text-xl;
+  }
+  
+  a {
+    @apply text-purple transition-colors duration-200;
+  }
+  
+  a:hover {
+    @apply text-purple-dark;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-200;
+    color: inherit;
+  }
+  
+  .btn:hover {
+    transform: translateY(-1px);
+  }
+  
+  .btn-white {
+    @apply bg-white text-purple hover:bg-gray-50 hover:shadow-lg;
+  }
+  
+  .btn-outline-white {
+    @apply border-2 border-white text-white hover:bg-white/10;
+  }
+  
+  .btn-purple {
+    @apply bg-purple text-white hover:bg-purple-dark transition-colors px-6 py-3 rounded-lg;
+    color: white !important;
+  }
+  
+  .btn-outline-purple {
+    @apply border-2 border-purple text-purple hover:bg-purple/5 transition-colors px-6 py-3 rounded-lg;
+    color: #5a0fc8 !important;
+  }
+  
+  .btn-sm {
+    @apply px-4 py-2 text-sm;
+  }
+  
+  .btn-xs {
+    @apply px-3 py-1 text-xs;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300;
+  }
+  
+  .card:hover {
+    @apply shadow-lg -translate-y-1;
+  }
+  
+  .navbar-link {
+    @apply text-white hover:text-gray-200 px-3 py-2;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold mb-6 relative;
+  }
+  
+  .section-title::before {
+    content: "";
+    @apply block w-20 h-2 bg-purple absolute -top-3;
+  }
+  
+  .content-container {
+    @apply container mx-auto px-4 py-8 max-w-4xl;
+  }
+  
+  .content-area {
+    @apply prose prose-lg max-w-none;
+  }
+  
+  .content-area h1 {
+    @apply text-3xl font-bold mb-6;
+  }
+  
+  .content-area h2 {
+    @apply text-2xl font-bold mt-8 mb-4;
+  }
+  
+  .content-area h3 {
+    @apply text-xl font-bold mt-6 mb-3;
+  }
+  
+  .content-area p {
+    @apply mb-4;
+  }
+  
+  .content-area ul, .content-area ol {
+    @apply mb-4 pl-5;
+  }
+  
+  .content-area li {
+    @apply mb-2;
+  }
+  
+  .content-area a {
+    @apply text-purple hover:text-purple-dark;
+  }
+}
+
+/* Custom animations - update to ensure headers are always visible */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure headers are always visible */
+h1, h2, h3, h4, h5, h6 {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Hero section */
+#hero {
+  background-image: url('/img/layout/hero-bg-compressed.jpg');
+  background-size: cover;
+}
+
+/* Make sure content areas properly style headers */
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply font-heading font-semibold text-gray-900;
+}
+
+/* Add this to your CSS */
+.content-wrapper {
+  @apply prose prose-lg max-w-none;
+}
+
+.content-wrapper h1 {
+  @apply text-4xl font-bold text-gray-900 mb-6 mt-8;
+}
+
+.content-wrapper h2 {
+  @apply text-3xl font-bold text-gray-900 mb-4 mt-8;
+}
+
+.content-wrapper h3 {
+  @apply text-2xl font-bold text-gray-900 mb-3 mt-6;
+}
+
+.content-wrapper h4 {
+  @apply text-xl font-bold text-gray-900 mb-2 mt-4;
+}
+
+/* Dropdown menu styles */
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-menu {
+  top: 100%;
+  z-index: 50;
+}
+
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: transparent;
+}
+
+/* Add this to your CSS file */
+.bg-purple {
+  background-color: #5a0fc8;
+}
+
+.hover\:bg-purple-dark:hover {
+  background-color: #4c0ca8;
+}
+
+.text-purple {
+  color: #5a0fc8;
+}
+
+.hover\:text-purple-dark:hover {
+  color: #4c0ca8;
+}
+
+/* Ensure text is visible on buttons */
+.bg-purple, .hover\:bg-purple-dark:hover {
+  color: white;
+}
+
+/* Add transition for smoother hover effects */
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Blog-specific styles */
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: #333;
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  line-height: 1.2;
+}
+
+.prose h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+.prose h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+}
+
+.prose p {
+  margin-bottom: 1.5em;
+  line-height: 1.7;
+}
+
+.prose img {
+  border-radius: 0.375rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.prose a {
+  color: #5a0fc8;
+  text-decoration: none;
+  border-bottom: 1px solid #5a0fc8;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.prose a:hover {
+  color: #4c0ca8;
+  border-color: #4c0ca8;
+}
+
+.prose blockquote {
+  border-left: 4px solid #5a0fc8;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #4a5568;
+  margin: 1.5rem 0;
+}
+
+.prose ul, .prose ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose pre {
+  background-color: #f7fafc;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.prose code {
+  background-color: #f7fafc;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.prose table th {
+  background-color: #f7fafc;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.prose table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.prose table tr:hover {
+  background-color: #f7fafc;
+}
+
+/* Add these new styles */
+
+/* Gradient animation */
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 15s ease infinite;
+}
+
+/* Hover animations */
+.hover-lift {
+  transition: transform 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Card animations */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced typography */
+.text-gradient {
+  background: linear-gradient(to right, #5a0fc8, #3182ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Button animations */
+.button-hover {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-hover::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+
+.button-hover:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Section transitions */
+.section-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.section-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Add these new animations */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+} 

@@ -5,9 +5,6 @@ slug: inclusive-language-inititives-lll
 author: Oshrat Nir, Mark Miller
 ---
 
-
-# Moving the needle on inclusive language, with Mark Miller of Lawrence Livermore National Lab.
-
 Welcome back to our series **Moving the Needle on inclusive language**. In this series, we talk to leaders in the cloud native space as they share the inclusive naming
 initiatives they care about. This will include tools, activities, and results they have discovered along the way.
 

@@ -3,7 +3,6 @@ title: "Welcome to the Inclusive Naming Project"
 date: 2021-04-13
 slug: welcome-post
 ---
-
 **A Short History**
 
 The Inclusive Naming Initiative was born out of the efforts by the Kubernetes community to address non inclusive language, which coalesced with the Black Lives Matter movement that rose to prominence last year. 

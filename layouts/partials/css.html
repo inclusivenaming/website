@@ -1,14 +1,15 @@
-{{- $inServerMode := site.IsServer }}
-{{- $includePaths := (slice "node_modules") }}
-{{- $sass         := "sass/custom.sass" }}
-{{- $cssOutput    := "css/style.css" }}
-{{- $devOpts      := (dict "targetPath" $cssOutput "includePaths" $includePaths "enableSourceMap" true) }}
-{{- $prodOpts     := (dict "targetPath" $cssOutput "includePaths" $includePaths "outputStyle" "compressed") }}
-{{- $cssOpts      := cond $inServerMode $devOpts $prodOpts }}
-{{- $css          := resources.Get $sass | resources.ExecuteAsTemplate "blah.sass" . | toCSS $cssOpts }}
-{{- if $inServerMode }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
-{{- else }}
-{{- $prodCss      := $css | fingerprint }}
-<link rel="stylesheet" href="{{ $prodCss.RelPermalink }}" integrity="{{ $prodCss.Data.Integrity }}">
-{{- end }}
+{{ $css := resources.Get "css/main.css" }}
+{{ $style := $css | css.PostCSS }}
+
+{{ if hugo.IsProduction }}
+  {{ $style = $style | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ else }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
+
+<!-- Fallback to Tailwind CDN in case local CSS is missing -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ .Site.Params.font_awesome_version | default "5.15.4" }}/css/all.min.css">
