@@ -1,12 +1,12 @@
 [build]
 publish = "public"
-command = ""
+command = "hugo"
 
 [build.environment]
 HUGO_VERSION = "0.111.3"
 
 [context.deploy-preview]
-command = ""
+command = "hugo"
 
 [context.branch-deploy]
-command = ""
+command = "hugo"
