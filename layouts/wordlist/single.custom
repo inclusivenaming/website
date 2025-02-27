@@ -1,70 +1,91 @@
 {{ define "main" }}
-  <div class="container single">
-      <section class="row">
-        <section class="mb-5">
-
-          <p class="mt-5 mb-5">
-           
-          </p>
-          
-          <h1 class="title">Word List: Tier {{ .Params.tier}}</h1>
-          <section>
-            <h2>Term: {{ .Params.term}}</h2>
-           
-
-            <h3>Definition</h3>
-            <p>{{.Params.definition | markdownify}}</p>
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-white rounded-lg shadow-sm p-8">
+        <header class="mb-8">
+          <h1 class="text-3xl font-bold mb-2">Word List: Tier {{ .Params.tier }}</h1>
+          <h2 class="text-2xl font-bold mt-6 mb-4">Term: {{ .Params.term }}</h2>
+        </header>
+        
+        <div class="content-wrapper">
+          <div class="mt-8 space-y-6">
+            {{ with .Params.definition }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Definition</h3>
+                <p>{{ . | markdownify }}</p>
+              </div>
+            {{ end }}
             
-            <h3>Related Terms</h3>
-            <ul>
-              {{ range .Params.related_terms }}
-              <li>
-              {{ . }}
-              </li>
-              {{ end }}
-            </ul>
-
-            <h3>Usage Context</h3>
-            <p>{{.Params.usage_context | markdownify}}</p>
-
-            <h3>Recommendation</h3>
-            <p>{{.Params.recommendation | markdownify}}</p>
-
-            <h3>Recommended Replacements</h3>
-            <ul>
-              {{ range .Params.recommended_replacements }}
-              <li>
-              {{ . }}
-              </li>
-              {{ end }}
-            </ul>
-
-            <h3>Unsuitable Replacements</h3>
-            <ul>
-              {{ range .Params.unsuitable_replacements }}
-              <li>
-              {{ . }}
-              </li>
-              {{ end }}
-            </ul>
-
-            <h3>Rationale</h3>
-
-            <p>{{.Params.rationale | markdownify}}</p>
-
-            <h3>Term Status</h3>
-
-            <p>{{.Params.status | markdownify}}</p>
-
-            <h3>Supporting Content</h3>
-
-            <p>{{.Params.supporting_content | markdownify}}</p>
-           
-          </section>
-
-          
-
-        </section>
-      </section>
+            {{ with .Params.related_terms }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Related Terms</h3>
+                <ul class="list-disc pl-5 space-y-1">
+                  {{ range . }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.usage_context }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Usage Context</h3>
+                <p>{{ . | markdownify }}</p>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.recommendation }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Recommendation</h3>
+                <p>{{ . | markdownify }}</p>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.recommended_replacements }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Recommended Replacements</h3>
+                <ul class="list-disc pl-5 space-y-1">
+                  {{ range . }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.unsuitable_replacements }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Unsuitable Replacements</h3>
+                <ul class="list-disc pl-5 space-y-1">
+                  {{ range . }}
+                    <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.rationale }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Rationale</h3>
+                <p>{{ . | markdownify }}</p>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.status }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Term Status</h3>
+                <p>{{ . | markdownify }}</p>
+              </div>
+            {{ end }}
+            
+            {{ with .Params.supporting_content }}
+              <div>
+                <h3 class="text-xl font-bold mb-2">Supporting Content</h3>
+                <p>{{ . | markdownify }}</p>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 {{ end }}

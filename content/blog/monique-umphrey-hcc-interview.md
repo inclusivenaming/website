@@ -4,8 +4,6 @@ date: 2021-08-25
 slug: inclusive-language-inititives-hcc
 author: Oshrat Nir, Shahed Alqadi
 ---
-
-# Moving the needle on inclusive language, with Dr. Monique Umphrey from Houston Community College
  
 Welcome back to our series **Moving the needle on inclusive language**. In this series, we talk to leaders in the cloud-native space as they share the inclusive naming
 initiatives they care about. This will include tools, activities, and results they have discovered along the way.

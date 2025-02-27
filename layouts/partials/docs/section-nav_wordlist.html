@@ -1,11 +1,32 @@
-
-<nav class="section-nav">
-  <h3>Terms Glossary</h3>
-  {{ if .IsSection}}
-  {{ range where .RegularPagesRecursive "Params.ignore" "!=" "true" }}
-            <li>
-                <a style="font-size: large;" href="{{.Permalink}}">{{ title .Params.term}}</a>
-            </li>
-   {{ end }}
-   {{ end }}
+<nav class="space-y-1">
+  <a href="/word-lists/" class="block py-2 px-3 rounded-md {{ if eq .RelPermalink "/word-lists/" }}bg-purple-100 text-purple-800 font-medium{{ else }}text-gray-700 hover:bg-gray-100{{ end }}">
+    Word Lists Overview
+  </a>
+  
+  <a href="/word-lists/tier-1/" class="block py-2 px-3 rounded-md {{ if in .RelPermalink "/word-lists/tier-1/" }}bg-purple-100 text-purple-800 font-medium{{ else }}text-gray-700 hover:bg-gray-100{{ end }}">
+    Tier 1: Replace Immediately
+  </a>
+  
+  <a href="/word-lists/tier-2/" class="block py-2 px-3 rounded-md {{ if in .RelPermalink "/word-lists/tier-2/" }}bg-purple-100 text-purple-800 font-medium{{ else }}text-gray-700 hover:bg-gray-100{{ end }}">
+    Tier 2: Consider Replacement
+  </a>
+  
+  <a href="/word-lists/tier-3/" class="block py-2 px-3 rounded-md {{ if in .RelPermalink "/word-lists/tier-3/" }}bg-purple-100 text-purple-800 font-medium{{ else }}text-gray-700 hover:bg-gray-100{{ end }}">
+    Tier 3: Under Discussion
+  </a>
+  
+  {{ if .IsSection }}
+    {{ if .Pages }}
+      <div class="mt-4">
+        <h4 class="font-medium text-gray-900 px-3 mb-2">Terms in this list:</h4>
+        <div class="pl-2 space-y-1 mt-1 max-h-96 overflow-y-auto">
+          {{ range .Pages }}
+            <a href="{{ .RelPermalink }}" class="block py-1 px-3 rounded-md text-sm {{ if eq $.RelPermalink .RelPermalink }}bg-purple-100 text-purple-800 font-medium{{ else }}text-gray-700 hover:bg-gray-100{{ end }}">
+              {{ with .Params.term }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
 </nav>

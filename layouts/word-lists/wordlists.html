@@ -1,0 +1,60 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-6">
+      {{ partial "breadcrumb.html" . }}
+    </div>
+    
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+      
+      <div class="content-wrapper mb-8">
+        {{ .Content }}
+      </div>
+      
+      <div class="mt-10 space-y-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-2xl font-bold mb-4 text-purple">Tier 1: Replace Immediately</h2>
+          <p class="mb-4">Terms that should be replaced whenever encountered. These terms have strong social consensus for replacement.</p>
+          <a href="/word-lists/tier-1/" class="inline-block bg-purple hover:bg-purple-dark text-white font-medium py-2 px-4 rounded transition-colors">
+            View Tier 1 Terms
+          </a>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-2xl font-bold mb-4 text-purple">Tier 2: Strongly Consider Replacement</h2>
+          <p class="mb-4">Terms that should be strongly considered for replacement. These terms have growing consensus for replacement.</p>
+          <a href="/word-lists/tier-2/" class="inline-block bg-purple hover:bg-purple-dark text-white font-medium py-2 px-4 rounded transition-colors">
+            View Tier 2 Terms
+          </a>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h2 class="text-2xl font-bold mb-4 text-purple">Tier 3: Terms Under Discussion</h2>
+          <p class="mb-4">Terms that are being discussed for potential replacement. These terms have some consensus for replacement.</p>
+          <a href="/word-lists/tier-3/" class="inline-block bg-purple hover:bg-purple-dark text-white font-medium py-2 px-4 rounded transition-colors">
+            View Tier 3 Terms
+          </a>
+        </div>
+      </div>
+      
+      <div class="mt-10 bg-gray-50 rounded-lg p-6">
+        <h2 class="text-2xl font-bold mb-4">Download Word Lists</h2>
+        <p class="mb-4">The Inclusive Naming Word Lists v1.0 are available as a single downloadable file in these formats:</p>
+        <div class="flex flex-wrap gap-4 mt-6">
+          <a href="/files/wordlists.html" class="inline-block bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 font-medium py-2 px-4 rounded transition-colors">
+            HTML
+          </a>
+          <a href="/files/wordlists.odt" class="inline-block bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 font-medium py-2 px-4 rounded transition-colors">
+            OpenDocument (.odt)
+          </a>
+          <a href="/files/wordlists.json" class="inline-block bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 font-medium py-2 px-4 rounded transition-colors">
+            JSON
+          </a>
+          <a href="/files/wordlists.pdf" class="inline-block bg-white border border-gray-300 hover:bg-gray-50 text-gray-800 font-medium py-2 px-4 rounded transition-colors">
+            PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }} 

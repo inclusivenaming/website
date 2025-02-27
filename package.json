@@ -1,12 +1,21 @@
 {
-  "dependencies": {
-    "3": "^2.1.0",
-    "-": "^0.0.1",
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "luxon": "^2.0.2",
-    "popper.js": "^1.16.1"
+  "name": "hugo-tailwind-site",
+  "version": "1.0.0",
+  "description": "Hugo site with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo --minify"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2"
+  }
 }

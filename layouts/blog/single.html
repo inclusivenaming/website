@@ -3,6 +3,95 @@
 {{ end }}
 
 {{ define "main" }}
-{{ partial "blog/hero.html" . }}
-{{ partial "blog/content.html" . }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <article class="bg-white rounded-lg shadow-sm overflow-hidden">
+        {{ if .Params.image }}
+          <div class="w-full h-64 md:h-80 bg-gray-200 overflow-hidden">
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+          </div>
+        {{ end }}
+        
+        <div class="p-8">
+          <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+          
+          <div class="flex items-center text-gray-600 mb-6">
+            {{ if .Params.author }}
+              <span class="mr-4">
+                <i class="fas fa-user mr-1"></i> {{ .Params.author }}
+              </span>
+            {{ end }}
+            
+            <span class="mr-4">
+              <i class="far fa-calendar-alt mr-1"></i> {{ .Date.Format "January 2, 2006" }}
+            </span>
+            
+            {{ if .Params.categories }}
+              <span>
+                <i class="fas fa-folder mr-1"></i>
+                {{ range $index, $category := .Params.categories }}
+                  {{ if gt $index 0 }}, {{ end }}
+                  <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="text-purple hover:text-purple-dark">{{ . }}</a>
+                {{ end }}
+              </span>
+            {{ end }}
+          </div>
+          
+          {{ if .Params.description }}
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">{{ .Params.description }}</p>
+          {{ end }}
+          
+          <div class="prose prose-lg prose-purple max-w-none">
+            {{ .Content }}
+          </div>
+          
+          {{ if .Params.tags }}
+            <div class="mt-12 pt-6 border-t border-gray-200">
+              <h4 class="text-lg font-semibold mb-4">Tags:</h4>
+              <div class="flex flex-wrap gap-2">
+                {{ range .Params.tags }}
+                  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded-full text-sm text-gray-700 transition-colors">
+                    #{{ . }}
+                  </a>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </article>
+      
+      <div class="mt-12">
+        <h3 class="text-2xl font-bold mb-6">Related Posts</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {{ $related := .Site.RegularPages.Related . | first 2 }}
+          {{ with $related }}
+            {{ range . }}
+              <div class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+                {{ if .Params.image }}
+                  <a href="{{ .RelPermalink }}" class="block h-48 overflow-hidden">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                  </a>
+                {{ end }}
+                <div class="p-6">
+                  <h4 class="text-xl font-bold mb-2">
+                    <a href="{{ .RelPermalink }}" class="text-purple hover:text-purple-dark">{{ .Title }}</a>
+                  </h4>
+                  <p class="text-gray-600 mb-4 line-clamp-2">{{ .Params.description | default .Summary }}</p>
+                  <a href="{{ .RelPermalink }}" class="inline-flex items-center justify-center bg-purple hover:bg-purple-dark text-white font-medium py-2 px-4 rounded transition-colors">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            {{ end }}
+          {{ else }}
+            <p class="text-gray-600">No related posts found.</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
 {{ end }}

@@ -1,0 +1,109 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <div class="bg-white rounded-lg shadow-sm p-8">
+        <header class="mb-8">
+          <h1 class="text-3xl font-bold mb-2">{{ with .Params.term }}{{ . }}{{ else }}{{ .Title }}{{ end }}</h1>
+          {{ with .Description }}
+            <p class="text-lg text-gray-600 mb-4">{{ . }}</p>
+          {{ end }}
+        </header>
+        
+        <div class="content-wrapper">
+          {{ .Content }}
+          
+          <!-- Display term-specific fields if they exist -->
+          {{ if .Params.term }}
+            <div class="mt-8 space-y-6">
+              {{ with .Params.definition }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Definition</h3>
+                  <p>{{ . | markdownify }}</p>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.related_terms }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Related Terms</h3>
+                  <ul class="list-disc pl-5 space-y-1">
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.usage_context }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Usage Context</h3>
+                  <p>{{ . | markdownify }}</p>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.recommendation }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Recommendation</h3>
+                  <p>{{ . | markdownify }}</p>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.recommended_replacements }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Recommended Replacements</h3>
+                  <ul class="list-disc pl-5 space-y-1">
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.unsuitable_replacements }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Unsuitable Replacements</h3>
+                  <ul class="list-disc pl-5 space-y-1">
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.rationale }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Rationale</h3>
+                  <p>{{ . | markdownify }}</p>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.status }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Term Status</h3>
+                  <p>{{ . | markdownify }}</p>
+                </div>
+              {{ end }}
+              
+              {{ with .Params.supporting_content }}
+                <div>
+                  <h3 class="text-xl font-bold mb-2">Supporting Content</h3>
+                  <p>{{ . | markdownify }}</p>
+                </div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+      
+      <div class="mt-8">
+        <div class="bg-white rounded-lg shadow-sm p-6">
+          <h3 class="text-xl font-bold mb-4 pb-2 border-b border-gray-200">Word Lists</h3>
+          {{ partial "docs/section-nav_wordlist.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }} 

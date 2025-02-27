@@ -5,8 +5,6 @@ slug: inclusive-language-inititives-bmc
 author: Oshrat Nir
 ---
 
-# Moving the needle on inclusive language, with Ali Siddiqui from BMC
-
 Welcome to our series Moving the Needle on inclusive language. In this series, we will be talking to leaders in the cloud native space as they share the inclusive naming initiatives they care about. This will include tools, activities, and results they have discovered along the way.
  
 [Ali](https://www.linkedin.com/in/ali-siddiqui-4bb3921/) joined BMC in early 2020 as Chief Product Officer with end-to-end responsibility for BMC’s product portfolio. Before joining BMC, Ali was at Broadcom where he was the head of AI Ops and IT Ops for their enterprise software division. Prior to that, he led the IT Ops division at CA Technologies, and the cloud and virtualization group at Cisco. He has also held leadership roles at Oracle and VMWare. His goals include spurring ongoing innovation and increasing customer value. With over 30 years of industry experience in managing, building, and growing successful software businesses, he is sure to meet them. 

@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+      
+      {{ if .Content }}
+        <div class="prose prose-purple max-w-none mb-12">
+          {{ .Content }}
+        </div>
+      {{ end }}
+      
+      <div class="space-y-8">
+        {{ range .Pages }}
+          <div class="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
+            <h2 class="text-2xl font-bold mb-2">
+              <a href="{{ .RelPermalink }}" class="text-purple hover:text-purple-dark">
+                {{ .Title }}
+              </a>
+            </h2>
+            
+            {{ if .Params.description }}
+              <p class="text-gray-600 mb-4">{{ .Params.description }}</p>
+            {{ end }}
+            
+            <a href="{{ .RelPermalink }}" class="inline-flex items-center justify-center bg-purple hover:bg-purple-dark text-white font-medium py-2 px-4 rounded transition-colors">
+              Read More
+            </a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+{{ end }} 

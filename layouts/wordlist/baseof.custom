@@ -9,24 +9,16 @@
     </title>
     {{ partial "css.html" . }}
     {{ partial "favicon.html" . }}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
-    <body>
-    <div class="p-0 m-0 container-fluid">
-     
-
-      <div class="ml-0 mr-0 flex-xl-nowrap">
-        <!-- <div class="col col-lg-3 col-md-12 d-none d-lg-block vh-100" id="sidebar">
-          {{ partial "sidebar.html" . }}
-        </div> -->
-        <main>
-          {{ block "main" . }}
-          {{ end }}
-
-          
-        </main>
+  <body class="flex flex-col min-h-screen bg-gray-50">
+    <div class="flex-grow">
+      <main class="container mx-auto px-4">
+        {{ block "main" . }}
+        {{ end }}
+      </main>
     </div>
-
-  </div>
   </body>
 </html>

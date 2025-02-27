@@ -1,0 +1,14 @@
+{{ if .IsSection}}
+  <div class="bg-white rounded-lg shadow-sm p-6 mb-2">
+    <h4 class="text-l font-bold mb-4 pb-2 border-b border-gray-200">Terms in this section</h4>
+    <div class="space-y-3">
+      {{ range .RegularPagesRecursive }}
+        <div class="bg-gray-50 rounded p-3 hover:bg-gray-100 transition-colors">
+          <a href="{{.Permalink}}" class="text-purple hover:text-purple-dark font-medium">
+            {{.Params.term}}
+          </a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }} 

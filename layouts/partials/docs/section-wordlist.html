@@ -1,77 +1,25 @@
-
-<nav class="section-nav">
-  <h3>Terms</h3>
-  {{ if .IsSection}}
-  {{ range .RegularPagesRecursive }}
-            
-  <div class="container single">
-    <section class="row">
-      <section class="mb-5">
-
-        <p class="mt-5 mb-5">
-         
-        </p>
-        
-        <h1 class="title">Word List: Tier {{ .Params.tier}}</h1>
-        <section>
-          <h2>Term: {{ .Params.term}}</h2>
-         
-
-          <h3>Definition</h3>
-          <p>{{.Params.definition | markdownify}}</p>
-          
-          <h3>Related Terms</h3>
-          <ul>
-            {{ range .Params.related_terms }}
-            <li>
-            {{ . }}
-            </li>
-            {{ end }}
-          </ul>
-
-          <h3>Usage Context</h3>
-          <p>{{.Params.usage_context | markdownify}}</p>
-
-          <h3>Recommendation</h3>
-          <p>{{.Params.recommendation | markdownify}}</p>
-
-          <h3>Recommended Replacements</h3>
-          <ul>
-            {{ range .Params.recommended_replacements }}
-            <li>
-            {{ . }}
-            </li>
-            {{ end }}
-          </ul>
-
-          <h3>Unsuitable Replacements</h3>
-          <ul>
-            {{ range .Params.unsuitable_replacements }}
-            <li>
-            {{ . }}
-            </li>
-            {{ end }}
-          </ul>
-
-          <h3>Rationale</h3>
-
-          <p>{{.Params.rationale | markdownify}}</p>
-
-          <h3>Term Status</h3>
-
-          <p>{{.Params.status | markdownify}}</p>
-
-          <h3>Supporting Content</h3>
-
-          <p>{{.Params.supporting_content | markdownify}}</p>
-         
-        </section>
-
-        
-
-      </section>
-    </section>
+<div class="container mx-auto px-4 py-8">
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div class="md:col-span-3">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <h1 class="text-3xl font-bold mb-6">{{ .Page.Title | markdownify }}</h1>
+      {{ with .Page.Description }}
+        <p class="text-lg text-gray-600 mb-8">{{ . | markdownify }}</p>
+      {{ end }}
+      
+      <div class="content-wrapper">
+        {{ partial "docs/content_wordlist.html" . }}
+      </div>
+    </div>
+    
+    <div class="md:col-span-1">
+      <div class="sticky top-24 bg-white rounded-lg shadow-sm p-6">
+        <h3 class="text-xl font-bold mb-4 pb-2 border-b border-gray-200">In This Section</h3>
+        {{ partial "docs/section-nav_wordlist.html" . }}
+      </div>
+    </div>
   </div>
-   {{ end }}
-   {{ end }}
-</nav>
+</div>

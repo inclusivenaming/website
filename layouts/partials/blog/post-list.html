@@ -1,28 +1,25 @@
 {{ $posts := where site.RegularPages "Section" "blog" }}
-<div class="container">
-  <div class="row">
+<div class="container mx-auto px-4 py-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
     {{ range (.Paginate $posts).Pages }}
     {{ $date := dateFormat "January 2, 2006" .Date }}
-    <div class="col col-lg-6 col-md-12 col-12">
-          <div>
-            <a href="{{ .RelPermalink }}">
-            <h2>
-              {{ .Title }}
-            </h2>
-            <h3>
-              {{ $date }}
-            </h3>
-            </a>
-          </div>
-          <div>
-            {{ .Summary }}...
-          </div>
+    <div class="card">
+      {{ with .Params.featured_image }}
+      <img src="{{ . }}" alt="{{ $.Title }}" class="w-full h-48 object-cover">
+      {{ end }}
+      <div class="p-6">
+        <h2 class="text-xl font-bold mb-2">
+          <a href="{{ .RelPermalink }}" class="hover:text-purple-dark">{{ .Title }}</a>
+        </h2>
+        <p class="text-gray-600 text-sm mb-4">{{ $date }}</p>
+        <div class="text-gray-700 mb-4">{{ .Summary }}...</div>
+        <a href="{{ .RelPermalink }}" class="btn btn-purple text-sm">Read more</a>
+      </div>
     </div>
     {{ end }}
   </div>
-  <div class="row">
-    <div class="mx-auto pt-5">
-      {{ template "_internal/pagination.html" . }}  
-   </div>
+  
+  <div class="flex justify-center mt-12">
+    {{ partial "pagination.html" . }}
   </div>
 </div>

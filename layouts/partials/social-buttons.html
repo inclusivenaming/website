@@ -1,10 +1,5 @@
 {{ range . }}
-{{ $color := .color | default "white" }}
-<a class="btn text-light mr-1" title="{{ .name }}" style="background-color: {{ .color }}" href="{{ .url }}" target="_blank">
-    {{ with .icon }}
-    <span class="icon">
-      <i class="{{ . }}"></i>
-    </span>
-    {{ end }}
-  </a>
+<a href="{{ .url }}" target="_blank" rel="noopener" class="text-gray-400 hover:text-white" aria-label="{{ .name }}">
+  <i class="{{ .icon }} fa-lg"></i>
+</a>
 {{ end }}

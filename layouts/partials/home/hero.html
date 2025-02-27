@@ -1,34 +1,25 @@
 {{ $title := site.Title }}
 {{ $desc  := site.Params.description | markdownify }}
-<section class="text-white jumbotron rounded-0" id="hero">
-  <div class="container">
-    <h1>
+<section id="hero" class="py-20 text-white bg-[#5a0fc8]">
+  <div class="container mx-auto px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">
       {{ $title }}
     </h1>
 
     {{ with $desc }}
-    <p class="lead">
+    <p class="text-xl mb-8 max-w-2xl">
       {{ . }}
     </p>
     {{ end }}
 
-  <a 
-    class="my-3 mr-3 btn btn-purple text-light btn-lg" href="/about" 
-    aria-label="Learn more"
-    rel="noopener"
-  >
-  Learn more
-  </a>
+    <div class="flex flex-wrap gap-4">
+      <a class="bg-white text-[#5a0fc8] hover:bg-gray-100 px-4 py-2 rounded font-medium" href="/about" aria-label="Learn more">
+        Learn more
+      </a>
 
- 
-
-  <a 
-    class="my-3 mr-3 btn btn-purple text-light btn-lg" href="/word-lists/" 
-    aria-label="Word Lists v1.0"
-    rel="noopener"
-  >
-  Word Lists v1.0
-  </a>  
-  
+      <a class="bg-white text-[#5a0fc8] hover:bg-gray-100 px-4 py-2 rounded font-medium" href="/word-lists/" aria-label="Word Lists v1.0">
+        Word Lists v1.0
+      </a>
+    </div>
   </div>
 </section>

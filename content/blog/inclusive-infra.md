@@ -4,7 +4,6 @@ date: 2021-04-14
 slug: inclusive-infra
 author: Reinhardt Quelle
 ---
-
 This post will be short, because it really is _that simple_.
 
 My team at Cisco builds platform services that underlie the multiple projects within the Emerging Technology and Incubation group.  Our mission is to build 'paved roads' for developers; we create common reusable patterns and services that any engineer or venture needs to deliver an application.

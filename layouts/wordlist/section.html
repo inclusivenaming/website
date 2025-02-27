@@ -1,31 +1,27 @@
 {{ define "main" }}
-  <header>
-    <div>
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
       
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="md:col-span-3">
+          <h1 class="text-3xl font-bold mb-4">{{ .Page.Title | markdownify }}</h1>
+          {{ with .Page.Description }}
+            <p class="text-lg text-gray-600 mb-6">{{ . | markdownify }}</p>
+          {{ end }}
+          
+          <div class="content-wrapper mb-8">
+            {{ partial "docs/content_wordlist.html" . }}
+          </div>
+        </div>
+        
+        <div class="md:col-span-1">
+          {{ partial "wordlist/terms-list.html" . }}
+          {{ partial "wordlist/download-section.html" . }}
+        </div>
+      </div>
     </div>
-  </header>
-  <div class="container">
-      <section class="row">
-        <section class="col col-8">
-
-          <p class="mt-5 mb-5">
-            {{ partial "breadcrumb.html" . }}
-          </p>
-
-          <h1 class="title">{{ .Page.Title | markdownify }}</h1>
-          <p class="subtitle">{{ .Page.Description | markdownify }}</p>
-
-	  <h2 class="subtitle">The Inclusive Naming Word Lists v1.0 is now available:</h2>
-          <p> <strong>This page and its subpages are available as a single downloadable file in these formats: <a href="inclusive-naming-word-lists-v1.0.html" target="_blank">HTML</a> |  <a href="inclusive-naming-word-lists-v1.0.odt" target="_blank">OpenDocument (.odt)</a> |  <a href="index.json" target="_blank">JSON</a> | <a href="inclusive-naming-word-lists-v1.0.pdf" target="_blank">PDF</a> formats.</strong></p>
-	  <p> (If you want the entire list of all the words in this release as a single file, use these links instead: <a href="https://inclusivenaming.org/word-lists/inclusive-naming-word-lists-v1.0.html" target="_blank">HTML</a>, <a href="https://inclusivenaming.org/word-lists/inclusive-naming-word-lists-v1.0.odt" target="_blank">OpenDocument (.odt)</a>, <a href="https://inclusivenaming.org/word-lists/inclusive-naming-word-lists-v1.0.pdf" target="_blank">PDF</a>, or <a href="https://inclusivenaming.org/word-lists/index.json" target="_blank">JSON</a>)</p>
-	
-
-          {{ partial "docs/content_wordlist.html" . }}
-        </section>
-        <section class="col col-4">
-          {{ partial "docs/section-nav_wordlist.html" . }}
-          <hr />
-        </section>
-      </section>
-    </div>
+  </div>
 {{ end }}

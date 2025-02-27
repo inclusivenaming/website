@@ -1,4 +1,116 @@
 {{ define "main" }}
-{{ partial "home/hero.html" . }}
-{{ partial "home/content.html" . }}
+  <!-- Hero Section -->
+  <section class="mt-8 mb-8">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4 text-gray-900">
+          Inclusive Naming Initiative
+        </h1>
+        <p class="text-lg text-gray-700 mb-8">
+          Helping projects and companies make consistent, responsible choices to remove harmful language
+        </p>
+        <div class="flex justify-center items-center gap-4">
+          <a href="/participate/" class="btn btn-purple">
+            Getting Started
+          </a>
+          <a href="https://forms.gle/rj3kWuvAtMJAYRWe8" class="btn btn-outline-purple">
+            Suggest a Term
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="mb-4 py-16">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- Word Lists -->
+        <div class="card h-full flex flex-col border border-gray-200 rounded-lg overflow-hidden bg-white">
+          <div class="p-6 flex flex-col flex-grow">
+            <h2 class="text-xl font-bold mb-3 text-center text-purple mt-0">Word Lists</h2>
+            <p class="text-gray-600 mb-6 flex-grow text-center">Comprehensive lists of terms to replace with inclusive alternatives</p>
+            <div class="mt-auto">
+              <a href="/word-lists" class="btn btn-purple w-full">
+                Learn more
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Community -->
+        <div class="card h-full flex flex-col border border-gray-200 rounded-lg overflow-hidden bg-white">
+          <div class="p-6 flex flex-col flex-grow">
+            <h2 class="text-xl font-bold mb-3 text-center text-purple mt-0">Community</h2>
+            <p class="text-gray-600 mb-6 flex-grow text-center">Join our growing community and contribute to inclusive naming</p>
+            <div class="mt-auto">
+              <a href="/participate/" class="btn btn-purple w-full">
+                Get involved
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resources -->
+        <div class="card h-full flex flex-col border border-gray-200 rounded-lg overflow-hidden bg-white">
+          <div class="p-6 flex flex-col flex-grow">
+            <h2 class="text-xl font-bold mb-3 text-center text-purple mt-0">Resources</h2>
+            <p class="text-gray-600 mb-6 flex-grow text-center">Implementation guides and tools for your organization</p>
+            <div class="mt-auto">
+              <a href="/handbook/implementation-path/" class="btn btn-purple w-full">
+                View resources
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Updates Section -->
+  <section class="mb-24">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-8">Latest Updates</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {{ range first 3 (where site.RegularPages "Section" "blog") }}
+            <article class="card h-full flex flex-col border border-gray-200 rounded-lg overflow-hidden">
+              <div class="p-6 flex flex-col flex-grow">
+                <div class="mb-2">
+                  <h3>
+                    <a href="{{ .RelPermalink }}" class="text-xl font-bold text-gray-900 hover:text-purple block">
+                      {{ .Title }}
+                    </a>
+                  </h3>
+                </div>
+                <div class="flex items-center text-sm mb-4">
+                  {{ if .Params.author }}
+                    <span class="text-purple font-medium">{{ .Params.author }}</span>
+                  {{ end }}
+                  {{ if .Date }}
+                    <time class="text-gray-500 ml-2">{{ .Date.Format "Jan 2, 2006" }}</time>
+                  {{ end }}
+                </div>
+                <div class="prose prose-sm text-gray-600 mb-6 flex-grow">
+                  <p class="line-clamp-3">{{ .Summary }}</p>
+                </div>
+                <div class="mt-auto">
+                  <a href="{{ .RelPermalink }}" class="btn btn-purple w-full">
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </article>
+          {{ end }}
+        </div>
+        
+        <!-- View All Posts Link -->
+        <div class="text-center mt-12">
+          <a href="/blog/" class="btn btn-outline-purple px-8">
+            View all blog posts
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 {{ end }}

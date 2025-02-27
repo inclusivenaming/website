@@ -1,0 +1,44 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+      
+      {{ with .Description }}
+        <p class="text-lg text-gray-600 mb-6">{{ . }}</p>
+      {{ end }}
+      
+      <div class="content-wrapper mb-8">
+        {{ .Content }}
+      </div>
+      
+      {{ if .Pages }}
+        <div class="mt-8">
+          <h2 class="text-2xl font-bold mb-6">Terms in this list</h2>
+          <div class="grid grid-cols-1 gap-4">
+            {{ range .Pages }}
+              <div class="bg-white rounded-lg shadow-sm p-5 hover:shadow-md transition-shadow">
+                <a href="{{ .RelPermalink }}" class="text-xl font-semibold text-purple hover:text-purple-dark">
+                  {{ with .Params.term }}{{ . }}{{ else }}{{ .Title }}{{ end }}
+                </a>
+                {{ with .Params.definition }}
+                  <p class="text-gray-600 mt-2">{{ . | markdownify }}</p>
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+      
+      <div class="mt-8">
+        <div class="bg-white rounded-lg shadow-sm p-6">
+          <h3 class="text-xl font-bold mb-4 pb-2 border-b border-gray-200">Word Lists</h3>
+          {{ partial "docs/section-nav_wordlist.html" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }} 
