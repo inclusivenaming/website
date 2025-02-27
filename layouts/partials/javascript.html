@@ -1,4 +1,15 @@
 {{ $app := resources.Get "js/app.js" | fingerprint }}
 <script src="{{ $app.RelPermalink }}" integrity="{{ $app.Data.Integrity }}"></script>
-<!-- Add Alpine.js from CDN -->
-<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<!-- No custom JavaScript needed -->
+
+<!-- Check if main.js exists before trying to use it -->
+{{ with resources.Get "js/main.js" }}
+  {{ $js := . }}
+  {{ if hugo.IsProduction }}
+    {{ $js = $js | minify | fingerprint }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+  {{ else }}
+    <script src="{{ $js.RelPermalink }}" defer></script>
+  {{ end }}
+{{ end }}

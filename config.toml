@@ -193,5 +193,3 @@ url = "https://github.com/inclusivenaming/org/tree/main/ws-marketing"
 parent = "news-and-media"
 identifier = "presentations"
 weight = 3
-
-[module]
