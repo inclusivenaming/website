@@ -7,3 +7,9 @@
 {{ else }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 {{ end }}
+
+<!-- Fallback to Tailwind CDN in case local CSS is missing -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<!-- Add Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ .Site.Params.font_awesome_version | default "5.15.4" }}/css/all.min.css">
