@@ -15,22 +15,6 @@ We're looking to bring together a community of information technology organizati
 * Provide **tooling** to measure implementation success
 * Act as a platform for **community recognition** of organizations actively doing the work
 
-## Roadmap 
-
-Note: Roadmap is subject to change
-
-* **Q1 2021**
-  * Define best practices and replacements with the community, providing documents and tools for participants to get started
-  * Discuss at KubeCon community meeting
-
-* **Q3 2021**
-  * Showcase case studies and success stories
-  * Share wins at KubeCon 2021
-
-* **Q4 2021** (based on demand)
-  * Develop certification program
-
-
 Sound interesting?
 
 {{< button "/participate/" "Get involved" >}}
