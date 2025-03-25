@@ -3,7 +3,7 @@ title: "WordList Template"
 ignore: true
 ---
 
-The Hugo software used to build this website uses Frontmatter of each page to determine how to process each page. The Wordlist section of this website uses the frontmatter to generate the pages for each Worlist term and the JSON file containing all of them. To ensure consistency, the template below has been created. It is based on YAML.
+The Hugo software used to build this website uses Frontmatter of each page to determine how to process each page. The Wordlist section of this website uses the frontmatter to generate the pages for each Wordlist term and the JSON file containing all of them. To ensure consistency, the template below has been created. It is based on YAML.
 
 We you are creating a Pull Request for a new term, copy the template from the first `---` to the last one, make sure to include both `---`.
 

@@ -62,14 +62,14 @@ See also the
 
 - Does the term have militaristic connotations? 
 - Does the term or phrase have historical use either inside or outside technology contexts that someone can easily identity? - Did it arise during a world war, for example?
-- Is the term classist or otherwise segregational? 
+- Is the term classist or otherwise discriminatory?
 - Is the term strongly associated with one gender?
 
 # Third-order concerns 
 
 - The term is unclear, uses metaphor, or a more precise word is available.
 - The term anthropomorphizes (ascribes human traits to nonhuman objects) code or computer systems
-- The language is idomatic, and understanding is limited to those in a particular culture or in-group
+- The language is idiomatic, and understanding is limited to those in a particular culture or in-group
 
 ## Questions to ask
 

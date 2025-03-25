@@ -64,7 +64,7 @@ connotations, or communicate more clearly to non-native speakers.
 
 While a large part of this initiative is, of course, removing offensive
 or otherwise problematic phrasing, it's also about all of those things -
-carefully, intentionally, consciusly selecting words and phrases that
+carefully, intentionally, consciously selecting words and phrases that
 are the best possible ones to communicate the concepts.
 
 ### Tell success stories, giving credit appropriately

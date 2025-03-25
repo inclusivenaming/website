@@ -50,7 +50,7 @@ We are also doing quite a bit in terms of faculty from an iterative perspective.
 institution is kept abreast of trends, such as inclusive language. In this way we all work to create an environment where everyone feels safe and supported. 
 
 We have a weekly series at our college called a virtual coffee break on Friday. In it we encourage different people across the college to share and lead things from their
-particular perspective. It can be from an LBTQ+ point of view or from our diverse cultural groups. It allows us to share different perspectives to help us to understand
+particular perspective. It can be from an LGBTQ+ point of view or from our diverse cultural groups. It allows us to share different perspectives to help us to understand
 each other’s backgrounds.
 
 **How do you account for diversity in your organization?**
@@ -71,8 +71,7 @@ focus on ensuring that the messages that we're sharing are received as they are 
 
 > "For me, words are a form of action, capable of influencing change."  ~ Ingrid Bengis
 
-In this interview, I found a fearless advocate of inclusive language. Dr Monique Umphrey, withstood the challenges of a difficult and unaccepting environment in her
-college years. After overcoming this and becoming a prominent woman in technology, she is now paying it forward. She is working on creating an intentionally inclusive
+In this interview, I found a fearless advocate of inclusive language. Dr. Monique Umphrey withstood the challenges of a difficult and unaccepting environment in her college years. After overcoming this and becoming a prominent woman in technology, she is now paying it forward. She is working on creating an intentionally inclusive
 environment at Houston Community College and creating access to careers in technology for underprivileged groups.
 
 If you’d like to be featured or know someone who’d be a great fit you can find us on Twitter @inclusivenaming and spread the love.
