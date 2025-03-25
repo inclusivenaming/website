@@ -3,7 +3,7 @@
 doindent()
 {
   # Do a small indent depending on how deep into the tree we are
-  # Depending on your enviroment, you may need to use
+  # Depending on your environment, you may need to use
   # echo "  \c" instead of
   # echo -en "  "
     j=0;

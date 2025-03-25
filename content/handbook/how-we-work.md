@@ -2,17 +2,17 @@
 title: "How the INI community works"
 ---
 
-The Inclusive Naming Initiative understands the diversity of our community, thats why we constantly iterate our processes to make it easier to join the community and contribute. We are mostly an asynchronous community, which means we only meet once a month during our Monthly Contributors sync, while contributors work at their pace using our [Work plan sheet](https://docs.google.com/spreadsheets/d/1rf4HbPA7nTyrpGByioyKvdJIfZCbBLSEI67_Nf9M6dA/edit?gid=0#gid=0). Below is the process flow:
+The Inclusive Naming Initiative understands the diversity of our community, that's why we constantly iterate our processes to make it easier to join the community and contribute. We are mostly an asynchronous community, which means we only meet once a month during our Monthly Contributors sync, while contributors work at their pace using our [Work plan sheet](https://docs.google.com/spreadsheets/d/1rf4HbPA7nTyrpGByioyKvdJIfZCbBLSEI67_Nf9M6dA/edit?gid=0#gid=0). Below is the process flow:
 
 - A member of the public uses the [Term submission form](https://forms.gle/rj3kWuvAtMJAYRWe8) to suggest a term
 - A Google Doc is created with details of the submission.
 - Contributors are notified and the Term is recorded in the Work Plan [Terms sheet](https://docs.google.com/spreadsheets/d/1rf4HbPA7nTyrpGByioyKvdJIfZCbBLSEI67_Nf9M6dA/edit?gid=0#gid=0).
-- Contributors review and make comments on the submission, in line with the [Language evelaution priciples and framework](/handbook/evaluation-framework/).
+- Contributors review and make comments on the submission, in line with the [Language evaluation principles and framework](/handbook/evaluation-framework/).
 - After 3 to 5 (or more) reviews are received and there is a consensus on the next action to take, the term is either published or archived.
 
 ## Tasks
 
-In the Work plan spreadsheet, we maintain a list of [voluntary tasks](https://docs.google.com/spreadsheets/d/1rf4HbPA7nTyrpGByioyKvdJIfZCbBLSEI67_Nf9M6dA/edit?gid=1508334315#gid=1508334315) that can be carried out by any member of the contributors. These tasks can be any thing from a term review, GitHub issues triage, updates to the webiste or any other necessary task. Contributors can also add tasks they think would be beneficial to the initiative and any other contributor with bandwidth can take it on.
+In the Work plan spreadsheet, we maintain a list of [voluntary tasks](https://docs.google.com/spreadsheets/d/1rf4HbPA7nTyrpGByioyKvdJIfZCbBLSEI67_Nf9M6dA/edit?gid=1508334315#gid=1508334315) that can be carried out by any member of the contributors. These tasks can be any thing from a term review, GitHub issues triage, updates to the website or any other necessary task. Contributors can also add tasks they think would be beneficial to the initiative and any other contributor with bandwidth can take it on.
 
 The Tasks sheet is central to our activities, its where contributors see where they can contribute. Do you want to contribute? Join as a [contributor](https://forms.gle/wkaqTmhvSwgPn69t7) today.
 
