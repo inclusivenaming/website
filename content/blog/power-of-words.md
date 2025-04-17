@@ -35,7 +35,7 @@ Even in marketing, words like **"bossy" vs. "assertive," "aggressive" vs. "confi
 
 If we truly want to **create spaces where everyone feels valued, represented, and included,** we need to start by **choosing better words.**
 
-### Inclusive Naming Is Not About "Cancel Culture" —I t’s About Building a Better Future
+### Inclusive Naming Is Not About "Cancel Culture" — It’s About Building a Better Future
 
 This movement isn’t about “policing language.” It’s about **intentionally creating a culture where words reflect our values, not outdated norms.**
 
