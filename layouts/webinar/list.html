@@ -1,0 +1,116 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }} 
+      </div>
+
+      <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+      
+      {{ if .Content }}
+        <div class="prose prose-lg max-w-none mb-12">
+          {{ .Content }}
+        </div>
+      {{ end }}
+
+      {{ $now := now }}
+      {{ $nowUTC := $now.UTC }}
+      {{ $webinars := where site.RegularPages "Section" "webinar" }}
+      
+      {{ $upcoming := slice }}
+      {{ $past := slice }}
+
+      {{ range $webinars }}
+        {{ if isset .Params "utc_datetime" }}
+          {{ $webinarTime := false }}
+          {{ with time.AsTime .Params.utc_datetime }}
+              {{ $webinarTime = . }}
+          {{ else }}
+              {{ warnf "Webinar List Filter: Could not parse utc_datetime '%v' for page %s" .Params.utc_datetime .RelPermalink }}
+          {{ end }}
+
+          {{ if $webinarTime }}
+            {{ $webinarTimeUTC := $webinarTime.UTC }}
+            {{ if $webinarTimeUTC.After $nowUTC }}
+              {{ $upcoming = $upcoming | append . }}
+            {{ else }}
+              {{ $past = $past | append . }}
+            {{ end }}
+          {{ end }}
+        {{ else }}
+          {{ warnf "Webinar List Filter: Missing utc_datetime for page %s" .RelPermalink }}
+        {{ end }}
+      {{ end }}
+
+      {{ $upcoming = sort $upcoming "Params.utc_datetime" "asc" }}
+      {{ $past = sort $past "Params.utc_datetime" "desc" }}
+
+      {{/* Display Upcoming Webinars */}}
+      {{ if $upcoming }}
+        <h2 class="text-2xl font-semibold mt-12 mb-4 border-b pb-2">Upcoming Webinars</h2>
+        <div class="space-y-8">
+          {{ range $upcoming }}
+            {{ $displayTime := time.AsTime .Params.utc_datetime }}
+            <div class="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
+              <h2 class="text-2xl font-bold mb-2">
+                <a href="{{ .RelPermalink }}" class="text-purple hover:text-purple-dark">
+                  {{ .Title }}
+                </a>
+              </h2>
+              <p class="text-sm text-gray-600 mb-4">
+                {{ $displayTime.Format "Monday, January 2, 2006 at 15:04 UTC" }}
+              </p>
+              {{ if .Description }}
+                <p class="text-gray-600 mb-4">{{ .Description | truncate 150 }}</p>
+              {{ end }}
+              <a href="{{ .RelPermalink }}" class="inline-flex items-center justify-center bg-blue-600 text-white font-medium py-2 px-4 rounded transition-colors hover:bg-blue-700 no-underline">
+                 View Details
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      {{ else }}
+         <h2 class="text-2xl font-semibold mt-12 mb-4 border-b pb-2">Upcoming Webinars</h2>
+         <p class="text-gray-600">No upcoming webinars scheduled.</p>
+      {{ end }}
+
+      {{/* Display Past Webinars */}}
+      {{ if $past }}
+        <h2 class="text-2xl font-semibold mt-12 mb-4 border-b pb-2">Past Webinars</h2>
+        <div class="space-y-8">
+          {{ range $past }}
+            {{ $displayTime := time.AsTime .Params.utc_datetime }}
+            <div class="bg-white rounded-lg shadow-sm p-6 hover:shadow-md transition-shadow">
+              <h2 class="text-2xl font-bold mb-2">
+                <a href="{{ .RelPermalink }}" class="text-purple hover:text-purple-dark">
+                  {{ .Title }}
+                </a>
+              </h2>
+              <p class="text-sm text-gray-600 mb-4">
+                {{ $displayTime.Format "Monday, January 2, 2006" }}
+              </p>
+              {{ if .Description }}
+                <p class="text-gray-600 mb-4">{{ .Description | truncate 150 }}</p>
+              {{ end }}
+              {{/* Conditional link/button for past webinars */}}
+              {{ if .Params.recording_link }}
+                <a href="{{ .Params.recording_link }}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center bg-gray-600 text-white font-medium py-2 px-4 rounded transition-colors hover:bg-gray-700 no-underline">
+                  View Recording
+                </a>
+              {{ else }}
+                <a href="{{ .RelPermalink }}" class="inline-flex items-center justify-center bg-blue-600 text-white font-medium py-2 px-4 rounded transition-colors hover:bg-blue-700 no-underline">
+                   View Details
+                </a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+
+      {{ if and (not $past) (not $upcoming) }}
+        <p class="mt-12 text-gray-600">No webinars found.</p>
+      {{ end }}
+
+    </div>
+  </div>
+{{ end }} 

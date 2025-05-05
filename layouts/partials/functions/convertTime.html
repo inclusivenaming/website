@@ -1,0 +1,11 @@
+{{ $timeInput := .time }}
+{{ $locationString := .location }}
+{{ $format := .format | default "Jan 2, 3:04 PM MST" }}
+
+{{ $location := time.LoadLocation $locationString }}
+{{ with $location }}
+  {{ ($timeInput.In .).Format $format }}
+{{ else }}
+  {{ warnf "convertTime Partial: Failed to load location '%s'" $locationString }}
+  (Error: {{ $locationString }})
+{{ end }} 
