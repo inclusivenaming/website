@@ -20,7 +20,4 @@ recording_link: "" # Link to video recording if available
 presenters: ["Abubakar Siddiq Ango", "Aisha Shaibu-Salami"] # List of presenter names
 ---
 
-Join us for a conversation on how language and culture intersect in shaping digital experiences.
-
-
-This webinar explore the role of inclusive naming and culturally sensitive communication in tech. Whether you're writing documentation or building products, this session offers fresh perspectives and ideas for creating more thoughtful and inclusive digital spaces.
+This webinar explores the role of inclusive naming and culturally sensitive communication in tech. Whether you're writing documentation or building products, this session offers fresh perspectives and ideas for creating more thoughtful and inclusive digital spaces.
