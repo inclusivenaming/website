@@ -7,7 +7,7 @@ author: Aisha Shaibu-Salami
 
 **Why Language Isn't Universal and That's a Good Thing**
 
-In the previous blog post(insert link to the post) we explored how inclusive naming helps shape equitable systems in tech. But inclusion doesn’t stop at replacing a few terms, it’s about recognizing the richness of voices from all over the world and how culture influences communication.
+In the previous [blog post](/blog/power-of-words/) we explored how inclusive naming helps shape equitable systems in tech. But inclusion doesn’t stop at replacing a few terms, it’s about recognizing the richness of voices from all over the world and how culture influences communication.
 
 As we move further into the global digital era, it's critical to understand that language is not neutral. It's a reflection of identity, tradition, and worldview. And in the tech industry, where collaboration is increasingly cross-border and multicultural, this understanding can make the difference between building systems that exclude or empower.
 
