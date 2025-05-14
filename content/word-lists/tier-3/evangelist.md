@@ -17,10 +17,10 @@ outputs:
 
 ## Rationale, Status & Supporting Content allows multiline content, you can also use markdown format. Please make use the | symbol is not deleted.
 
-title: "Evangelist"
+title: "evangelist"
 
 tier: 3
-term: "Evangelist"
+term: "evangelist"
 related_terms:
     - None
 use_context: "N/A"
@@ -32,6 +32,7 @@ recommended_replacements:
     - "influencer"
     - "advocate"
     - "ambassador"
+    - "proponent"
 
 unsuitable_replacements:
     - "preacher"
