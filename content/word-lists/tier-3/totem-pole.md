@@ -20,11 +20,11 @@ definition: "N/A"
 recommendation: "Recommended to replace."
 
 recommended_replacements:
-    - "Do not use in phrases such as *bottom of the totem pole* or *low man on the totem pole*. Use more specific terms that are appropriate to the context in which this phrase may be referred."
+    - "Do not use in phrases such as **bottom of the totem pole** or **low man on the totem pole**. Use more specific terms that are appropriate to the context in which this phrase may be referred."
     
 
 unsuitable_replacements:
-    - "preacher"
+    - N/A
 
 rationale: |
     A totem pole is a sacred object in Indigenous communities and the bottom of the totem pole has a specific symbolic meaning. Additionally, describing someone or something as *bottom* or *low man* implies that they are somehow inferior – which not only dishonors the symbolic meaning but is inaccurate.

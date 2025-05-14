@@ -35,7 +35,7 @@ recommended_replacements:
     - "End of Warranty"
 
 unsuitable_replacements:
-    - "preacher"
+    - N/A
 
 rationale: |
     In healthcare, "End of Life" refers to the care provided to individuals who are in the final stages of a terminal illness. This care focuses on comfort, dignity, and quality of life. People who may have loved ones going through End of Life support, may be triggered by the use of the term.
