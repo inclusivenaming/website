@@ -1,0 +1,113 @@
+{{ define "main" }}
+  <div class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="mb-6">
+        {{ partial "breadcrumb.html" . }}
+      </div>
+      
+      <article class="bg-white rounded-lg shadow-sm p-8">
+        <h1 class="text-3xl font-bold mb-6">{{ .Title }}</h1>
+        
+        {{ if .Description }}
+          <p class="text-xl text-gray-600 mb-8">{{ .Description }}</p>
+        {{ end }}
+
+        {{ with .Params.utc_datetime }}
+          <div class="my-6 p-4 border rounded-md bg-gray-50">
+            <h2 class="text-lg font-semibold mb-3 text-center">Date & Time</h2>
+            <p class="text-center"><strong>UTC:</strong> {{ . }}</p>
+            
+            <h3 class="text-md font-medium mt-6 mb-3 text-center">Equivalent Times:</h3>
+            {{/* Grid layout for time zone boxes */}}
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
+              {{/* Los Angeles */}}
+              <div class="bg-gray-100 p-3 rounded border border-gray-200">
+                <div class="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Los Angeles</div>
+                <div class="text-sm font-semibold text-gray-800">
+                  {{ $.Page.Params.time_los_angeles | default "N/A" }}
+                </div>
+              </div>
+              {{/* New York */}}
+              <div class="bg-gray-100 p-3 rounded border border-gray-200">
+                <div class="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">New York</div>
+                <div class="text-sm font-semibold text-gray-800">
+                  {{ $.Page.Params.time_new_york | default "N/A" }}
+                </div>
+              </div>
+              {{/* London */}}
+              <div class="bg-gray-100 p-3 rounded border border-gray-200">
+                <div class="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">London</div>
+                <div class="text-sm font-semibold text-gray-800">
+                  {{ $.Page.Params.time_london | default "N/A" }}
+                </div>
+              </div>
+              {{/* Amsterdam */}}
+              <div class="bg-gray-100 p-3 rounded border border-gray-200">
+                <div class="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Amsterdam</div>
+                <div class="text-sm font-semibold text-gray-800">
+                  {{ $.Page.Params.time_amsterdam | default "N/A" }}
+                </div>
+              </div>
+              {{/* Mumbai */}}
+              <div class="bg-gray-100 p-3 rounded border border-gray-200">
+                <div class="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Mumbai</div>
+                <div class="text-sm font-semibold text-gray-800">
+                  {{ $.Page.Params.time_mumbai | default "N/A" }}
+                </div>
+              </div>
+              {{/* Sydney */}}
+              <div class="bg-gray-100 p-3 rounded border border-gray-200">
+                <div class="text-xs font-medium text-gray-500 uppercase tracking-wider mb-1">Sydney</div>
+                <div class="text-sm font-semibold text-gray-800">
+                  {{ $.Page.Params.time_sydney | default "N/A" }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+
+        {{ with .Params.presenters }}
+          <div class="my-6">
+            <h2 class="text-lg font-semibold">Presenter(s)</h2>
+            <ul class="list-disc list-inside">
+              {{ range . }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        {{ end }}
+
+        {{/* --- Conditional Button Logic --- */}}
+        {{ $isPast := false }}
+        {{ with .Params.utc_datetime }}
+          {{ with time.AsTime . }}
+            {{ $isPast = .Before now }}
+          {{ end }}
+        {{ end }}
+
+        {{ if and $isPast .Params.recording_link }}
+          {{/* Show Recording Button for Past Webinars with link */}}
+          <div class="my-6 text-center">
+            <a href="{{ .Params.recording_link }}" target="_blank" rel="noopener noreferrer" class="inline-block bg-gray-600 text-white font-bold py-3 px-6 rounded hover:bg-gray-700 transition-colors no-underline">
+              View Recording
+            </a>
+          </div>
+        {{ else if and (not $isPast) .Params.registration_link }}
+          {{/* Show Registration Button for Upcoming Webinars with link */}}
+          <div class="my-6 text-center">
+            <a href="{{ .Params.registration_link }}" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded hover:bg-blue-700 transition-colors no-underline">
+              Register for this Webinar
+            </a>
+          </div>
+        {{ else }}
+          {{/* No button if past w/o recording OR future w/o registration */}}
+        {{ end }}
+        {{/* --- End Conditional Button Logic --- */}}
+        
+        <div class="prose prose-lg max-w-none mt-8">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </div>
+{{ end }} 

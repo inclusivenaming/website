@@ -5,6 +5,8 @@ copyright = "The Inclusive Naming Initiative authors and collaborating organizat
 enableGitInfo = true
 summaryLength = 20
 
+buildFuture = true
+
 [mediaTypes]
   [mediaTypes.'text/html']
     suffixes = ['custom']
@@ -109,6 +111,12 @@ name = "Code of conduct"
 url = "/code-of-conduct"
 parent = "getinvolved"
 weight = 4
+
+[[menu.main]]
+name = "Webinars"
+url = "/webinar"
+parent = "getinvolved"
+weight = 5
 
 [[menu.main]]
 name = "Word lists"
