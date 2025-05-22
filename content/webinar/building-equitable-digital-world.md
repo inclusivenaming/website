@@ -4,7 +4,7 @@ slug: building-equitable-digital-world
 date: "2025-05-22"
 draft: false
 description: "Join us for a conversation on how language and culture intersect in shaping digital experiences."
-registration_link: "https://forms.gle/RNirz6rDLvpedg6e9"
+registration_link: ""
 utc_datetime: "2025-05-22T18:00:00Z" # Use format like "2024-08-15T14:00:00Z"
 
 # Manually add formatted time strings for display
@@ -15,7 +15,7 @@ time_amsterdam: "May 22, 8:00 PM CEST"
 time_mumbai: "May 22, 11:30 PM IST"
 time_sydney: "May 23, 4:00 AM AEST"
 
-recording_link: "" # Link to video recording if available
+recording_link: "https://youtu.be/jzg4k0f7zzo" # Link to video recording if available
 
 presenters: ["Abubakar Siddiq Ango", "Aisha Shaibu-Salami"] # List of presenter names
 ---
