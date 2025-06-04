@@ -1,6 +1,6 @@
 ---
 title: "Bridging Borders: Korean Culture"
-date: 2025-05-05
+date: 2025-06-04
 slug: bridging-borders-korea
 author: Aisha Shaibu-Salami
 ---
@@ -69,10 +69,10 @@ Let’s be intentional about learning from each other. In the world of tech, div
 
 ### References
 
-1. Verywell Mind.  *Understanding Collectivist Cultures*. Retrieved from https://www.verywellmind.com/what-are-collectivistic-cultures-2794962[verywellmind.com+1verywellmind.com+1](https://www.verywellmind.com/what-are-collectivistic-cultures-2794962?utm_source=chatgpt.com)
-2. Wikipedia. *Nunchi*. Retrieved from https://en.wikipedia.org/wiki/Nunchi
-3. Cultural Atlas. *South Korean Culture - Communication*. Retrieved from https://culturalatlas.sbs.com.au/south-korean-culture/south-korean-culture-communication[culturalatlas.sbs.com.au](https://culturalatlas.sbs.com.au/south-korean-culture/south-korean-culture-communication?utm_source=chatgpt.com)
-4. DocumentKorea. *Understanding Korean Etiquette: Dos and Don’ts for Visitors*. Retrieved from https://dockorea.com/korean-etiquette/[dockorea.com](https://dockorea.com/korean-etiquette/?utm_source=chatgpt.com)
-5. Wikipedia. *Etiquette in South Korea*. Retrieved from https://en.wikipedia.org/wiki/Etiquette_in_South_Korea[en.wikipedia.org](https://en.wikipedia.org/wiki/Etiquette_in_South_Korea?utm_source=chatgpt.com)
-6. SecretKorean. *Korean Custom: 8 Basic Etiquettes*. Retrieved from https://secretkorean.com/korean-custom-8-basic-etiquettes/[secretkorean.com](https://secretkorean.com/korean-custom-8-basic-etiquettes/?utm_source=chatgpt.com)
-7. https://medium.com/@aishashaibu6/bridging-the-language-gap-in-tech-a-call-to-action-for-tech-leaders-6b625cce2759
+1. Verywell Mind.  *Understanding Collectivist Cultures*. Retrieved on June 3, 2025 from https://www.verywellmind.com/what-are-collectivistic-cultures-2794962
+2. Wikipedia. *Nunchi*. Retrieved on June 3, 2025 from https://en.wikipedia.org/wiki/Nunchi
+3. Cultural Atlas. *South Korean Culture - Communication*. Retrieved on June 3, 2025 from https://culturalatlas.sbs.com.au/south-korean-culture/south-korean-culture-communication
+4. DocumentKorea. *Understanding Korean Etiquette: Dos and Don’ts for Visitors*. Retrieved on June 3, 2025 from https://dockorea.com/korean-etiquette/
+5. Wikipedia. *Etiquette in South Korea*. Retrieved on June 3, 2025 from https://en.wikipedia.org/wiki/Etiquette_in_South_Korea
+6. SecretKorean. *Korean Custom: 8 Basic Etiquettes*. Retrieved on June 3, 2025 from https://secretkorean.com/korean-custom-8-basic-etiquettes/
+7. Bridging the Language Gap in Tech: A Call to Action for Tech Leaders. Retrieved on June 3, 2025 from https://medium.com/@aishashaibu6/bridging-the-language-gap-in-tech-a-call-to-action-for-tech-leaders-6b625cce2759
