@@ -1,5 +1,5 @@
 ---
-title: "When Words Disappear: How Tech Can Help Save Dying Languages"
+title: "When Words Disappear: How Technology Can Help Save Dying Languages"
 date: 2025-07-04
 slug: when-words-disappear-how-tech-can-help-save-dying-languages
 author: Aisha Shaibu-Salami
