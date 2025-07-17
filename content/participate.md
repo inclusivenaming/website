@@ -4,42 +4,26 @@ title: "Participate"
 
 There are a number of ways you can participate in the INI community.
 
-## Join as a Contributor
+## Become an Advocate
 
-Contributors are active volunteers who help to run the activities of the Initiative.
+Advocates are members of our community who are activity contributing to our work, this can be helping to review submitted terms, issue triage  or submitting pull requests on GitHub. Activities advocates can engage in includes but not limited to:
 
-#### Reviewers
-
-Reviewers are passionate about inclusivity and seek ways to contribute to inclusive language efforts. A reviewer commits a couple of hours a month to review new term submissions and share their perspectives towards the recommendation of the term. The workflow of a reviewer is as follows:
-
-- A reviewer is added to a dedicated mailing list where new terms and other communications are sent
-- A reviewer collaborates with other reviewers via issues, slack or Google Docs
-- Where a vote is required, a reviewer votes on the adoption of a recommendation.
-- A reviewer can also be a Maintainer
+- Suggest terms to be included in our Wordlist.
+- Review terms suggested by others. Emails are automatically sent to advocates when new terms are suggested.
+- Share and talk about the initiative at work, community or social media.
+- Advocates who are technical can help with issue triages and contributions to our [GitHub projects](https://github.com/inclusivenaming), especially the [website](https://github.com/inclusivenaming/website)
 
 
-#### Maintainers
+Interested? Show your interest using the [Call for Participation](https://forms.gle/wkaqTmhvSwgPn69t7) form. Total commitment per week is 1 hour or less.
 
-Maintainers are familiar with GitHub and have technical knowledge to contribute to the website projects. Maintainers' activities include the following:
-
-- Triage issues in the [website](https://github.com/inclusivenaming/website) and [org](https://github.com/inclusivenaming/org) projects, keeping them updated and ensuring they don't become stale
-- Create code changes or Pull requests to update the wordlist and website project
-- Collaborate with leads on tooling for the projects
-- Advise and provide support as available to the initiative.
-- Time commitment is 1-2 hours per week
-- A contributor can be a reviewer and a maintainer.
-
-
-You can sign up to be a contributor using our [Call for Participation](https://forms.gle/wkaqTmhvSwgPn69t7) form.
-
-### General Community
+## General Community
 
 You can be a part of the general community, learning and sharing with other members:
 
 - **Join the mailing list:** [inclusivenaming@googlegroups.com](https://groups.google.com/g/inclusivenaming). Send an email to <inclusivenaming+subscribe@googlegroups.com> if you want to use a non-Google email address.
 - **[Join the slack](https://communityinviter.com/apps/inclusive-naming/invite)**
 - Join public meetings, the [meeting calendar](/calendar) is always up to date and you can get invitations to the meetings via the mailing list!
-- Follow us on Twitter: [@inclusivenaming](https://twitter.com/inclusivenaming) and [LinkedIn](https://www.linkedin.com/company/inclusive-naming/)
+- Follow us on Twitter: [@inclusivenaming](https://twitter.com/inclusivenaming), [BlueSky](https://bsky.app/profile/inclusivenaming.org) and [LinkedIn](https://www.linkedin.com/company/inclusive-naming/)
 
 
 #### View the project board and file issues
