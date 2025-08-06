@@ -20,4 +20,8 @@ recording_link:  # Link to video recording if available
 presenters: ["Abubakar Siddiq Ango", "Aisha Shaibu-Salami"] # List of presenter names
 ---
 
-More details will be added soon.
+In a world where over 3,000 languages are endangered, this webinar explores how technology can either silence or amplify the voices of marginalized communities. We'll dive into how digital tools, AI, and online content are shaping the survival of native tongues and what’s at stake when languages fade.
+
+Through examples, we’ll discuss the connection between language and identity, the risk of cultural erasure in the digital age, and the bold innovations helping to protect linguistic diversity.
+
+Whether you're a technologist, educator, linguist, or simply passionate about inclusion, this webinar is for everyone.
