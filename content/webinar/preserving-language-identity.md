@@ -4,7 +4,7 @@ slug: voices-at-risk-preserving-language-identity
 date: "2025-08-27"
 draft: false
 description: "Join us for a conversation on how language and culture intersect in shaping digital experiences."
-registration_link: "https://docs.google.com/forms/d/e/1FAIpQLSfuZlK14jYZKIMVuwmDfFrkqaf-i-tbemicK7XgcPsV2J4kWg/viewform?usp=sharing&ouid=110051115196922667545"
+registration_link: ""
 utc_datetime: "2025-08-27T16:00:00Z" # Use format like "2024-08-15T14:00:00Z"
 
 # Manually add formatted time strings for display
@@ -15,7 +15,7 @@ time_amsterdam: "Aug. 27, 6:00 PM CEST"
 time_mumbai: "Aug. 27, 9:30 PM IST"
 time_sydney: "Aug. 28, 2:00 AM AEST"
 
-recording_link:  # Link to video recording if available
+recording_link: "https://youtu.be/x3XtkQw69ds"  # Link to video recording if available
 
 presenters: ["Abubakar Siddiq Ango", "Aisha Shaibu-Salami"] # List of presenter names
 ---
