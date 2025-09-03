@@ -5,8 +5,6 @@ slug: mexico-story-of-identity-resilience
 author: Aisha Shaibu-Salami
 ---
 
-![Mexico](/img/blog/ini-mexico-blogpost.png)
-
 When most people think of Mexico, the first thing that comes to mind is Spanish, the language of daily life, government, education and the media. And yes, Spanish is dominant, spoken by the vast majority of the country’s 120 million people. But here’s the story that often goes untold: Mexico is not just a Spanish-speaking nation. It is a country woven together by a tapestry of over 68 national languages and more than 350 linguistic variants, each one carrying centuries of history, tradition, and identity ([source](https://iwgia.org/en/mexico/)).
 
 ### A Story Rooted in History
@@ -28,3 +26,5 @@ Language is identity. It is how communities name the land, describe the seasons 
 Mexico teaches us that linguistic diversity is not something to hide but something to celebrate. Behind the Spanish you hear on the streets, there are hundreds of other voices, each carrying a story as old as time. In a world that often pushes for uniformity, Mexico reminds us that diversity is strength. Every language is a universe of thought and when one disappears, humanity loses a piece of itself.
 
 So the next time you think of Mexico, don’t just think of Spanish. Think of the whispers of Nahuatl in the markets, the rhythm of Maya in the villages of Yucatán and the poetry of Zapotec echoing through the valleys of Oaxaca. Mexico is not just one language, it is a living, breathing symphony of many.
+
+![Mexico](/img/blog/ini-mexico-blogpost.png)
